@@ -383,8 +383,8 @@
 		{
 			"name": "SU01 Aqua Sniper",
 			"rarity": "special",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{6}{U}{U}",
+			"type": "Creature — Liquidperson",
 			"collector_number": "113",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/113_SU01 Aqua Sniper.png"
@@ -393,8 +393,8 @@
 		{
 			"name": "SU02 King Depthcon",
 			"rarity": "special",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Creature — Leviathan",
 			"collector_number": "114",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/114_SU02 King Depthcon.png"
@@ -523,8 +523,8 @@
 		{
 			"name": "MU01 King Ripped-Hide",
 			"rarity": "mythic",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Creature — Leviathan",
 			"collector_number": "31",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/31_MU01 King Ripped-Hide.png"
@@ -533,8 +533,8 @@
 		{
 			"name": "MU02 Seamine",
 			"rarity": "mythic",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Creature — Fish",
 			"collector_number": "32",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/32_MU02 Seamine.png"
@@ -723,8 +723,8 @@
 		{
 			"name": "CU05 Marine Flower",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{U}",
+			"type": "Creature — Cyber Plant",
 			"collector_number": "27",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/27_CU05 Marine Flower.png"
@@ -733,8 +733,8 @@
 		{
 			"name": "CU06 Phantom Fish",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Jellyfish",
 			"collector_number": "28",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/28_CU06 Phantom Fish.png"
@@ -1173,8 +1173,8 @@
 		{
 			"name": "RU04 Teleportation",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Sorcery",
 			"collector_number": "36",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/36_RU04 Teleportation.png"
@@ -1183,21 +1183,11 @@
 		{
 			"name": "RU05 Tropico",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{4}{U}",
+			"type": "Legendary Creature — Cyberlord",
 			"collector_number": "37",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/37_RU05 Tropico.png"
-			}
-		},
-		{
-			"name": "_SHIELD TRIGGER SAMPLE",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
-			"collector_number": "0",
-			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DM01-files/img/0__SHIELD TRIGGER SAMPLE.png"
 			}
 		},
 		{
@@ -1228,16 +1218,6 @@
 			"collector_number": "25",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/25_CU03 Candy Drop.png"
-			}
-		},
-		{
-			"name": "XG02 Natural Snare",
-			"rarity": "common",
-			"mana_cost": "{2}{G}",
-			"type": "Enchantment — Aura",
-			"collector_number": "0",
-			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DM01-files/img/0_XG02 Natural Snare.png"
 			}
 		},
 	]
@@ -1354,10 +1334,8 @@
 	8 CW06 Senatine Jade Tree
 	8 CW07 Solar Ray
 	8 CW08 Sonic Wing
-	8 _SHIELD TRIGGER SAMPLE
 	8 SHIELD MECHANICS
 	8 CU03 Candy Drop
-	8 XG02 Natural Snare
 [wildcard(2)]
 	15 UW01 Frei, Vizier of Air
 	15 UU01 Aqua Soldier
@@ -1468,7 +1446,5 @@
 	7 RU03 Saucer-Head Shark
 	7 RU04 Teleportation
 	7 RU05 Tropico
-	6 _SHIELD TRIGGER SAMPLE
 	6 SHIELD MECHANICS
 	6 CU03 Candy Drop
-	6 XG02 Natural Snare
