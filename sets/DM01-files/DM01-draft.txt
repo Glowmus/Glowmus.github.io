@@ -1,0 +1,1474 @@
+[CustomCards]
+	[
+		{
+			"name": "UW01 Frei, Vizier of Air",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/17_UW01 Frei, Vizier of Air.png"
+			}
+		},
+		{
+			"name": "UU01 Aqua Soldier",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Liquidperson",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/39_UU01 Aqua Soldier.png"
+			}
+		},
+		{
+			"name": "UB01 Bone Spider",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/61_UB01 Bone Spider.png"
+			}
+		},
+		{
+			"name": "UR01 Armored Walker Urherion",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Creature",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/83_UR01 Armored Walker Urherion.png"
+			}
+		},
+		{
+			"name": "UR02 Meteosaur",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Creature",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/84_UR02 Meteosaur.png"
+			}
+		},
+		{
+			"name": "UR03 Onslaughter Triceps",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Creature",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/85_UR03 Onslaughter Triceps.png"
+			}
+		},
+		{
+			"name": "UR04 Stonesaur",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Creature",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/86_UR04 Stonesaur.png"
+			}
+		},
+		{
+			"name": "UR05 Super Explosive Volcanodon",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Creature",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/87_UR05 Super Explosive Volcanodon.png"
+			}
+		},
+		{
+			"name": "UG01 Coiling Vines",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/105_UG01 Coiling Vines.png"
+			}
+		},
+		{
+			"name": "CW01 Emerald Grass",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/1_CW01 Emerald Grass.png"
+			}
+		},
+		{
+			"name": "CU01 Aqua Hulcus",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Liquidperson",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/23_CU01 Aqua Hulcus.png"
+			}
+		},
+		{
+			"name": "CB01 Black Feather, Shadow of Rage",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/45_CB01 Black Feather, Shadow of Rage.png"
+			}
+		},
+		{
+			"name": "CR01 Artisan Picora",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Gremlin Artificer",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/67_CR01 Artisan Picora.png"
+			}
+		},
+		{
+			"name": "CR02 Brawler Zyler",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/68_CR02 Brawler Zyler.png"
+			}
+		},
+		{
+			"name": "CR03 Burning Power",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/69_CR03 Burning Power.png"
+			}
+		},
+		{
+			"name": "CR04 Crimson Hammer",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/70_CR04 Crimson Hammer.png"
+			}
+		},
+		{
+			"name": "CR05 Deadly Fighter Braid Claw",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Creature",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/71_CR05 Deadly Fighter Braid Claw.png"
+			}
+		},
+		{
+			"name": "CR06 Fatal Attacker Horvath",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Creature",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/72_CR06 Fatal Attacker Horvath.png"
+			}
+		},
+		{
+			"name": "CR07 Fire Sweeper Burning Hellion",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Dragonoid Berserker",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/73_CR07 Fire Sweeper Burning Hellion.png"
+			}
+		},
+		{
+			"name": "CR08 Immortal Baron, Vorg",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/74_CR08 Immortal Baron, Vorg.png"
+			}
+		},
+		{
+			"name": "CG01 Bronze-Arm Tribe",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Beastfolk Scout",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/89_CG01 Bronze-Arm Tribe.png"
+			}
+		},
+		{
+			"name": "RW01 Chilias, the Oracle",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Creature",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/11_RW01 Chilias, the Oracle.png"
+			}
+		},
+		{
+			"name": "RW02 Dia Nork, Moonlight Guardian",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Artifact Creature — Guardian",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/12_RW02 Dia Nork, Moonlight Guardian.png"
+			}
+		},
+		{
+			"name": "RW03 Holy Awe",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Instant",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/13_RW03 Holy Awe.png"
+			}
+		},
+		{
+			"name": "RW04 Lah, Purification Enforcer",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Creature",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/14_RW04 Lah, Purification Enforcer.png"
+			}
+		},
+		{
+			"name": "RW05 Laser Wing",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/15_RW05 Laser Wing.png"
+			}
+		},
+		{
+			"name": "RW06 Szubs Kin, Twilight Guardian",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Creature",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/16_RW06 Szubs Kin, Twilight Guardian.png"
+			}
+		},
+		{
+			"name": "RU01 Aqua Knight",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Liquidperson",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/33_RU01 Aqua Knight.png"
+			}
+		},
+		{
+			"name": "RB01 Creeping Plague",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/55_RB01 Creeping Plague.png"
+			}
+		},
+		{
+			"name": "RR01 Chaos Strike",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/77_RR01 Chaos Strike.png"
+			}
+		},
+		{
+			"name": "RR02 Draglide",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Drake Mount",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/78_RR02 Draglide.png"
+			}
+		},
+		{
+			"name": "RR03 Explosive Fighter Ucarn",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Creature",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/79_RR03 Explosive Fighter Ucarn.png"
+			}
+		},
+		{
+			"name": "RR04 Magma Gazer",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/80_RR04 Magma Gazer.png"
+			}
+		},
+		{
+			"name": "RR05 Nomad Hero Gigio",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Creature",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/81_RR05 Nomad Hero Gigio.png"
+			}
+		},
+		{
+			"name": "RR06 Rothus, the Traveler",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Artifact Creature",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/82_RR06 Rothus, the Traveler.png"
+			}
+		},
+		{
+			"name": "RG01 Aura Blast",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/99_RG01 Aura Blast.png"
+			}
+		},
+		{
+			"name": "SW01 Hanusa, Radiance Elemental",
+			"rarity": "special",
+			"mana_cost": "{5}{W}{W}",
+			"type": "Legendary Creature — Angel Elemental",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/111_SW01 Hanusa, Radiance Elemental.png"
+			}
+		},
+		{
+			"name": "SW02 Urth, Purifying Elemental",
+			"rarity": "special",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Legendary Creature — Angel Elemental",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/112_SW02 Urth, Purifying Elemental.png"
+			}
+		},
+		{
+			"name": "SU01 Aqua Sniper",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Creature",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/113_SU01 Aqua Sniper.png"
+			}
+		},
+		{
+			"name": "SU02 King Depthcon",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Creature",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/114_SU02 King Depthcon.png"
+			}
+		},
+		{
+			"name": "SB01 Deathliger, Lion of Chaos",
+			"rarity": "special",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Cat Demon",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/115_SB01 Deathliger, Lion of Chaos.png"
+			}
+		},
+		{
+			"name": "SB02 Zagaan, Knight of Darkness",
+			"rarity": "special",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Legendary Creature — Demon",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/116_SB02 Zagaan, Knight of Darkness.png"
+			}
+		},
+		{
+			"name": "SR01 Astrocomet Dragon",
+			"rarity": "special",
+			"mana_cost": "{5}{R}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/117_SR01 Astrocomet Dragon.png"
+			}
+		},
+		{
+			"name": "MR02 Gatling Skyterror",
+			"rarity": "mythic",
+			"mana_cost": "{5}{R}{R}",
+			"type": "Creature — Drake",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/76_MR02 Gatling Skyterror.png"
+			}
+		},
+		{
+			"name": "SG01 Deathblade Beetle",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Creature",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/119_SG01 Deathblade Beetle.png"
+			}
+		},
+		{
+			"name": "SG02 Roaring Great-Horn",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Creature",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/120_SG02 Roaring Great-Horn.png"
+			}
+		},
+		{
+			"name": "MR01 Bolshack Dragon",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Creature",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/75_MR01 Bolshack Dragon.png"
+			}
+		},
+		{
+			"name": "SR02 Scarlet Skyterror",
+			"rarity": "special",
+			"mana_cost": "{6}{R}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/118_SR02 Scarlet Skyterror.png"
+			}
+		},
+		{
+			"name": "MB01 Gigargon",
+			"rarity": "mythic",
+			"mana_cost": "{6}{B}{B}",
+			"type": "Creature — Chimera",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/53_MB01 Gigargon.png"
+			}
+		},
+		{
+			"name": "MB02 Vampire Silphy",
+			"rarity": "mythic",
+			"mana_cost": "{5}{B}{B}{B}",
+			"type": "Creature — Vampire Noble",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/54_MB02 Vampire Silphy.png"
+			}
+		},
+		{
+			"name": "MG01 Thorny Mandra",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Creature",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/97_MG01 Thorny Mandra.png"
+			}
+		},
+		{
+			"name": "MG02 Tower Shell",
+			"rarity": "mythic",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/98_MG02 Tower Shell.png"
+			}
+		},
+		{
+			"name": "MU01 King Ripped-Hide",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Creature",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/31_MU01 King Ripped-Hide.png"
+			}
+		},
+		{
+			"name": "MU02 Seamine",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Creature",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/32_MU02 Seamine.png"
+			}
+		},
+		{
+			"name": "MW01 Gran Gure, Space Guardian",
+			"rarity": "mythic",
+			"mana_cost": "{5}{W}",
+			"type": "Legendary Artifact Creature — Guardian",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/9_MW01 Gran Gure, Space Guardian.png"
+			}
+		},
+		{
+			"name": "MW02 Rayla, Truth Enforcer",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Creature",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/10_MW02 Rayla, Truth Enforcer.png"
+			}
+		},
+		{
+			"name": "UR06 Tornado Flame",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/88_UR06 Tornado Flame.png"
+			}
+		},
+		{
+			"name": "CB02 Bloody Squito",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/46_CB02 Bloody Squito.png"
+			}
+		},
+		{
+			"name": "CB03 Bone Assassin, the Ripper",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/47_CB03 Bone Assassin, the Ripper.png"
+			}
+		},
+		{
+			"name": "CB04 Death Smoke",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/48_CB04 Death Smoke.png"
+			}
+		},
+		{
+			"name": "CB05 Ghost Touch",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/49_CB05 Ghost Touch.png"
+			}
+		},
+		{
+			"name": "CB06 Skeleton Soldier, the Defiled",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Zombie Skeleton Soldier",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/50_CB06 Skeleton Soldier, the Defiled.png"
+			}
+		},
+		{
+			"name": "CB07 Wandering Braineater",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/51_CB07 Wandering Braineater.png"
+			}
+		},
+		{
+			"name": "CB08 Writhing Bone Ghoul",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/52_CB08 Writhing Bone Ghoul.png"
+			}
+		},
+		{
+			"name": "CG02 Burning Mane",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Beastfolk",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/90_CG02 Burning Mane.png"
+			}
+		},
+		{
+			"name": "CG03 Dimension Gate",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/91_CG03 Dimension Gate.png"
+			}
+		},
+		{
+			"name": "CG04 Fear Fang",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/92_CG04 Fear Fang.png"
+			}
+		},
+		{
+			"name": "CG05 Golden Wing Striker",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/93_CG05 Golden Wing Striker.png"
+			}
+		},
+		{
+			"name": "CG06 Mighty Shouter",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/94_CG06 Mighty Shouter.png"
+			}
+		},
+		{
+			"name": "CG07 Steel Smasher",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/95_CG07 Steel Smasher.png"
+			}
+		},
+		{
+			"name": "CG08 Ultimate Force",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/96_CG08 Ultimate Force.png"
+			}
+		},
+		{
+			"name": "CU02 Aqua Vehicle",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Liquidperson",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/24_CU02 Aqua Vehicle.png"
+			}
+		},
+		{
+			"name": "CU05 Marine Flower",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/27_CU05 Marine Flower.png"
+			}
+		},
+		{
+			"name": "CU06 Phantom Fish",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/28_CU06 Phantom Fish.png"
+			}
+		},
+		{
+			"name": "CU07 Spiral Gate",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/29_CU07 Spiral Gate.png"
+			}
+		},
+		{
+			"name": "CU04 Hunter Fish",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Fish",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/26_CU04 Hunter Fish.png"
+			}
+		},
+		{
+			"name": "CU08 Virtual Tripwire",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/30_CU08 Virtual Tripwire.png"
+			}
+		},
+		{
+			"name": "CW02 Iere, Vizier of Bullets",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/2_CW02 Iere, Vizier of Bullets.png"
+			}
+		},
+		{
+			"name": "CW03 La Ura Giga, Sky Guardian",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Artifact Creature — Guardian",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/3_CW03 La Ura Giga, Sky Guardian.png"
+			}
+		},
+		{
+			"name": "CW04 Miele, Vizier of Lightning",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact Creature — Initiate",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/4_CW04 Miele, Vizier of Lightning.png"
+			}
+		},
+		{
+			"name": "CW05 Reusol, the Oracle",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Avatar",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/5_CW05 Reusol, the Oracle.png"
+			}
+		},
+		{
+			"name": "CW06 Senatine Jade Tree",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/6_CW06 Senatine Jade Tree.png"
+			}
+		},
+		{
+			"name": "CW07 Solar Ray",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/7_CW07 Solar Ray.png"
+			}
+		},
+		{
+			"name": "CW08 Sonic Wing",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/8_CW08 Sonic Wing.png"
+			}
+		},
+		{
+			"name": "UB02 Dark Raven, Shadow of Grief",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/62_UB02 Dark Raven, Shadow of Grief.png"
+			}
+		},
+		{
+			"name": "UB03 Dark Reversal",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/63_UB03 Dark Reversal.png"
+			}
+		},
+		{
+			"name": "UB04 Masked Horror, Shadow of Scorn",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/64_UB04 Masked Horror, Shadow of Scorn.png"
+			}
+		},
+		{
+			"name": "UB05 Stinger Worm",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/65_UB05 Stinger Worm.png"
+			}
+		},
+		{
+			"name": "UB06 Swamp Worm",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Worm",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/66_UB06 Swamp Worm.png"
+			}
+		},
+		{
+			"name": "UG02 Dome Shell",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/106_UG02 Dome Shell.png"
+			}
+		},
+		{
+			"name": "UG03 Forest Hornet",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Giant Insect",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/107_UG03 Forest Hornet.png"
+			}
+		},
+		{
+			"name": "UG04 Pangaea's Song",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/108_UG04 Pangaea's Song.png"
+			}
+		},
+		{
+			"name": "UG05 Poisonous Dahlia",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/109_UG05 Poisonous Dahlia.png"
+			}
+		},
+		{
+			"name": "UG06 Poisonous Mushroom",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/110_UG06 Poisonous Mushroom.png"
+			}
+		},
+		{
+			"name": "UU02 Brain Serum",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/40_UU02 Brain Serum.png"
+			}
+		},
+		{
+			"name": "UU03 Faerie Child",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Cyber Faerie",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/41_UU03 Faerie Child.png"
+			}
+		},
+		{
+			"name": "UU04 Illusionary Merfolk",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Jellyfish",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/42_UU04 Illusionary Merfolk.png"
+			}
+		},
+		{
+			"name": "UU05 King Coral",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{U}",
+			"type": "Creature — Leviathan",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/43_UU05 King Coral.png"
+			}
+		},
+		{
+			"name": "UU06 Revolver Fish",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Fish",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/44_UU06 Revolver Fish.png"
+			}
+		},
+		{
+			"name": "UW02 Iocant, the Oracle",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/18_UW02 Iocant, the Oracle.png"
+			}
+		},
+		{
+			"name": "UW03 Lok, Vizier of Hunting",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/19_UW03 Lok, Vizier of Hunting.png"
+			}
+		},
+		{
+			"name": "UW04 Moonlight Flash",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/20_UW04 Moonlight Flash.png"
+			}
+		},
+		{
+			"name": "UW05 Ruby Grass",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Plant",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/21_UW05 Ruby Grass.png"
+			}
+		},
+		{
+			"name": "UW06 Toel, Vizier of Hope",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/22_UW06 Toel, Vizier of Hope.png"
+			}
+		},
+		{
+			"name": "RB03 Gigaberos",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/57_RB03 Gigaberos.png"
+			}
+		},
+		{
+			"name": "RB04 Gigagiele",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Chimera",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/58_RB04 Gigagiele.png"
+			}
+		},
+		{
+			"name": "RB05 Night Master, Shadow of Decay",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/59_RB05 Night Master, Shadow of Decay.png"
+			}
+		},
+		{
+			"name": "RB06 Terror Pit",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Instant",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/60_RB06 Terror Pit.png"
+			}
+		},
+		{
+			"name": "RB02 Dark Clown",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/56_RB02 Dark Clown.png"
+			}
+		},
+		{
+			"name": "RG02 Natural Snare",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}",
+			"type": "Instant",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/100_RG02 Natural Snare.png"
+			}
+		},
+		{
+			"name": "RG03 Red-Eye Scorpion",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/101_RG03 Red-Eye Scorpion.png"
+			}
+		},
+		{
+			"name": "RG04 Stampeding Longhorn",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Beast",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/102_RG04 Stampeding Longhorn.png"
+			}
+		},
+		{
+			"name": "RG05 Storm Shell",
+			"rarity": "rare",
+			"mana_cost": "{5}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/103_RG05 Storm Shell.png"
+			}
+		},
+		{
+			"name": "RG06 Tri-horn Shepherd",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Beast",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/104_RG06 Tri-horn Shepherd.png"
+			}
+		},
+		{
+			"name": "RU02 Crystal Memory",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/34_RU02 Crystal Memory.png"
+			}
+		},
+		{
+			"name": "RU06 Unicorn Fish",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Fish",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/38_RU06 Unicorn Fish.png"
+			}
+		},
+		{
+			"name": "RU03 Saucer-Head Shark",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Shark",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/35_RU03 Saucer-Head Shark.png"
+			}
+		},
+		{
+			"name": "RU04 Teleportation",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/36_RU04 Teleportation.png"
+			}
+		},
+		{
+			"name": "RU05 Tropico",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/37_RU05 Tropico.png"
+			}
+		},
+		{
+			"name": "_SHIELD TRIGGER SAMPLE",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "0",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/0__SHIELD TRIGGER SAMPLE.png"
+			}
+		},
+		{
+			"name": "SHIELD MECHANICS",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "0",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/0_SHIELD MECHANICS.png"
+			}
+		},
+		{
+			"name": "SHIELD",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Artifact",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/1_SHIELD.png"
+			}
+		},
+		{
+			"name": "CU03 Candy Drop",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Cyber Crab",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/25_CU03 Candy Drop.png"
+			}
+		},
+		{
+			"name": "XG02 Natural Snare",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "0",
+			"image_uris": {
+				"en": "https://Glowmus.github.io/sets/DM01-files/img/0_XG02 Natural Snare.png"
+			}
+		},
+	]
+
+[rare(1)]
+	2 RW01 Chilias, the Oracle
+	2 RW02 Dia Nork, Moonlight Guardian
+	2 RW03 Holy Awe
+	2 RW04 Lah, Purification Enforcer
+	2 RW05 Laser Wing
+	2 RW06 Szubs Kin, Twilight Guardian
+	2 RU01 Aqua Knight
+	2 RB01 Creeping Plague
+	2 RR01 Chaos Strike
+	2 RR02 Draglide
+	2 RR03 Explosive Fighter Ucarn
+	2 RR04 Magma Gazer
+	2 RR05 Nomad Hero Gigio
+	2 RR06 Rothus, the Traveler
+	2 RG01 Aura Blast
+	1 MR02 Gatling Skyterror
+	1 MR01 Bolshack Dragon
+	1 MB01 Gigargon
+	1 MB02 Vampire Silphy
+	1 MG01 Thorny Mandra
+	1 MG02 Tower Shell
+	1 MU01 King Ripped-Hide
+	1 MU02 Seamine
+	1 MW01 Gran Gure, Space Guardian
+	1 MW02 Rayla, Truth Enforcer
+	2 RB03 Gigaberos
+	2 RB04 Gigagiele
+	2 RB05 Night Master, Shadow of Decay
+	2 RB06 Terror Pit
+	2 RB02 Dark Clown
+	2 RG02 Natural Snare
+	2 RG03 Red-Eye Scorpion
+	2 RG04 Stampeding Longhorn
+	2 RG05 Storm Shell
+	2 RG06 Tri-horn Shepherd
+	2 RU02 Crystal Memory
+	2 RU06 Unicorn Fish
+	2 RU03 Saucer-Head Shark
+	2 RU04 Teleportation
+	2 RU05 Tropico
+[uncommon(4)]
+	4 UW01 Frei, Vizier of Air
+	4 UU01 Aqua Soldier
+	4 UB01 Bone Spider
+	4 UR01 Armored Walker Urherion
+	4 UR02 Meteosaur
+	4 UR03 Onslaughter Triceps
+	4 UR04 Stonesaur
+	4 UR05 Super Explosive Volcanodon
+	4 UG01 Coiling Vines
+	4 UR06 Tornado Flame
+	4 UB02 Dark Raven, Shadow of Grief
+	4 UB03 Dark Reversal
+	4 UB04 Masked Horror, Shadow of Scorn
+	4 UB05 Stinger Worm
+	4 UB06 Swamp Worm
+	4 UG02 Dome Shell
+	4 UG03 Forest Hornet
+	4 UG04 Pangaea's Song
+	4 UG05 Poisonous Dahlia
+	4 UG06 Poisonous Mushroom
+	4 UU02 Brain Serum
+	4 UU03 Faerie Child
+	4 UU04 Illusionary Merfolk
+	4 UU05 King Coral
+	4 UU06 Revolver Fish
+	4 UW02 Iocant, the Oracle
+	4 UW03 Lok, Vizier of Hunting
+	4 UW04 Moonlight Flash
+	4 UW05 Ruby Grass
+	4 UW06 Toel, Vizier of Hope
+[common(7)]
+	8 CW01 Emerald Grass
+	8 CU01 Aqua Hulcus
+	8 CB01 Black Feather, Shadow of Rage
+	8 CR01 Artisan Picora
+	8 CR02 Brawler Zyler
+	8 CR03 Burning Power
+	8 CR04 Crimson Hammer
+	8 CR05 Deadly Fighter Braid Claw
+	8 CR06 Fatal Attacker Horvath
+	8 CR07 Fire Sweeper Burning Hellion
+	8 CR08 Immortal Baron, Vorg
+	8 CG01 Bronze-Arm Tribe
+	8 CB02 Bloody Squito
+	8 CB03 Bone Assassin, the Ripper
+	8 CB04 Death Smoke
+	8 CB05 Ghost Touch
+	8 CB06 Skeleton Soldier, the Defiled
+	8 CB07 Wandering Braineater
+	8 CB08 Writhing Bone Ghoul
+	8 CG02 Burning Mane
+	8 CG03 Dimension Gate
+	8 CG04 Fear Fang
+	8 CG05 Golden Wing Striker
+	8 CG06 Mighty Shouter
+	8 CG07 Steel Smasher
+	8 CG08 Ultimate Force
+	8 CU02 Aqua Vehicle
+	8 CU05 Marine Flower
+	8 CU06 Phantom Fish
+	8 CU07 Spiral Gate
+	8 CU04 Hunter Fish
+	8 CU08 Virtual Tripwire
+	8 CW02 Iere, Vizier of Bullets
+	8 CW03 La Ura Giga, Sky Guardian
+	8 CW04 Miele, Vizier of Lightning
+	8 CW05 Reusol, the Oracle
+	8 CW06 Senatine Jade Tree
+	8 CW07 Solar Ray
+	8 CW08 Sonic Wing
+	8 _SHIELD TRIGGER SAMPLE
+	8 SHIELD MECHANICS
+	8 CU03 Candy Drop
+	8 XG02 Natural Snare
+[wildcard(2)]
+	15 UW01 Frei, Vizier of Air
+	15 UU01 Aqua Soldier
+	15 UB01 Bone Spider
+	15 UR01 Armored Walker Urherion
+	15 UR02 Meteosaur
+	15 UR03 Onslaughter Triceps
+	15 UR04 Stonesaur
+	15 UR05 Super Explosive Volcanodon
+	15 UG01 Coiling Vines
+	6 CW01 Emerald Grass
+	6 CU01 Aqua Hulcus
+	6 CB01 Black Feather, Shadow of Rage
+	6 CR01 Artisan Picora
+	6 CR02 Brawler Zyler
+	6 CR03 Burning Power
+	6 CR04 Crimson Hammer
+	6 CR05 Deadly Fighter Braid Claw
+	6 CR06 Fatal Attacker Horvath
+	6 CR07 Fire Sweeper Burning Hellion
+	6 CR08 Immortal Baron, Vorg
+	6 CG01 Bronze-Arm Tribe
+	7 RW01 Chilias, the Oracle
+	7 RW02 Dia Nork, Moonlight Guardian
+	7 RW03 Holy Awe
+	7 RW04 Lah, Purification Enforcer
+	7 RW05 Laser Wing
+	7 RW06 Szubs Kin, Twilight Guardian
+	7 RU01 Aqua Knight
+	7 RB01 Creeping Plague
+	7 RR01 Chaos Strike
+	7 RR02 Draglide
+	7 RR03 Explosive Fighter Ucarn
+	7 RR04 Magma Gazer
+	7 RR05 Nomad Hero Gigio
+	7 RR06 Rothus, the Traveler
+	7 RG01 Aura Blast
+	4 MR02 Gatling Skyterror
+	4 MR01 Bolshack Dragon
+	4 MB01 Gigargon
+	4 MB02 Vampire Silphy
+	4 MG01 Thorny Mandra
+	4 MG02 Tower Shell
+	4 MU01 King Ripped-Hide
+	4 MU02 Seamine
+	4 MW01 Gran Gure, Space Guardian
+	4 MW02 Rayla, Truth Enforcer
+	15 UR06 Tornado Flame
+	6 CB02 Bloody Squito
+	6 CB03 Bone Assassin, the Ripper
+	6 CB04 Death Smoke
+	6 CB05 Ghost Touch
+	6 CB06 Skeleton Soldier, the Defiled
+	6 CB07 Wandering Braineater
+	6 CB08 Writhing Bone Ghoul
+	6 CG02 Burning Mane
+	6 CG03 Dimension Gate
+	6 CG04 Fear Fang
+	6 CG05 Golden Wing Striker
+	6 CG06 Mighty Shouter
+	6 CG07 Steel Smasher
+	6 CG08 Ultimate Force
+	6 CU02 Aqua Vehicle
+	6 CU05 Marine Flower
+	6 CU06 Phantom Fish
+	6 CU07 Spiral Gate
+	6 CU04 Hunter Fish
+	6 CU08 Virtual Tripwire
+	6 CW02 Iere, Vizier of Bullets
+	6 CW03 La Ura Giga, Sky Guardian
+	6 CW04 Miele, Vizier of Lightning
+	6 CW05 Reusol, the Oracle
+	6 CW06 Senatine Jade Tree
+	6 CW07 Solar Ray
+	6 CW08 Sonic Wing
+	15 UB02 Dark Raven, Shadow of Grief
+	15 UB03 Dark Reversal
+	15 UB04 Masked Horror, Shadow of Scorn
+	15 UB05 Stinger Worm
+	15 UB06 Swamp Worm
+	15 UG02 Dome Shell
+	15 UG03 Forest Hornet
+	15 UG04 Pangaea's Song
+	15 UG05 Poisonous Dahlia
+	15 UG06 Poisonous Mushroom
+	15 UU02 Brain Serum
+	15 UU03 Faerie Child
+	15 UU04 Illusionary Merfolk
+	15 UU05 King Coral
+	15 UU06 Revolver Fish
+	15 UW02 Iocant, the Oracle
+	15 UW03 Lok, Vizier of Hunting
+	15 UW04 Moonlight Flash
+	15 UW05 Ruby Grass
+	15 UW06 Toel, Vizier of Hope
+	7 RB03 Gigaberos
+	7 RB04 Gigagiele
+	7 RB05 Night Master, Shadow of Decay
+	7 RB06 Terror Pit
+	7 RB02 Dark Clown
+	7 RG02 Natural Snare
+	7 RG03 Red-Eye Scorpion
+	7 RG04 Stampeding Longhorn
+	7 RG05 Storm Shell
+	7 RG06 Tri-horn Shepherd
+	7 RU02 Crystal Memory
+	7 RU06 Unicorn Fish
+	7 RU03 Saucer-Head Shark
+	7 RU04 Teleportation
+	7 RU05 Tropico
+	6 _SHIELD TRIGGER SAMPLE
+	6 SHIELD MECHANICS
+	6 CU03 Candy Drop
+	6 XG02 Natural Snare
