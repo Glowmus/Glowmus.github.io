@@ -33,8 +33,8 @@
 		{
 			"name": "UR01 Armored Walker Urherion",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact Creature — Soldier",
 			"collector_number": "83",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/83_UR01 Armored Walker Urherion.png"
@@ -43,8 +43,8 @@
 		{
 			"name": "UR02 Meteosaur",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Golem",
 			"collector_number": "84",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/84_UR02 Meteosaur.png"
@@ -53,8 +53,8 @@
 		{
 			"name": "UR03 Onslaughter Triceps",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Drake",
 			"collector_number": "85",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/85_UR03 Onslaughter Triceps.png"
@@ -63,8 +63,8 @@
 		{
 			"name": "UR04 Stonesaur",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Golem",
 			"collector_number": "86",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/86_UR04 Stonesaur.png"
@@ -73,8 +73,8 @@
 		{
 			"name": "UR05 Super Explosive Volcanodon",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Drake",
 			"collector_number": "87",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/87_UR05 Super Explosive Volcanodon.png"
@@ -163,8 +163,8 @@
 		{
 			"name": "CR05 Deadly Fighter Braid Claw",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{R}",
+			"type": "Creature — Drake",
 			"collector_number": "71",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/71_CR05 Deadly Fighter Braid Claw.png"
@@ -173,8 +173,8 @@
 		{
 			"name": "CR06 Fatal Attacker Horvath",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human",
 			"collector_number": "72",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/72_CR06 Fatal Attacker Horvath.png"
@@ -313,8 +313,8 @@
 		{
 			"name": "RR03 Explosive Fighter Ucarn",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Legendary Creature — Drake",
 			"collector_number": "79",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/79_RR03 Explosive Fighter Ucarn.png"
@@ -323,8 +323,8 @@
 		{
 			"name": "RR04 Magma Gazer",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{R}{R}{R}",
+			"type": "Instant",
 			"collector_number": "80",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/80_RR04 Magma Gazer.png"
@@ -333,8 +333,8 @@
 		{
 			"name": "RR05 Nomad Hero Gigio",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{4}{R}",
+			"type": "Legendary Creature — Gremlin",
 			"collector_number": "81",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/81_RR05 Nomad Hero Gigio.png"
@@ -343,8 +343,8 @@
 		{
 			"name": "RR06 Rothus, the Traveler",
 			"rarity": "rare",
-			"mana_cost": "{R}",
-			"type": "Artifact Creature",
+			"mana_cost": "{3}{R}",
+			"type": "Legendary Artifact Creature — Soldier",
 			"collector_number": "82",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/82_RR06 Rothus, the Traveler.png"
