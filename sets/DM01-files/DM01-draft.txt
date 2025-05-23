@@ -3,8 +3,8 @@
 		{
 			"name": "UW01 Frei, Vizier of Air",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{W}",
+			"type": "Artifact Creature — Initiate",
 			"collector_number": "17",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/17_UW01 Frei, Vizier of Air.png"
@@ -93,8 +93,8 @@
 		{
 			"name": "CW01 Emerald Grass",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Plant",
 			"collector_number": "1",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/1_CW01 Emerald Grass.png"
@@ -213,8 +213,8 @@
 		{
 			"name": "RW01 Chilias, the Oracle",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Avatar",
 			"collector_number": "11",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/11_RW01 Chilias, the Oracle.png"
@@ -243,8 +243,8 @@
 		{
 			"name": "RW04 Lah, Purification Enforcer",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Berserker",
 			"collector_number": "14",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/14_RW04 Lah, Purification Enforcer.png"
@@ -253,8 +253,8 @@
 		{
 			"name": "RW05 Laser Wing",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Sorcery",
 			"collector_number": "15",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/15_RW05 Laser Wing.png"
@@ -263,8 +263,8 @@
 		{
 			"name": "RW06 Szubs Kin, Twilight Guardian",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{4}{W}",
+			"type": "Artifact Creature — Guardian",
 			"collector_number": "16",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/16_RW06 Szubs Kin, Twilight Guardian.png"
@@ -553,8 +553,8 @@
 		{
 			"name": "MW02 Rayla, Truth Enforcer",
 			"rarity": "mythic",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Creature — Berserker",
 			"collector_number": "10",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/10_MW02 Rayla, Truth Enforcer.png"
@@ -773,8 +773,8 @@
 		{
 			"name": "CW02 Iere, Vizier of Bullets",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact Creature — Initiate",
 			"collector_number": "2",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/2_CW02 Iere, Vizier of Bullets.png"
@@ -813,8 +813,8 @@
 		{
 			"name": "CW06 Senatine Jade Tree",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Plant",
 			"collector_number": "6",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/6_CW06 Senatine Jade Tree.png"
@@ -833,8 +833,8 @@
 		{
 			"name": "CW08 Sonic Wing",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment",
 			"collector_number": "8",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/8_CW08 Sonic Wing.png"
@@ -993,8 +993,8 @@
 		{
 			"name": "UW02 Iocant, the Oracle",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Avatar",
 			"collector_number": "18",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/18_UW02 Iocant, the Oracle.png"
@@ -1003,8 +1003,8 @@
 		{
 			"name": "UW03 Lok, Vizier of Hunting",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{W}",
+			"type": "Artifact Creature — Initiate",
 			"collector_number": "19",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/19_UW03 Lok, Vizier of Hunting.png"
@@ -1013,8 +1013,8 @@
 		{
 			"name": "UW04 Moonlight Flash",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment — Aura",
 			"collector_number": "20",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/20_UW04 Moonlight Flash.png"
@@ -1033,8 +1033,8 @@
 		{
 			"name": "UW06 Toel, Vizier of Hope",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{4}{W}",
+			"type": "Artifact Creature — Initiate",
 			"collector_number": "22",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/22_UW06 Toel, Vizier of Hope.png"
