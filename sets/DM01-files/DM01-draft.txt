@@ -113,8 +113,8 @@
 		{
 			"name": "CB01 Black Feather, Shadow of Rage",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{B}",
+			"type": "Creature — Spirit",
 			"collector_number": "45",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/45_CB01 Black Feather, Shadow of Rage.png"
@@ -293,8 +293,8 @@
 		{
 			"name": "RR01 Chaos Strike",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
 			"collector_number": "77",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/77_RR01 Chaos Strike.png"
@@ -463,8 +463,8 @@
 		{
 			"name": "MR01 Bolshack Dragon",
 			"rarity": "mythic",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{5}{R}",
+			"type": "Creature — Dragon",
 			"collector_number": "75",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/75_MR01 Bolshack Dragon.png"
@@ -573,8 +573,8 @@
 		{
 			"name": "CB02 Bloody Squito",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Insect Horror",
 			"collector_number": "46",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/46_CB02 Bloody Squito.png"
@@ -583,8 +583,8 @@
 		{
 			"name": "CB03 Bone Assassin, the Ripper",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Zombie",
 			"collector_number": "47",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/47_CB03 Bone Assassin, the Ripper.png"
