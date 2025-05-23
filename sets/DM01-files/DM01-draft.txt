@@ -23,8 +23,8 @@
 		{
 			"name": "UB01 Bone Spider",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Zombie Spider",
 			"collector_number": "61",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/61_UB01 Bone Spider.png"
@@ -224,7 +224,7 @@
 			"name": "RW02 Dia Nork, Moonlight Guardian",
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{W}",
-			"type": "Artifact Creature — Guardian",
+			"type": "Legendary Artifact Creature — Guardian",
 			"collector_number": "12",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/12_RW02 Dia Nork, Moonlight Guardian.png"
@@ -283,8 +283,8 @@
 		{
 			"name": "RB01 Creeping Plague",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
 			"collector_number": "55",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/55_RB01 Creeping Plague.png"
@@ -494,7 +494,7 @@
 			"name": "MB02 Vampire Silphy",
 			"rarity": "mythic",
 			"mana_cost": "{5}{B}{B}{B}",
-			"type": "Creature — Vampire Noble",
+			"type": "Legendary Creature — Vampire Noble",
 			"collector_number": "54",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/54_MB02 Vampire Silphy.png"
@@ -623,8 +623,8 @@
 		{
 			"name": "CB07 Wandering Braineater",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Zombie",
 			"collector_number": "51",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/51_CB07 Wandering Braineater.png"
@@ -843,8 +843,8 @@
 		{
 			"name": "UB02 Dark Raven, Shadow of Grief",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Spirit",
 			"collector_number": "62",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/62_UB02 Dark Raven, Shadow of Grief.png"
@@ -863,8 +863,8 @@
 		{
 			"name": "UB04 Masked Horror, Shadow of Scorn",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Spirit",
 			"collector_number": "64",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/64_UB04 Masked Horror, Shadow of Scorn.png"
@@ -873,8 +873,8 @@
 		{
 			"name": "UB05 Stinger Worm",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Worm",
 			"collector_number": "65",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/65_UB05 Stinger Worm.png"
@@ -1043,8 +1043,8 @@
 		{
 			"name": "RB03 Gigaberos",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Chimera",
 			"collector_number": "57",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/57_RB03 Gigaberos.png"
@@ -1063,8 +1063,8 @@
 		{
 			"name": "RB05 Night Master, Shadow of Decay",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Legendary Creature — Spirit",
 			"collector_number": "59",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/59_RB05 Night Master, Shadow of Decay.png"
@@ -1083,8 +1083,8 @@
 		{
 			"name": "RB02 Dark Clown",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Horror",
 			"collector_number": "56",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/56_RB02 Dark Clown.png"
@@ -1213,8 +1213,8 @@
 		{
 			"name": "CU03 Candy Drop",
 			"rarity": "common",
-			"mana_cost": "{1}{U}",
-			"type": "Creature — Cyber Crab",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment — Aura",
 			"collector_number": "25",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/25_CU03 Candy Drop.png"
