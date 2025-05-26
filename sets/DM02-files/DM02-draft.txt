@@ -3,8 +3,8 @@
 		{
 			"name": "UW01 Diamond Cutter",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{4}{W}",
+			"type": "Sorcery",
 			"collector_number": "9",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/9_UW01 Diamond Cutter.png"
@@ -321,16 +321,6 @@
 			}
 		},
 		{
-			"name": "_SHIELD TRIGGER SAMPLE",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
-			"collector_number": "0",
-			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DM02-files/img/0__SHIELD TRIGGER SAMPLE.png"
-			}
-		},
-		{
 			"name": "CB02 Gigastand",
 			"rarity": "common",
 			"mana_cost": "",
@@ -393,8 +383,8 @@
 		{
 			"name": "CU02 Corile",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Cyberlord",
 			"collector_number": "13",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/13_CU02 Corile.png"
@@ -423,8 +413,8 @@
 		{
 			"name": "CW02 Logic Cube",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
 			"collector_number": "2",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/2_CW02 Logic Cube.png"
@@ -453,8 +443,8 @@
 		{
 			"name": "UB03 Lost Soul",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{5}{B}{B}",
+			"type": "Sorcery",
 			"collector_number": "33",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/33_UB03 Lost Soul.png"
@@ -483,8 +473,8 @@
 		{
 			"name": "UU02 Stained Glass",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Cybervirus",
 			"collector_number": "21",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/21_UU02 Stained Glass.png"
@@ -513,8 +503,8 @@
 		{
 			"name": "UW03 Wyn, the Oracle",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Avatar",
 			"collector_number": "11",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/11_UW03 Wyn, the Oracle.png"
@@ -523,8 +513,8 @@
 		{
 			"name": "RB03 Poison Worm",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Worm",
 			"collector_number": "30",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/30_RB03 Poison Worm.png"
@@ -657,7 +647,6 @@
 	8 CR03 Mini Titan Gett
 	8 CR04 Rumble Gate
 	8 CG01 Essence Elf
-	8 _SHIELD TRIGGER SAMPLE
 	8 CB02 Gigastand
 	8 CB03 Horrid Worm
 	8 CB04 Marrow Ooze, the Twister
@@ -699,7 +688,6 @@
 	4 MG01 Xeno Mantis
 	4 MU01 Plasma Chaser
 	4 MW01 Ethel, Star Sea Elemental
-	6 _SHIELD TRIGGER SAMPLE
 	6 CB02 Gigastand
 	6 CB03 Horrid Worm
 	6 CB04 Marrow Ooze, the Twister
