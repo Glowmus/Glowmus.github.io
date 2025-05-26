@@ -83,8 +83,8 @@
 		{
 			"name": "UG01 Coiling Vines",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{G}",
+			"type": "Enchantment — Aura",
 			"collector_number": "105",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/105_UG01 Coiling Vines.png"
@@ -353,8 +353,8 @@
 		{
 			"name": "RG01 Aura Blast",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
 			"collector_number": "99",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/99_RG01 Aura Blast.png"
@@ -443,8 +443,8 @@
 		{
 			"name": "SG01 Deathblade Beetle",
 			"rarity": "special",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Insect",
 			"collector_number": "119",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/119_SG01 Deathblade Beetle.png"
@@ -453,8 +453,8 @@
 		{
 			"name": "SG02 Roaring Great-Horn",
 			"rarity": "special",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Legendary Creature — Beast",
 			"collector_number": "120",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/120_SG02 Roaring Great-Horn.png"
@@ -503,8 +503,8 @@
 		{
 			"name": "MG01 Thorny Mandra",
 			"rarity": "mythic",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Treefolk",
 			"collector_number": "97",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/97_MG01 Thorny Mandra.png"
@@ -663,8 +663,8 @@
 		{
 			"name": "CG04 Fear Fang",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Beastfolk",
 			"collector_number": "92",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/92_CG04 Fear Fang.png"
@@ -673,8 +673,8 @@
 		{
 			"name": "CG05 Golden Wing Striker",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Beastfolk",
 			"collector_number": "93",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/93_CG05 Golden Wing Striker.png"
@@ -683,8 +683,8 @@
 		{
 			"name": "CG06 Mighty Shouter",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Beastfolk",
 			"collector_number": "94",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/94_CG06 Mighty Shouter.png"
@@ -693,8 +693,8 @@
 		{
 			"name": "CG07 Steel Smasher",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Beastfolk",
 			"collector_number": "95",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/95_CG07 Steel Smasher.png"
@@ -893,8 +893,8 @@
 		{
 			"name": "UG02 Dome Shell",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Insect",
 			"collector_number": "106",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/106_UG02 Dome Shell.png"
@@ -913,8 +913,8 @@
 		{
 			"name": "UG04 Pangaea's Song",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{G}",
+			"type": "Instant",
 			"collector_number": "108",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/108_UG04 Pangaea's Song.png"
@@ -923,8 +923,8 @@
 		{
 			"name": "UG05 Poisonous Dahlia",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Treefolk",
 			"collector_number": "109",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/109_UG05 Poisonous Dahlia.png"
@@ -933,8 +933,8 @@
 		{
 			"name": "UG06 Poisonous Mushroom",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Plant",
 			"collector_number": "110",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/110_UG06 Poisonous Mushroom.png"
@@ -1103,8 +1103,8 @@
 		{
 			"name": "RG03 Red-Eye Scorpion",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Insect Spider",
 			"collector_number": "101",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM01-files/img/101_RG03 Red-Eye Scorpion.png"
