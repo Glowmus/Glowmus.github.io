@@ -582,24 +582,6 @@
             "notes": ""
         },
         {
-            "card_name": "_SHIELD TRIGGER SAMPLE",
-            "color": "",
-            "rarity": "common",
-            "type": "",
-            "number": 0,
-            "color_identity": "C",
-            "cost": "",
-            "rules_text": "Effect",
-            "flavor_text": "[i][/i]",
-            "pt": "",
-            "special_text": "Shield Trigger [COST] [i](If this is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]\nEffect",
-            "shape": "normal",
-            "set": "DM02",
-            "loyalty": "",
-            "artist": "",
-            "notes": ""
-        },
-        {
             "card_name": "CB02 Gigastand",
             "color": "B",
             "rarity": "common",
