@@ -13,8 +13,8 @@
 		{
 			"name": "UU01 Crystal Lancer",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{7}{U}",
+			"type": "Creature — Liquidperson Ascendant",
 			"collector_number": "20",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/20_UU01 Crystal Lancer.png"
@@ -73,8 +73,8 @@
 		{
 			"name": "CW01 Fonch, the Oracle",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Avatar",
 			"collector_number": "1",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/1_CW01 Fonch, the Oracle.png"
@@ -83,8 +83,8 @@
 		{
 			"name": "CU01 Aqua Shooter",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Liquidperson",
 			"collector_number": "12",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/12_CU01 Aqua Shooter.png"
@@ -143,8 +143,8 @@
 		{
 			"name": "RW01 Laguna, Lightning Enforcer",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Berserker",
 			"collector_number": "6",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/6_RW01 Laguna, Lightning Enforcer.png"
@@ -153,8 +153,8 @@
 		{
 			"name": "RW02 Phal Eega, Dawn Guardian",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{4}{W}",
+			"type": "Artifact Creature — Guardian",
 			"collector_number": "7",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/7_RW02 Phal Eega, Dawn Guardian.png"
@@ -163,8 +163,8 @@
 		{
 			"name": "RU01 Aqua Bouncer",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{5}{U}",
+			"type": "Creature — Liquidperson",
 			"collector_number": "17",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/17_RU01 Aqua Bouncer.png"
@@ -224,7 +224,7 @@
 			"name": "SW01 Ladia Bale, the Inspirational",
 			"rarity": "special",
 			"mana_cost": "{8}{W}{W}",
-			"type": "Legendary Creature — Guardian Ascendant",
+			"type": "Legendary Artifact Creature — Guardian Ascendant",
 			"collector_number": "56",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/56_SW01 Ladia Bale, the Inspirational.png"
@@ -303,8 +303,8 @@
 		{
 			"name": "MU01 Plasma Chaser",
 			"rarity": "mythic",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{U}{U}{U}",
+			"type": "Creature — Fish",
 			"collector_number": "16",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/16_MU01 Plasma Chaser.png"
@@ -313,8 +313,8 @@
 		{
 			"name": "MW01 Ethel, Star Sea Elemental",
 			"rarity": "mythic",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{5}{W}",
+			"type": "Legendary Creature — Angel Elemental",
 			"collector_number": "5",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/5_MW01 Ethel, Star Sea Elemental.png"
@@ -393,8 +393,8 @@
 		{
 			"name": "CU03 Recon Operation",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
 			"collector_number": "14",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/14_CU03 Recon Operation.png"
@@ -403,8 +403,8 @@
 		{
 			"name": "CU04 Scissor Eye",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Fish",
 			"collector_number": "15",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/15_CU04 Scissor Eye.png"
@@ -423,8 +423,8 @@
 		{
 			"name": "CW03 Magris, Vizier of Magnetism",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{W}",
+			"type": "Artifact Creature — Initiate",
 			"collector_number": "3",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/3_CW03 Magris, Vizier of Magnetism.png"
@@ -483,8 +483,8 @@
 		{
 			"name": "UU03 Thought Probe",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
 			"collector_number": "22",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/22_UU03 Thought Probe.png"
@@ -493,8 +493,8 @@
 		{
 			"name": "UW02 Larba Geer, the Immaculate",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{4}{W}",
+			"type": "Legendary Artifact Creature — Guardian Ascendant",
 			"collector_number": "10",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/10_UW02 Larba Geer, the Immaculate.png"
@@ -553,8 +553,8 @@
 		{
 			"name": "RU02 Hypersquid Walter",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Cyberlord",
 			"collector_number": "18",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/18_RU02 Hypersquid Walter.png"
@@ -563,8 +563,8 @@
 		{
 			"name": "RU03 King Nautilus",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{6}{U}{U}",
+			"type": "Creature — Leviathan",
 			"collector_number": "19",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/19_RU03 King Nautilus.png"
@@ -583,8 +583,8 @@
 		{
 			"name": "RW03 Spiral Grass",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Plant",
 			"collector_number": "8",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/8_RW03 Spiral Grass.png"
@@ -593,8 +593,8 @@
 		{
 			"name": "CW04 Reso Pacos, Clear Sky Guardian",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact Creature — Guardian",
 			"collector_number": "4",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/4_CW04 Reso Pacos, Clear Sky Guardian.png"
