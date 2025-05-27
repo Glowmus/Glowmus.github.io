@@ -23,8 +23,8 @@
 		{
 			"name": "UB01 Chaos Worm",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{6}{B}",
+			"type": "Creature — Worm Ascendant",
 			"collector_number": "31",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/31_UB01 Chaos Worm.png"
@@ -43,8 +43,8 @@
 		{
 			"name": "UR02 Burst Shot",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{X}{R}",
+			"type": "Sorcery",
 			"collector_number": "43",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/43_UR02 Burst Shot.png"
@@ -93,8 +93,8 @@
 		{
 			"name": "CB01 Critical Blade",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
 			"collector_number": "23",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/23_CB01 Critical Blade.png"
@@ -173,8 +173,8 @@
 		{
 			"name": "RB01 Amber Piercer",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{B}",
+			"type": "Creature",
 			"collector_number": "28",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/28_RB01 Amber Piercer.png"
@@ -283,8 +283,8 @@
 		{
 			"name": "MB01 Dark Titan Maginn",
 			"rarity": "mythic",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Legendary Creature — Demon",
 			"collector_number": "27",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/27_MB01 Dark Titan Maginn.png"
@@ -323,8 +323,8 @@
 		{
 			"name": "CB02 Gigastand",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Chimera",
 			"collector_number": "24",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/24_CB02 Gigastand.png"
@@ -333,8 +333,8 @@
 		{
 			"name": "CB03 Horrid Worm",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Worm",
 			"collector_number": "25",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/25_CB03 Horrid Worm.png"
@@ -343,8 +343,8 @@
 		{
 			"name": "CB04 Marrow Ooze, the Twister",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{B}",
+			"type": "Creature — Zombie",
 			"collector_number": "26",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/26_CB04 Marrow Ooze, the Twister.png"
@@ -393,8 +393,8 @@
 		{
 			"name": "CU03 Recon Operation",
 			"rarity": "common",
-			"mana_cost": "{1}{U}",
-			"type": "Sorcery",
+			"mana_cost": "{U}",
+			"type": "Instant",
 			"collector_number": "14",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/14_CU03 Recon Operation.png"
@@ -433,8 +433,8 @@
 		{
 			"name": "UB02 Gray Balloon, Shadow of Greed",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Spirit",
 			"collector_number": "32",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/32_UB02 Gray Balloon, Shadow of Greed.png"
@@ -523,8 +523,8 @@
 		{
 			"name": "RB02 General Dark Fiend",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Noble",
 			"collector_number": "29",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/29_RB02 General Dark Fiend.png"
