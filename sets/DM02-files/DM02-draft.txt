@@ -33,8 +33,8 @@
 		{
 			"name": "UR01 Armored Cannon Balbaro",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Human Ascendant",
 			"collector_number": "42",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/42_UR01 Armored Cannon Balbaro.png"
@@ -53,8 +53,8 @@
 		{
 			"name": "UR03 Cavalry General Curatops",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact Creature — Soldier",
 			"collector_number": "44",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/44_UR03 Cavalry General Curatops.png"
@@ -133,8 +133,8 @@
 		{
 			"name": "CG01 Essence Elf",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Treefolk Elf",
 			"collector_number": "45",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/45_CG01 Essence Elf.png"
@@ -213,8 +213,8 @@
 		{
 			"name": "RG01 Elf-X",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Treefolk Elf",
 			"collector_number": "50",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/50_RG01 Elf-X.png"
@@ -273,8 +273,8 @@
 		{
 			"name": "MR01 Bolzard Dragon",
 			"rarity": "mythic",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Dragon",
 			"collector_number": "38",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/38_MR01 Bolzard Dragon.png"
@@ -293,8 +293,8 @@
 		{
 			"name": "MG01 Xeno Mantis",
 			"rarity": "mythic",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{6}{G}",
+			"type": "Creature — Insect",
 			"collector_number": "49",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/49_MG01 Xeno Mantis.png"
@@ -353,8 +353,8 @@
 		{
 			"name": "CG02 Leaping Tornado Horn",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Beast",
 			"collector_number": "46",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/46_CG02 Leaping Tornado Horn.png"
@@ -363,8 +363,8 @@
 		{
 			"name": "CG03 Rainbow Stone",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
 			"collector_number": "47",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/47_CG03 Rainbow Stone.png"
@@ -373,8 +373,8 @@
 		{
 			"name": "CG04 Silver Axe",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Beastfolk",
 			"collector_number": "48",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/48_CG04 Silver Axe.png"
@@ -453,8 +453,8 @@
 		{
 			"name": "UG02 Mana Crisis",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
 			"collector_number": "54",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/54_UG02 Mana Crisis.png"
@@ -463,8 +463,8 @@
 		{
 			"name": "UG03 Silver Fist",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Beastfolk",
 			"collector_number": "55",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/55_UG03 Silver Fist.png"
@@ -533,8 +533,8 @@
 		{
 			"name": "RG02 Fortress Shell",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{6}{G}{G}{G}",
+			"type": "Creature — Insect",
 			"collector_number": "51",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/51_RG02 Fortress Shell.png"
@@ -543,8 +543,8 @@
 		{
 			"name": "RG03 Rumbling Terahorn",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Beast",
 			"collector_number": "52",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/52_RG03 Rumbling Terahorn.png"
