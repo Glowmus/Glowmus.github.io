@@ -54,7 +54,7 @@
 			"name": "UR03 Cavalry General Curatops",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
-			"type": "Artifact Creature — Soldier",
+			"type": "Legendary Creature — Drake",
 			"collector_number": "44",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/44_UR03 Cavalry General Curatops.png"
@@ -101,20 +101,20 @@
 			}
 		},
 		{
-			"name": "CR01 Dogarn, the Marauder",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
-			"collector_number": "34",
+			"name": "RR02 Dogarn, the Marauder",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact Creature — Soldier",
+			"collector_number": "40",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DM02-files/img/34_CR01 Dogarn, the Marauder.png"
+				"en": "https://Glowmus.github.io/sets/DM02-files/img/40_RR02 Dogarn, the Marauder.png"
 			}
 		},
 		{
 			"name": "CR03 Mini Titan Gett",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human",
 			"collector_number": "36",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/36_CR03 Mini Titan Gett.png"
@@ -123,8 +123,8 @@
 		{
 			"name": "CR04 Rumble Gate",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{R}",
+			"type": "Enchantment",
 			"collector_number": "37",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/37_CR04 Rumble Gate.png"
@@ -183,28 +183,28 @@
 		{
 			"name": "RR01 Bombersaur",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Elemental",
 			"collector_number": "39",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/39_RR01 Bombersaur.png"
 			}
 		},
 		{
-			"name": "RR02 Dogarn, the Marauder",
-			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
-			"collector_number": "40",
+			"name": "CR02 Engineer Kipo",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Gremlin",
+			"collector_number": "34",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DM02-files/img/40_RR02 Dogarn, the Marauder.png"
+				"en": "https://Glowmus.github.io/sets/DM02-files/img/34_CR02 Engineer Kipo.png"
 			}
 		},
 		{
 			"name": "RR03 Metalwing Skyterror",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{5}{R}{R}",
+			"type": "Creature — Wyvern",
 			"collector_number": "41",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/41_RR03 Metalwing Skyterror.png"
@@ -573,8 +573,8 @@
 		{
 			"name": "CR02 Galsaur",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Elemental",
 			"collector_number": "35",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM02-files/img/35_CR02 Galsaur.png"
@@ -603,12 +603,12 @@
 	]
 
 [rare(1)]
+	2 RR02 Dogarn, the Marauder
 	2 RW01 Laguna, Lightning Enforcer
 	2 RW02 Phal Eega, Dawn Guardian
 	2 RU01 Aqua Bouncer
 	2 RB01 Amber Piercer
 	2 RR01 Bombersaur
-	2 RR02 Dogarn, the Marauder
 	2 RR03 Metalwing Skyterror
 	2 RG01 Elf-X
 	1 MR01 Bolzard Dragon
@@ -643,10 +643,10 @@
 	8 CW01 Fonch, the Oracle
 	8 CU01 Aqua Shooter
 	8 CB01 Critical Blade
-	8 CR01 Dogarn, the Marauder
 	8 CR03 Mini Titan Gett
 	8 CR04 Rumble Gate
 	8 CG01 Essence Elf
+	8 CR02 Engineer Kipo
 	8 CB02 Gigastand
 	8 CB03 Horrid Worm
 	8 CB04 Marrow Ooze, the Twister
@@ -671,7 +671,7 @@
 	6 CW01 Fonch, the Oracle
 	6 CU01 Aqua Shooter
 	6 CB01 Critical Blade
-	6 CR01 Dogarn, the Marauder
+	7 RR02 Dogarn, the Marauder
 	6 CR03 Mini Titan Gett
 	6 CR04 Rumble Gate
 	6 CG01 Essence Elf
@@ -680,7 +680,7 @@
 	7 RU01 Aqua Bouncer
 	7 RB01 Amber Piercer
 	7 RR01 Bombersaur
-	7 RR02 Dogarn, the Marauder
+	6 CR02 Engineer Kipo
 	7 RR03 Metalwing Skyterror
 	7 RG01 Elf-X
 	4 MR01 Bolzard Dragon
