@@ -1194,7 +1194,7 @@
 			"name": "SHIELD MECHANICS",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "",
+			"type": "Token",
 			"collector_number": "0",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DUEL-files/img/0_SHIELD MECHANICS.png"
@@ -1204,7 +1204,7 @@
 			"name": "SHIELD",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Artifact",
+			"type": "Shield",
 			"collector_number": "1",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DUEL-files/img/1_SHIELD.png"
@@ -2671,16 +2671,6 @@
 			}
 		},
 		{
-			"name": "_SHIELD TRIGGER SAMPLE",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
-			"collector_number": "0",
-			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/0__SHIELD TRIGGER SAMPLE.png"
-			}
-		},
-		{
 			"name": "CG01 Cannon Shell",
 			"rarity": "common",
 			"mana_cost": "",
@@ -3300,7 +3290,6 @@
 	8 CU02 Aqua Jolter
 	8 CU03 Clone Factory
 	8 CU04 Keeper of the Sunlit Abyss
-	8 _SHIELD TRIGGER SAMPLE
 	8 CG01 Cannon Shell
 	8 CG02 Exploding Cactus
 	8 CG03 Torcon
@@ -3557,7 +3546,6 @@
 	7 RU02 Marinomancer
 	7 RU03 Smile Angler
 	15 UU01 Hunter Cluster
-	6 _SHIELD TRIGGER SAMPLE
 	6 CG01 Cannon Shell
 	6 CG02 Exploding Cactus
 	6 CG03 Torcon
