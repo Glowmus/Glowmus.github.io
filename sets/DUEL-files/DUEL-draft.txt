@@ -15,9 +15,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Creature — Liquidperson",
-			"collector_number": "201",
+			"collector_number": "200",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/201_UU01 Aqua Soldier.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/200_UU01 Aqua Soldier.png"
 			}
 		},
 		{
@@ -25,9 +25,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Creature — Zombie Spider",
-			"collector_number": "228",
+			"collector_number": "227",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/228_UX0X Bone Spider.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/227_UX0X Bone Spider.png"
 			}
 		},
 		{
@@ -245,9 +245,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}",
 			"type": "Creature — Berserker",
-			"collector_number": "229",
+			"collector_number": "228",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/229_UX0X Lah, Purification Enforcer.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/228_UX0X Lah, Purification Enforcer.png"
 			}
 		},
 		{
@@ -865,9 +865,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}",
 			"type": "Creature — Spirit",
-			"collector_number": "230",
+			"collector_number": "229",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/230_UX0X Masked Horror, Shadow of Scorn.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/229_UX0X Masked Horror, Shadow of Scorn.png"
 			}
 		},
 		{
@@ -945,9 +945,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Instant",
-			"collector_number": "205",
+			"collector_number": "204",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/205_UU02 Brain Serum.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/204_UU02 Brain Serum.png"
 			}
 		},
 		{
@@ -955,9 +955,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Creature — Cyber Faerie",
-			"collector_number": "208",
+			"collector_number": "207",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/208_UU03 Faerie Child.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/207_UU03 Faerie Child.png"
 			}
 		},
 		{
@@ -965,9 +965,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}",
 			"type": "Creature — Jellyfish",
-			"collector_number": "211",
+			"collector_number": "210",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/211_UU04 Illusionary Merfolk.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/210_UU04 Illusionary Merfolk.png"
 			}
 		},
 		{
@@ -975,9 +975,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Creature — Leviathan",
-			"collector_number": "212",
+			"collector_number": "211",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/212_UU05 King Coral.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/211_UU05 King Coral.png"
 			}
 		},
 		{
@@ -985,9 +985,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Creature — Fish",
-			"collector_number": "213",
+			"collector_number": "212",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/213_UU06 Revolver Fish.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/212_UU06 Revolver Fish.png"
 			}
 		},
 		{
@@ -1031,20 +1031,20 @@
 			}
 		},
 		{
-			"name": "UX0? Toel, Vizier of Hope",
+			"name": "UX06 Toel, Vizier of Hope",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}{U}",
 			"type": "Artifact Creature — Initiate",
-			"collector_number": "248",
+			"collector_number": "247",
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Glowmus.github.io/sets/DUEL-files/img/248_UX0? Toel, Vizier of Hope_back.png"
+					"en": "https://Glowmus.github.io/sets/DUEL-files/img/247_UX06 Toel, Vizier of Hope_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/248_UX0? Toel, Vizier of Hope_front.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/247_UX06 Toel, Vizier of Hope_front.png"
 			}
 		},
 		{
@@ -1108,20 +1108,20 @@
 			}
 		},
 		{
-			"name": "UX0? Red-Eye Scorpion",
+			"name": "UX04 Red-Eye Scorpion",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{G}",
 			"type": "Creature — Insect",
-			"collector_number": "246",
+			"collector_number": "245",
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Glowmus.github.io/sets/DUEL-files/img/246_UX0? Red-Eye Scorpion_back.png"
+					"en": "https://Glowmus.github.io/sets/DUEL-files/img/245_UX04 Red-Eye Scorpion_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/246_UX0? Red-Eye Scorpion_front.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/245_UX04 Red-Eye Scorpion_front.png"
 			}
 		},
 		{
@@ -1359,9 +1359,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}",
 			"type": "Creature — Cyberlord",
-			"collector_number": "206",
+			"collector_number": "205",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/206_UU02 Corile.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/205_UU02 Corile.png"
 			}
 		},
 		{
@@ -1375,20 +1375,20 @@
 			}
 		},
 		{
-			"name": "UX0? Scissor Eye",
+			"name": "UX07 Scissor Eye",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{R}",
 			"type": "Creature — Fish",
-			"collector_number": "247",
+			"collector_number": "248",
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Glowmus.github.io/sets/DUEL-files/img/247_UX0? Scissor Eye_back.png"
+					"en": "https://Glowmus.github.io/sets/DUEL-files/img/248_UX07 Scissor Eye_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/247_UX0? Scissor Eye_front.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/248_UX07 Scissor Eye_front.png"
 			}
 		},
 		{
@@ -1436,9 +1436,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{8}",
 			"type": "Creature — Liquidperson Ascendant",
-			"collector_number": "202",
+			"collector_number": "201",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/202_UU01 Crystal Lancer.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/201_UU01 Crystal Lancer.png"
 			}
 		},
 		{
@@ -1446,9 +1446,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Creature — Cybervirus",
-			"collector_number": "207",
+			"collector_number": "206",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/207_UU02 Stained Glass.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/206_UU02 Stained Glass.png"
 			}
 		},
 		{
@@ -1456,9 +1456,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Sorcery",
-			"collector_number": "210",
+			"collector_number": "209",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/210_UU03 Thought Probe.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/209_UU03 Thought Probe.png"
 			}
 		},
 		{
@@ -1522,20 +1522,20 @@
 			}
 		},
 		{
-			"name": "UX0? General Dark Fiend",
+			"name": "UX02 General Dark Fiend",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}{B}",
 			"type": "Legendary Creature — Noble",
-			"collector_number": "244",
+			"collector_number": "243",
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Glowmus.github.io/sets/DUEL-files/img/244_UX0? General Dark Fiend_back.png"
+					"en": "https://Glowmus.github.io/sets/DUEL-files/img/243_UX02 General Dark Fiend_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/244_UX0? General Dark Fiend_front.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/243_UX02 General Dark Fiend_front.png"
 			}
 		},
 		{
@@ -1939,20 +1939,20 @@
 			}
 		},
 		{
-			"name": "UX0? Ra Vu, Seeker of Lightning",
+			"name": "UX05 Ra Vu, Seeker of Lightning",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{W}{B}",
 			"type": "Legendary Artifact Creature — Elemental",
-			"collector_number": "245",
+			"collector_number": "246",
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Glowmus.github.io/sets/DUEL-files/img/245_UX0? Ra Vu, Seeker of Lightning_back.png"
+					"en": "https://Glowmus.github.io/sets/DUEL-files/img/246_UX05 Ra Vu, Seeker of Lightning_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/245_UX0? Ra Vu, Seeker of Lightning_front.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/246_UX05 Ra Vu, Seeker of Lightning_front.png"
 			}
 		},
 		{
@@ -1960,9 +1960,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Creature — Plant",
-			"collector_number": "233",
+			"collector_number": "232",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/233_UX0X Sparkle Flower.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/232_UX0X Sparkle Flower.png"
 			}
 		},
 		{
@@ -2050,9 +2050,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}",
 			"type": "Instant",
-			"collector_number": "203",
+			"collector_number": "202",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/203_UU01 Flood Valve.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/202_UU01 Flood Valve.png"
 			}
 		},
 		{
@@ -2077,9 +2077,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Creature — Cybervirus",
-			"collector_number": "209",
+			"collector_number": "208",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/209_UU03 Stinger Ball.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/208_UU03 Stinger Ball.png"
 			}
 		},
 		{
@@ -2133,20 +2133,20 @@
 			}
 		},
 		{
-			"name": "UX0? Gamil, Knight of Hatred",
+			"name": "UX03 Gamil, Knight of Hatred",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}{G}",
 			"type": "Legendary Creature — Demon",
-			"collector_number": "243",
+			"collector_number": "244",
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Glowmus.github.io/sets/DUEL-files/img/243_UX0? Gamil, Knight of Hatred_back.png"
+					"en": "https://Glowmus.github.io/sets/DUEL-files/img/244_UX03 Gamil, Knight of Hatred_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/243_UX0? Gamil, Knight of Hatred_front.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/244_UX03 Gamil, Knight of Hatred_front.png"
 			}
 		},
 		{
@@ -2290,7 +2290,7 @@
 			}
 		},
 		{
-			"name": "MX0? Muramasa, Duke of Blades",
+			"name": "MX01 Muramasa, Duke of Blades",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}{W}",
 			"type": "Legendary Creature — Human",
@@ -2299,11 +2299,11 @@
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Glowmus.github.io/sets/DUEL-files/img/239_MX0? Muramasa, Duke of Blades_back.png"
+					"en": "https://Glowmus.github.io/sets/DUEL-files/img/239_MX01 Muramasa, Duke of Blades_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/239_MX0? Muramasa, Duke of Blades_front.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/239_MX01 Muramasa, Duke of Blades_front.png"
 			}
 		},
 		{
@@ -2377,7 +2377,7 @@
 			}
 		},
 		{
-			"name": "UX0? Dawn Giant",
+			"name": "UX01 Dawn Giant",
 			"rarity": "uncommon",
 			"mana_cost": "{5}{G}{W}",
 			"type": "Creature — Giant",
@@ -2386,11 +2386,11 @@
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Glowmus.github.io/sets/DUEL-files/img/242_UX0? Dawn Giant_back.png"
+					"en": "https://Glowmus.github.io/sets/DUEL-files/img/242_UX01 Dawn Giant_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/242_UX0? Dawn Giant_front.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/242_UX01 Dawn Giant_front.png"
 			}
 		},
 		{
@@ -2428,16 +2428,16 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Creature — Insect",
-			"collector_number": "231",
+			"collector_number": "230",
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Glowmus.github.io/sets/DUEL-files/img/231_UX0X Pouch Shell_back.png"
+					"en": "https://Glowmus.github.io/sets/DUEL-files/img/230_UX0X Pouch Shell_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/231_UX0X Pouch Shell_front.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/230_UX0X Pouch Shell_front.png"
 			}
 		},
 		{
@@ -2631,7 +2631,7 @@
 			}
 		},
 		{
-			"name": "MX0? Volcano Smog, Deceptive Shade",
+			"name": "MX02 Volcano Smog, Deceptive Shade",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}{R}",
 			"type": "Legendary Creature",
@@ -2640,11 +2640,11 @@
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Glowmus.github.io/sets/DUEL-files/img/240_MX0? Volcano Smog, Deceptive Shade_back.png"
+					"en": "https://Glowmus.github.io/sets/DUEL-files/img/240_MX02 Volcano Smog, Deceptive Shade_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/240_MX0? Volcano Smog, Deceptive Shade_front.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/240_MX02 Volcano Smog, Deceptive Shade_front.png"
 			}
 		},
 		{
@@ -2678,13 +2678,13 @@
 			}
 		},
 		{
-			"name": "UU0? Keeper of the Sunlit Abyss",
+			"name": "UU07 Keeper of the Sunlit Abyss",
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Creature",
-			"collector_number": "200",
+			"collector_number": "213",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/200_UU0? Keeper of the Sunlit Abyss.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/213_UU07 Keeper of the Sunlit Abyss.png"
 			}
 		},
 		{
@@ -2722,9 +2722,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{6}",
 			"type": "Creature",
-			"collector_number": "232",
+			"collector_number": "231",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/232_UX0X Smile Angler.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/231_UX0X Smile Angler.png"
 			}
 		},
 		{
@@ -2742,9 +2742,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Creature",
-			"collector_number": "204",
+			"collector_number": "203",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/204_UU01 Hunter Cluster.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/203_UU01 Hunter Cluster.png"
 			}
 		},
 		{
@@ -2848,13 +2848,13 @@
 			}
 		},
 		{
-			"name": "UX0X Blasto, Explosive Soldier",
+			"name": "UX08 Blasto, Explosive Soldier",
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Creature",
-			"collector_number": "227",
+			"collector_number": "233",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DUEL-files/img/227_UX0X Blasto, Explosive Soldier.png"
+				"en": "https://Glowmus.github.io/sets/DUEL-files/img/233_UX08 Blasto, Explosive Soldier.png"
 			}
 		},
 		{
@@ -3390,19 +3390,19 @@
 	4 UW03 Lok, Vizier of Hunting
 	4 UW04 Moonlight Flash
 	4 UW05 Ruby Grass
-	4 UX0? Toel, Vizier of Hope
-	4 UX0? Red-Eye Scorpion
+	4 UX06 Toel, Vizier of Hope
+	4 UX04 Red-Eye Scorpion
 	4 UX0X Magris, Vizier of Magnetism
 	4 UW0X Reso Pacos, Clear Sky Guardian
 	4 UW01 Diamond Cutter
 	4 UW02 Larba Geer, the Immaculate
 	4 UW03 Wyn, the Oracle
 	4 UU02 Corile
-	4 UX0? Scissor Eye
+	4 UX07 Scissor Eye
 	4 UU01 Crystal Lancer
 	4 UU02 Stained Glass
 	4 UU03 Thought Probe
-	4 UX0? General Dark Fiend
+	4 UX02 General Dark Fiend
 	4 UB01 Chaos Worm
 	4 UB02 Gray Balloon, Shadow of Greed
 	4 UB03 Lost Soul
@@ -3413,23 +3413,23 @@
 	4 UG02 Mana Crisis
 	4 UG03 Silver Fist
 	4 UW01 Boomerang Comet
-	4 UX0? Ra Vu, Seeker of Lightning
+	4 UX05 Ra Vu, Seeker of Lightning
 	4 UX0X Sparkle Flower
 	4 UX0X Aqua Deformer
 	4 UU01 Flood Valve
 	4 UU02 King Ponitas
 	4 UU03 Stinger Ball
 	4 UB0X Bone Piercer
-	4 UX0? Gamil, Knight of Hatred
+	4 UX03 Gamil, Knight of Hatred
 	4 UX0X Baraga, Blade of Gloom
 	4 UB02 Eldritch Poison
 	4 UB03 Hang Worm, Fetid Larva
 	4 UR0X Snip Striker Bullraizer
 	4 UR01 Armored Warrior Quelos
-	4 MX0? Muramasa, Duke of Blades
+	4 MX01 Muramasa, Duke of Blades
 	4 UR03 Searing Wave
 	4 UG03 Sniper Mosquito
-	4 UX0? Dawn Giant
+	4 UX01 Dawn Giant
 	4 UG01 Mana Nexus
 	4 UG02 Masked Pomegranate
 	4 UX0X Pouch Shell
@@ -3437,13 +3437,13 @@
 	4 UB01 Gigabolver
 	4 UB02 Locomotiver
 	4 UB04 Soul Gulp
-	4 MX0? Volcano Smog, Deceptive Shade
-	4 UU0? Keeper of the Sunlit Abyss
+	4 MX02 Volcano Smog, Deceptive Shade
+	4 UU07 Keeper of the Sunlit Abyss
 	4 UX0X Smile Angler
 	4 UU01 Hunter Cluster
 	4 UG01 Dew Mushroom
 	4 UG02 Three-Eyed Dragonfly
-	4 UX0X Blasto, Explosive Soldier
+	4 UX08 Blasto, Explosive Soldier
 	4 UR01 Missile Boy
 	4 UR02 Sword of Malevolent Death
 	4 UW01 Fu Reil, Seeker of Storms
@@ -3643,14 +3643,14 @@
 	15 UW03 Lok, Vizier of Hunting
 	15 UW04 Moonlight Flash
 	15 UW05 Ruby Grass
-	15 UX0? Toel, Vizier of Hope
+	15 UX06 Toel, Vizier of Hope
 	7 RB03 Gigaberos
 	7 RB04 Gigagiele
 	7 RB05 Night Master, Shadow of Decay
 	7 RB06 Terror Pit
 	7 RB02 Dark Clown
 	7 RG02 Natural Snare
-	15 UX0? Red-Eye Scorpion
+	15 UX04 Red-Eye Scorpion
 	7 RG04 Stampeding Longhorn
 	7 RG05 Storm Shell
 	7 RG06 Tri-horn Shepherd
@@ -3675,7 +3675,7 @@
 	6 CU10 Aqua Shooter
 	15 UU02 Corile
 	6 CU12 Recon Operation
-	15 UX0? Scissor Eye
+	15 UX07 Scissor Eye
 	4 MU01 Plasma Chaser
 	7 RU01 Aqua Bouncer
 	7 RU02 Hypersquid Walter
@@ -3689,7 +3689,7 @@
 	6 CB01 Marrow Ooze, the Twister
 	7 RB01 Dark Titan Maginn
 	7 RB01 Amber Piercer
-	15 UX0? General Dark Fiend
+	15 UX02 General Dark Fiend
 	7 RB03 Poison Worm
 	15 UB01 Chaos Worm
 	15 UB02 Gray Balloon, Shadow of Greed
@@ -3725,7 +3725,7 @@
 	7 RW02 Logic Sphere
 	7 RW03 Raza Vega, Thunder Guardian
 	15 UW01 Boomerang Comet
-	15 UX0? Ra Vu, Seeker of Lightning
+	15 UX05 Ra Vu, Seeker of Lightning
 	15 UX0X Sparkle Flower
 	6 CU06 Angler Cluster
 	6 CU04 Emeral
@@ -3743,7 +3743,7 @@
 	6 CB11 Snake Attack
 	6 CB05 Wailing Shadow Belbetphlo
 	4 MB01 Jack Viper, Shadow of Doom
-	15 UX0? Gamil, Knight of Hatred
+	15 UX03 Gamil, Knight of Hatred
 	7 RB02 Ghastly Drain
 	7 RB03 Scratchclaw
 	15 UX0X Baraga, Blade of Gloom
@@ -3758,7 +3758,7 @@
 	7 RR02 Boltail Dragon
 	7 RR03 Flametropus
 	15 UR01 Armored Warrior Quelos
-	15 MX0? Muramasa, Duke of Blades
+	15 MX01 Muramasa, Duke of Blades
 	15 UR03 Searing Wave
 	6 CG08 Raging Dash-Horn
 	6 CG11 Roar of the Earth
@@ -3766,7 +3766,7 @@
 	6 CG06 Sword Butterfly
 	4 MG01 Gigamantis
 	7 RG01 Aurora of Reversal
-	15 UX0? Dawn Giant
+	15 UX01 Dawn Giant
 	7 RG03 Psyshroom
 	15 UG01 Mana Nexus
 	15 UG02 Masked Pomegranate
@@ -3784,11 +3784,11 @@
 	15 UB02 Locomotiver
 	7 RB03 Mongrel Man
 	15 UB04 Soul Gulp
-	15 MX0? Volcano Smog, Deceptive Shade
+	15 MX02 Volcano Smog, Deceptive Shade
 	6 CU01 Aqua Guard
 	6 CU08 Aqua Jolter
 	6 CU15 Clone Factory
-	15 UU0? Keeper of the Sunlit Abyss
+	15 UU07 Keeper of the Sunlit Abyss
 	4 MU01 Astral Warper
 	4 MM01 Hydro Hurricane
 	7 RU02 Marinomancer
@@ -3803,7 +3803,7 @@
 	7 RG03 Sword of Benevolent Life
 	15 UG01 Dew Mushroom
 	15 UG02 Three-Eyed Dragonfly
-	15 UX0X Blasto, Explosive Soldier
+	15 UX08 Blasto, Explosive Soldier
 	6 CR03 Kamikaze, Chainsaw Warrior
 	6 CR15 Pippie Kuppie
 	4 MR01 Doboulgyser, Giant Rock Beast
