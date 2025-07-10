@@ -1,1 +1,24 @@
-﻿{"sets": [{"set_code": "DM01", "set_name": "Duel Masters Base Set", "formats": ""}, {"set_code": "DM02", "set_name": "Evo-Crushinators of Doom", "formats": ""}, {"set_code": "DM03", "set_name": "Rampage of the Super Warriors", "formats": ""}, {"set_code": "DUEL", "set_name": "Duel Masters ALL", "formats": ""}]}
+﻿{
+    "sets": [
+        {
+            "set_code": "DM01",
+            "set_name": "Duel Masters Base Set",
+            "formats": ""
+        },
+        {
+            "set_code": "DM02",
+            "set_name": "Evo-Crushinators of Doom",
+            "formats": ""
+        },
+        {
+            "set_code": "DM03",
+            "set_name": "Rampage of the Super Warriors",
+            "formats": ""
+        },
+        {
+            "set_code": "DUEL",
+            "set_name": "Duel Masters ALL",
+            "formats": ""
+        }
+    ]
+}

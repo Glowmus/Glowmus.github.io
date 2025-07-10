@@ -1,4 +1,4 @@
-[CustomCards]
+ï»¿[CustomCards]
 	[
 		{
 			"name": "UW01 Boomerang Comet",
@@ -271,13 +271,13 @@
 			}
 		},
 		{
-			"name": "MR01 Überdragon Jabaha",
+			"name": "MR01 Ãœberdragon Jabaha",
 			"rarity": "mythic",
 			"mana_cost": "",
 			"type": "",
 			"collector_number": "38",
 			"image_uris": {
-				"en": "https://Glowmus.github.io/sets/DM03-files/img/38_MR01 Überdragon Jabaha.png"
+				"en": "https://Glowmus.github.io/sets/DM03-files/img/38_MR01 Ãœberdragon Jabaha.png"
 			}
 		},
 		{
@@ -374,7 +374,7 @@
 			"name": "CG03 Sniper Mosquito",
 			"rarity": "common",
 			"mana_cost": "{G}",
-			"type": "Creature — Insect",
+			"type": "Creature â€” Insect",
 			"collector_number": "47",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM03-files/img/47_CG03 Sniper Mosquito.png"
@@ -384,7 +384,7 @@
 			"name": "CG04 Sword Butterfly",
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Insect",
+			"type": "Creature â€” Insect",
 			"collector_number": "48",
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM03-files/img/48_CG04 Sword Butterfly.png"
@@ -609,7 +609,7 @@
 			"image_uris": {
 				"en": "https://Glowmus.github.io/sets/DM03-files/img/4_CW04 Ur Pale, Seeker of Sunlight.png"
 			}
-		},
+		}
 	]
 
 [rare(1)]
@@ -621,7 +621,7 @@
 	2 RR02 Boltail Dragon
 	2 RR03 Flametropus
 	2 RG01 Aurora of Reversal
-	1 MR01 Überdragon Jabaha
+	1 MR01 Ãœberdragon Jabaha
 	1 MB01 Jack Viper, Shadow of Doom
 	1 MG01 Gigamantis
 	1 MU01 Legendary Bynor
@@ -633,7 +633,7 @@
 	2 RU02 King Neptas
 	2 RU03 Psychic Shaper
 	2 RW03 Raza Vega, Thunder Guardian
-[uncommon(4)]
+[uncommon(3)]
 	4 UW01 Boomerang Comet
 	4 UU01 Flood Valve
 	4 UB01 Baraga, Blade of Gloom
@@ -671,7 +671,64 @@
 	8 CW03 Sundrop Armor
 	8 CR02 Explosive Dude Joe
 	8 CW04 Ur Pale, Seeker of Sunlight
-[wildcard(2)]
+[foil(1)]
+	6 UW01 Boomerang Comet
+	6 UU01 Flood Valve
+	6 UB01 Baraga, Blade of Gloom
+	6 UR01 Armored Warrior Quelos
+	6 UR02 Muramasa, Duke of Blades
+	6 UR03 Searing Wave
+	6 UG01 Mana Nexus
+	12 CW01 Aless, the Oracle
+	12 CU01 Angler Cluster
+	12 CB01 Bone Piercer
+	12 CR01 Baby Zoppe
+	12 CR03 Snip Striker Bullraizer
+	12 CR04 Volcanic Arrows
+	12 CG01 Raging Dash-Horn
+	2 RW01 Alek, Solidity Enforcer
+	2 RW02 Logic Sphere
+	2 RU01 Aqua Deformer
+	2 RB01 Gamil, Knight of Hatred
+	2 RR01 Blaze Cannon
+	2 RR02 Boltail Dragon
+	2 RR03 Flametropus
+	2 RG01 Aurora of Reversal
+	1 MR01 Ãœberdragon Jabaha
+	1 MB01 Jack Viper, Shadow of Doom
+	1 MG01 Gigamantis
+	1 MU01 Legendary Bynor
+	1 MW01 Sieg Balicula, the Intense
+	12 _SHIELD TRIGGER SAMPLE
+	12 CB02 Mudman
+	12 CB03 Snake Attack
+	12 CB04 Wailing Shadow Belbetphlo
+	12 CG02 Roar of the Earth
+	12 CG03 Sniper Mosquito
+	12 CG04 Sword Butterfly
+	12 CU02 Emeral
+	12 CU03 Liquid Scope
+	12 CU04 Shtra
+	12 CW02 Lena, Vizier of Brilliance
+	12 CW03 Sundrop Armor
+	6 UB02 Eldritch Poison
+	6 UB03 Hang Worm, Fetid Larva
+	6 UG02 Masked Pomegranate
+	6 UG03 Pouch Shell
+	6 UU02 King Ponitas
+	6 UU03 Stinger Ball
+	6 UW02 Ra Vu, Seeker of Lightning
+	6 UW03 Sparkle Flower
+	2 RB03 Scratchclaw
+	2 RB02 Ghastly Drain
+	2 RG02 Dawn Giant
+	2 RG03 Psyshroom
+	2 RU02 King Neptas
+	2 RU03 Psychic Shaper
+	12 CR02 Explosive Dude Joe
+	2 RW03 Raza Vega, Thunder Guardian
+	12 CW04 Ur Pale, Seeker of Sunlight
+[wildcard(1)]
 	15 UW01 Boomerang Comet
 	15 UU01 Flood Valve
 	15 UB01 Baraga, Blade of Gloom
@@ -694,7 +751,7 @@
 	7 RR02 Boltail Dragon
 	7 RR03 Flametropus
 	7 RG01 Aurora of Reversal
-	4 MR01 Überdragon Jabaha
+	4 MR01 Ãœberdragon Jabaha
 	4 MB01 Jack Viper, Shadow of Doom
 	4 MG01 Gigamantis
 	4 MU01 Legendary Bynor

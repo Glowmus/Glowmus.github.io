@@ -1,4 +1,846 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+
+
+UW01 Frei, Vizier of Air
+type: Artifact Creature — Initiate => Artifact Creature — Drone
+
+UU01 Aqua Soldier
+type: Creature — Liquidperson => Creature — Merfolk
+
+UH04 Bone Spider
+type: Creature — Zombie Spider => Creature — Skeleton Spider
+
+UR01 Armored Walker Urherion
+type: Artifact Creature — Soldier => Artifact Creature — Robot Soldier
+
+UR02 Meteosaur
+
+UR03 Onslaughter Triceps
+
+UR04 Stonesaur
+
+UR05 Super Explosive Volcanodon
+
+UG01 Coiling Vines
+
+CW02 Emerald Grass
+
+CU05 Aqua Hulcus
+type: Creature — Liquidperson => Creature — Merfolk
+
+UB0X Black Feather, Shadow of Rage
+
+UR0X Artisan Picora
+
+CR02 Brawler Zyler
+
+CR11 Burning Power
+
+CR10 Crimson Hammer
+
+CR01 Deadly Fighter Braid Claw
+
+CR06 Fatal Attacker Horvath
+
+CR07 Fire Sweeper Burning Hellion
+type: Creature — Dragonoid Berserker => Creature — Drake Soldier
+
+CR09 Immortal Baron, Vorg
+
+CG04 Bronze-Arm Tribe
+type: Creature — Beastfolk Scout => Creature — Wolf Warrior
+
+RW01 Chilias, the Oracle
+
+RW02 Dia Nork, Moonlight Guardian
+type: Legendary Artifact Creature — Guardian => Legendary Artifact Creature — Construct
+
+MW03 Holy Awe
+type: Instant => Sorcery
+cost: {6} => {4}{W}{W}
+rules_text:  => Shield trigger —{W} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+Destroy all creatures. If this spell's shield trigger cost was paid, instead destroy target tapped creature.
+special_text: Shield trigger —{W} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{W} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+Destroy all creatures. If this spell's shield trigger cost was paid, instead destroy target tapped creature.
+
+UH05 Lah, Purification Enforcer
+
+RW06 Laser Wing
+
+RM09 Szubs Kin, Twilight Guardian
+type: Artifact Creature — Guardian => Artifact Creature — Construct
+
+RU02 Aqua Knight
+type: Creature — Liquidperson => Creature — Merfolk
+
+RB03 Creeping Plague
+
+UA01 Chaos Strike
+
+RM02 Draglide
+
+RR07 Explosive Fighter Ucarn
+
+RR08 Magma Gazer
+
+UA02 Nomad Hero Gigio
+
+RR12 Rothus, the Traveler
+
+RG02 Aura Blast
+
+Hanusa, Radiance Elemental
+
+Urth, Purifying Elemental
+
+Aqua Sniper
+type: Creature — Liquidperson => Creature — Merfolk
+
+King Depthcon
+
+Deathliger, Lion of Chaos
+
+Zagaan, Knight of Darkness
+
+Astrocomet Dragon
+
+RR09 Gatling Skyterror
+
+Deathblade Beetle
+
+Roaring Great-Horn
+
+MR01 Bolshack Dragon
+
+Scarlet Skyterror
+
+MB01 Gigargon
+
+RM10 Vampire Silphy
+
+RG11 Thorny Mandra
+
+MG02 Tower Shell
+type: Creature — Insect => Creature — Insect Carrier
+
+RU06 King Ripped-Hide
+
+RU09 Seamine
+
+MW02 Gran Gure, Space Guardian
+type: Legendary Artifact Creature — Guardian => Legendary Artifact Creature — Construct
+
+RW09 Rayla, Truth Enforcer
+
+UR06 Tornado Flame
+rules_text:  => Shield trigger —{R} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+CB02 Bloody Squito
+type: Creature — Insect Horror => Creature — Spider
+
+CB06 Bone Assassin, the Ripper
+type: Creature — Zombie => Creature — Skeleton
+
+CB14 Death Smoke
+
+CB13 Ghost Touch
+rules_text:  => Shield trigger —{B} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+CB16 Skeleton Soldier, the Defiled
+type: Creature — Zombie Skeleton Soldier => Creature — Skeleton Soldier
+rules_text:  => {2}, Sacrifice another nonland permanent: Tap this creature. It gains indestructible until end of turn.
+pt: 3/2 => 3/3
+
+UB0X Wandering Braineater
+type: Creature — Zombie => Creature — Skeleton
+
+CB03 Writhing Bone Ghoul
+type: Creature — Zombie => Creature — Skeleton
+
+CG01 Burning Mane
+type: Creature — Beastfolk => Creature — Wolverine Warrior
+
+CG12 Dimension Gate
+rules_text:  => Shield trigger —{G} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+CG05 Fear Fang
+type: Creature — Beastfolk => Creature — Wolf Warrior
+
+CG16 Golden Wing Striker
+type: Creature — Beastfolk => Creature — Bird Warrior
+rules_text:  => Reach
+[i]Landfall[/i] — Whenever a land you control enters, this creature gets +1/+0 until end of turn.
+
+UG05 Mighty Shouter
+type: Creature — Beastfolk => Creature — Elephant Warrior
+
+UG05 Steel Smasher
+type: Creature — Beastfolk => Creature — Boar Warrior
+
+CG15 Ultimate Force
+
+CU03 Aqua Vehicle
+type: Creature — Liquidperson => Creature — Merfolk
+
+CU02 Marine Flower
+type: Creature — Cyber Plant => Creature — Jellyfish
+
+CU09 Phantom Fish
+
+CU12 Spiral Gate
+rules_text:  => Shield trigger —{U} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+CU05 Hunter Fish
+
+CA05 Virtual Tripwire
+
+CW06 Iere, Vizier of Bullets
+type: Artifact Creature — Initiate => Artifact Creature — Drone
+
+CW01 La Ura Giga, Sky Guardian
+type: Artifact Creature — Guardian => Artifact Creature — Construct
+
+UW0X Miele, Vizier of Lightning
+type: Artifact Creature — Initiate => Artifact Creature — Drone
+
+CW03 Reusol, the Oracle
+
+CW07 Senatine Jade Tree
+
+CW13 Solar Ray
+rules_text:  => Shield trigger —{W} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+CA04 Sonic Wing
+
+UB02 Dark Raven, Shadow of Grief
+
+UB03 Dark Reversal
+rules_text:  => Shield trigger —{B} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+UH07 Masked Horror, Shadow of Scorn
+
+UA05 Stinger Worm
+
+UB06 Swamp Worm
+
+UG02 Dome Shell
+type: Creature — Insect => Creature — Insect Carrier
+
+UG03 Forest Hornet
+type: Creature — Giant Insect => Creature — Insect
+
+UG04 Pangaea's Song
+
+UG05 Poisonous Dahlia
+
+CG13 Poisonous Mushroom
+
+UU02 Brain Serum
+rules_text:  => Shield trigger —{U} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+UU03 Faerie Child
+type: Creature — Cyber Faerie => Creature — Jellyfish
+
+UU04 Illusionary Merfolk
+type: Creature — Jellyfish => Creature — Fish
+
+UU05 King Coral
+
+UU06 Revolver Fish
+
+UW02 Iocant, the Oracle
+
+UW03 Lok, Vizier of Hunting
+type: Artifact Creature — Initiate => Artifact Creature — Drone
+
+UW04 Moonlight Flash
+
+UW05 Ruby Grass
+
+UM06 Toel, Vizier of Hope
+type: Artifact Creature — Initiate => Artifact Creature — Drone
+
+RB06 Gigaberos
+
+RB07 Gigagiele
+
+RB08 Night Master, Shadow of Decay
+
+RB12 Terror Pit
+rules_text:  => Shield trigger —{B} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+RB04 Dark Clown
+
+RM06 Natural Snare
+rules_text:  => Shield trigger —{G} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+UM04 Red-Eye Scorpion
+
+RG09 Stampeding Longhorn
+
+RM08 Storm Shell
+
+RG12 Tri-horn Shepherd
+
+RU03 Crystal Memory
+rules_text:  => Shield trigger —{U} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+RU12 Unicorn Fish
+
+RU08 Saucer-Head Shark
+
+RU10 Teleportation
+
+RU11 Tropico
+
+SHIELD MECHANICS
+
+SHIELD
+
+CU13 Candy Drop
+
+CW09 Fonch, the Oracle
+
+CW12 Logic Cube
+rules_text:  => Shield trigger —{W} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+UH06 Magris, Vizier of Magnetism
+type: Artifact Creature — Initiate => Artifact Creature — Drone
+
+UA04 Reso Pacos, Clear Sky Guardian
+type: Artifact Creature — Guardian => Artifact Creature — Construct
+
+RW03 Ethel, Star Sea Elemental
+
+RW05 Laguna, Lightning Enforcer
+
+RW08 Phal Eega, Dawn Guardian
+type: Artifact Creature — Guardian => Artifact Creature — Construct
+
+RW12 Spiral Grass
+
+UW01 Diamond Cutter
+
+UW02 Larba Geer, the Immaculate
+type: Legendary Artifact Creature — Guardian Evolution => Legendary Artifact Creature — Construct Evolution
+rules_text: Evolves from one or more Guardians [i](You may cast this spell by sacrificing one or more Guardians and paying the difference in mana costs between this and the sacrificed Guardians. Mana cost includes color. It has haste.)[/i] => Evolves from one or more Constructs [i](You may cast this spell by sacrificing one or more Constructs and paying the difference in mana costs between this and the sacrificed Constructs. Mana cost includes color. It has haste.)[/i]
+
+UW03 Wyn, the Oracle
+
+CU16 Aqua Shooter
+type: Creature — Liquidperson => Creature — Merfolk
+rules_text:  => {1}: This creature gets +1/-1 until end of turn.
+pt: 2/4 => 1/4
+
+UU02 Corile
+
+CU11 Recon Operation
+
+UM07 Scissor Eye
+
+MU03 Plasma Chaser
+
+RU01 Aqua Bouncer
+type: Creature — Liquidperson => Creature — Merfolk
+
+RM05 Hypersquid Walter
+
+RU05 King Nautilus
+
+UU01 Crystal Lancer
+type: Creature — Liquidperson Evolution => Creature — Merfolk Evolution
+rules_text: Evolves from one or more Liquidpeople [i](You may cast this spell by sacrificing one or more Liquidpeople and paying the difference in mana costs between this and the sacrificed Liquidpeople. Mana cost includes color. It has haste.)[/i] => Evolves from one or more Merfolk [i](You may cast this spell by sacrificing one or more Merfolk and paying the difference in mana costs between this and the sacrificed Merfolk. Mana cost includes color. It has haste.)[/i]
+
+UU02 Stained Glass
+type: Creature — Cybervirus => Creature — Jellyfish
+
+UU03 Thought Probe
+rules_text:  => Shield trigger —{U} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+CB10 Critical Blade
+rules_text:  => Shield trigger —{B} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+CB09 Gigastand
+
+CB04 Horrid Worm
+
+CB01 Marrow Ooze, the Twister
+type: Creature — Zombie => Creature — Skeleton
+
+RB05 Dark Titan Maginn
+
+RB01 Amber Piercer
+type: Creature => Creature — Horror
+
+UM02 General Dark Fiend
+type: Legendary Creature — Noble => Legendary Creature — Vampire
+
+RB10 Poison Worm
+
+UB01 Chaos Worm
+
+UB02 Gray Balloon, Shadow of Greed
+
+UB03 Lost Soul
+
+CR12 Engineer Kipo
+
+CR08 Galsaur
+
+CR16 Mini Titan Gett
+type: Creature — Human => Creature — Human Soldier
+rules_text:  => This creature attacks each combat if able.
+Whenever this creature attacks, it gets +1/+0 until end of turn.
+
+CR13 Rumble Gate
+
+RR03 Bolzard Dragon
+
+RR04 Bombersaur
+
+RR06 Dogarn, the Marauder
+type: Artifact Creature — Soldier => Artifact Creature — Robot Soldier
+
+RR11 Metalwing Skyterror
+
+UR01 Armored Cannon Balbaro
+
+UR02 Burst Shot
+rules_text:  => Shield trigger —{R} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+UR03 Cavalry General Curatops
+type: Legendary Creature — Drake => Legendary Creature — Drake Soldier
+
+CG02 Essence Elf
+
+CG09 Leaping Tornado Horn
+
+CA03 Rainbow Stone
+rules_text: {T}: Add one mana of any color. => Shield trigger —{1} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+{T}: Add one mana of any color.
+
+CG14 Silver Axe
+
+MG03 Xeno Mantis
+
+RG04 Elf-X
+
+RG05 Fortress Shell
+type: Creature — Insect => Creature — Insect Carrier
+
+RG08 Rumbling Terahorn
+
+UG01 Barkwhip, the Smasher
+type: Legendary Creature — Beastfolk Evolution => Legendary Creature — Warrior Evolution
+rules_text: Evolves from one or more Beastfolk [i](You may cast this spell by sacrificing one or more Beastfolk and paying the difference in mana costs between this and the sacrificed Beastfolk. Mana cost includes color. It has haste.)[/i] => Evolves from one or more Warriors [i](You may cast this spell by sacrificing one or more Warriors and paying the difference in mana costs between this and the sacrificed Warriors. Mana cost includes color. It has haste.)[/i]
+
+UG02 Mana Crisis
+rules_text:  => Shield trigger —{G} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+UG03 Silver Fist
+type: Creature — Beastfolk => Creature — Rhino Warrior
+
+Ladia Bale, the Inspirational
+type: Legendary Artifact Creature — Guardian Evolution => Legendary Artifact Creature — Construct Evolution
+rules_text: Evolves from one or more Guardians [i](You may cast this spell by sacrificing one or more Guardians and paying the difference in mana costs between this and the sacrificed Guardians. Mana cost includes color. It has haste.)[/i]
+Flying, vigilance => Evolves from one or more Constructs [i](You may cast this spell by sacrificing one or more Constructs and paying the difference in mana costs between this and the sacrificed Constructs. Mana cost includes color. It has haste.)[/i]
+Flying, vigilance
+
+Crystal Paladin
+type: Creature — Liquidperson Evolution => Creature — Merfolk Evolution
+rules_text: Evolves from one or more Liquidpeople [i](You may cast this spell by sacrificing one or more Liquidpeople and paying the difference in mana costs between this and the sacrificed Liquidpeople. Mana cost includes color. It has haste.)[/i]
+Flash
+When this creature enters, return all creatures that blocked this turn to their owners' hands. => Evolves from one or more Merfolk [i](You may cast this spell by sacrificing one or more Merfolk and paying the difference in mana costs between this and the sacrificed Merfolk. Mana cost includes color. It has haste.)[/i]
+Flash
+When this creature enters, return all creatures that blocked this turn to their owners' hands.
+
+Ultracide Worm
+
+Armored Blaster Valdios
+
+Fighter Dual Fang
+type: Legendary Creature — Beastfolk Evolution => Legendary Creature — Warrior Evolution
+rules_text: Evolves from one or more Beastfolk
+When Fighter Dual Fang enters, reveal cards from the top of your library until you reveal two land cards. Put those land cards onto the battlefield tapped and the rest on the bottom of your library in a random order. => Evolves from one or more Warriors
+When Fighter Dual Fang enters, reveal cards from the top of your library until you reveal two land cards. Put those land cards onto the battlefield tapped and the rest on the bottom of your library in a random order.
+
+CW11 Aless, the Oracle
+
+CW16 Lena, Vizier of Brilliance
+type: Artifact Creature — Initiate => Artifact Creature — Drone
+rules_text:  => When this creature enters, you may return another creature or land you control to its owner's hand.
+
+CW14 Sundrop Armor
+
+CW10 Ur Pale, Seeker of Sunlight
+type: Artifact Creature — Elemental => Artifact Creature — Avatar
+
+RW11 Sieg Balicula, the Intense
+type: Artifact Creature — Initiate Evolution => Artifact Creature — Drone Evolution
+rules_text: Evolves from one or more Initiates [i](You may cast this spell by sacrificing one or more Initiates and paying the difference in mana costs between this and the sacrificed Initiates. Mana cost includes color. It has haste.)[/i] => Evolves from one or more Drones [i](You may cast this spell by sacrificing one or more Drones and paying the difference in mana costs between this and the sacrificed Drones. Mana cost includes color. It has haste.)[/i]
+
+MA01 Alek, Solidity Enforcer
+
+RW07 Logic Sphere
+rules_text:  => Shield trigger —{W} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+RW10 Raza Vega, Thunder Guardian
+type: Artifact Creature — Guardian => Artifact Creature — Construct
+
+UW01 Boomerang Comet
+rules_text:  => Shield trigger —{W} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+UM05 Ra Vu, Seeker of Lightning
+type: Legendary Artifact Creature — Elemental => Legendary Artifact Creature — Avatar
+
+UH10 Sparkle Flower
+
+CU06 Angler Cluster
+type: Creature — Cybercluster => Creature — Jellyfish
+
+CU04 Emeral
+
+CU15 Liquid Scope
+rules_text:  => Shield trigger —{U} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+CU10 Shtra
+
+MU02 Legendary Bynor
+
+UH01 Aqua Deformer
+type: Creature — Liquidperson => Creature — Merfolk
+
+UU02 King Neptas
+
+RU07 Psychic Shaper
+
+UU01 Flood Valve
+rules_text:  => Shield trigger —{U} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+UM09 King Ponitas
+
+UU03 Stinger Ball
+type: Creature — Cybervirus => Creature — Jellyfish
+
+UB0X Bone Piercer
+type: Creature => Creature — Horror
+
+CB08 Mudman
+type: Creature — Ooze => Creature — Ooze Mutant
+
+CB11 Snake Attack
+
+CB05 Wailing Shadow Belbetphlo
+
+MB02 Jack Viper, Shadow of Doom
+
+UM03 Gamil, Knight of Hatred
+
+MH01 Ghastly Drain
+
+RB11 Scratchclaw
+type: Creature — Mutant => Creature — Ooze Mutant
+
+UH02 Baraga, Blade of Gloom
+
+UB02 Eldritch Poison
+rules_text:  => Shield trigger —{B} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+UB03 Hang Worm, Fetid Larva
+
+CR04 Baby Zoppe
+
+CR05 Explosive Dude Joe
+type: Creature — Human => Creature — Human Soldier
+
+UR0X Snip Striker Bullraizer
+type: Creature => Creature — Drake
+
+CR14 Volcanic Arrows
+rules_text:  => Shield trigger —{R} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+MR03 Überdragon Jabaha
+
+RR01 Blaze Cannon
+
+RR02 Boltail Dragon
+
+RM03 Flametropus
+
+UR01 Armored Warrior Quelos
+
+UM08 Muramasa, Duke of Blades
+type: Legendary Creature — Human => Legendary Creature — Human Noble
+
+UR03 Searing Wave
+
+CG08 Raging Dash-Horn
+
+CG11 Roar of the Earth
+rules_text:  => Shield trigger —{G} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+UG03 Sniper Mosquito
+
+CG06 Sword Butterfly
+
+MG01 Gigamantis
+
+RG03 Aurora of Reversal
+
+UM01 Dawn Giant
+
+RG07 Psyshroom
+type: Creature — Plant => Creature — Fungus
+
+UG01 Mana Nexus
+rules_text:  => Shield trigger —{G} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+UG02 Masked Pomegranate
+
+UH08 Pouch Shell
+type: Creature — Insect => Creature — Insect Carrier
+
+Miar, Comet Elemental
+
+Chaos Fish
+
+Giriel, Ghastly Warrior
+
+Garkago Dragon
+
+Earthstomp Giant
+
+CB12 Darkpact
+
+CB07 Gregorian Worm
+type: Creature => Creature — Worm
+rules_text:  => Shield trigger —{B} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+
+CA02 Purple Piercer
+
+CB15 Shadow Moon, Cursed Shade
+
+UB0X Skeleton Thief, the Revealer
+type: Creature => Creature — Skeleton
+
+MB03 Trox, General of Destruction
+
+RB02 Chains of Sacrifice
+
+RM04 Gregoria, Princess of War
+type: Creature => Creature — Vampire
+
+RB09 Photocide, Lord of the Wastes
+type: Creature => Creature — Demon
+
+Ballom, Master of Death
+
+UB01 Gigabolver
+type: Creature => Creature — Chimera
+
+UB02 Locomotiver
+type: Creature => Creature — Nightmare Mutant
+rules_text:  => Shield trigger —{B} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+
+RM06 Mongrel Man
+type: Creature => Creature — Ooze Mutant
+
+UB04 Soul Gulp
+
+UM10 Volcano Smog, Deceptive Shade
+type: Legendary Creature => Legendary Creature — Spirit
+
+CU01 Aqua Guard
+type: Creature => Creature — Merfolk
+
+CU08 Aqua Jolter
+type: Creature => Creature — Merfolk
+rules_text:  => Shield trigger —{U} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+
+CU14 Clone Factory
+
+UU07 Keeper of the Sunlit Abyss
+type: Creature => Creature — Jellyfish
+
+MU01 Astral Warper
+type: Creature => Creature — Jellyfish Evolution
+rules_text:  => Evolves from one or more Jellyfish [i](You may cast this spell by sacrificing one or more Jellyfish and paying the difference in mana costs between this and the sacrificed Jellyfish. Mana cost includes color. It has haste.)[/i]
+
+MM01 Hydro Hurricane
+
+RU07 Marinomancer
+type: Creature => Creature — Cyberlord
+
+UH09 Smile Angler
+
+King Aquakamui
+
+UU01 Hunter Cluster
+type: Creature => Creature — Jellyfish Shark
+rules_text:  => Shield trigger —{U} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+
+CG07 Cannon Shell
+type: Creature => Creature — Insect Carrier
+rules_text:  => Shield trigger —{G} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+
+CG10 Exploding Cactus
+type: Creature => Creature — Treefolk
+
+CG03 Torcon
+type: Creature => Creature — Jackal Warrior
+rules_text:  => Shield trigger —{G} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+
+MM03 Supporting Tulip
+type: Creature => Creature — Plant
+
+RG01 Ancient Giant
+type: Creature => Creature — Giant
+
+RG06 Mystic Inscription
+
+RG10 Sword of Benevolent Life
+
+Niofa, Horned Protector
+
+UG01 Dew Mushroom
+type: Creature => Creature — Fungus
+
+UG02 Three-Eyed Dragonfly
+type: Creature => Creature — Insect
+
+UH03 Blasto, Explosive Soldier
+
+CR03 Kamikaze, Chainsaw Warrior
+type: Creature => Artifact Creature — Robot Soldier
+rules_text:  => Shield trigger —{R} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+
+CR15 Pippie Kuppie
+type: Creature => Creature — Bird
+
+MR02 Doboulgyser, Giant Rock Beast
+type: Creature => Creature — Elemental Evolution
+
+RR05 Chaotic Skyterror
+type: Creature => Creature — Wyvern
+
+RR10 Magmarex
+type: Creature => Creature — Elemental
+rules_text:  => Shield trigger —{R} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+
+MM02 Mega Detonator
+
+Galklife Dragon
+
+UR01 Missile Boy
+type: Creature — Human => Creature — Human Soldier
+
+UR02 Sword of Malevolent Death
+
+CA01 Amber Grass
+rules_text:  => Shield trigger —{1} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+
+CW05 Gulan Rias, Speed Guardian
+type: Creature => Artifact Creature — Construct
+
+CW08 Kolon, the Oracle
+type: Creature => Creature — Avatar
+rules_text:  => Shield trigger —{W} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+
+CW04 Sarius, Vizier of Suppression
+type: Artifact Creature => Artifact Creature — Drone
+
+CW15 Whisking Whirlwind
+
+MW01 Alcadeias, Lord of Spirits
+type: Legendary Creature — Angel => Legendary Creature — Angel Evolution
+rules_text:  => Evolves from one or more Angels [i](You may cast this spell by sacrificing one or more Angels and paying the difference in mana costs between this and the sacrificed Angels. Mana cost includes color. It has haste.)[/i]
+
+RM01 Aeris, Flight Elemental
+type: Creature => Creature — Angel
+
+RW04 Full Defensor
+rules_text:  => Shield trigger —{W} [i](If this card is a shield on your battlefield and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+UA03 Ouks, Vizier of Restoration
+type: Artifact Creature => Artifact Creature — Drone
+
+Rimuel, Cloudbreak Elemental
+
+UW01 Fu Reil, Seeker of Storms
+type: Creature => Creature — Avatar
+
+UW02 Milieus, the Daystretcher
+type: Creature => Creature — Berserker
+
+UW03 Mist Rias, Sonic Guardian
+type: Creature => Artifact Creature — Construct
+
+UW04 Re Bil, Seeker of Archery
+type: Creature => Creature — Avatar Archer
+
+UW05 Screaming Sunburst
+
+CL10 Wooded Ridgeline
+
+CL08 Sunlit Marsh
+
+CL07 Sacred Peaks
+
+CL09 Tangled Islet
+
+CL06 Radiant Grove
+
+CL05 Molten Tributary
+
+CL04 Idyllic Beachfront
+
+CL03 Haunted Mire
+
+CL02 Geothermal Bog
+
+CL01 Contaminated Aquifer
+
+CL11 Evolving Wilds
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

@@ -5,6 +5,10 @@
 	<link rel="stylesheet" href="/resources/header.css">
 	<title>DM01 visual preview</title>
 	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('/resources/beleren.ttf');
+		}
 		body {
 			font-family: Arial, sans-serif;
 			margin: 0;
@@ -82,7 +86,7 @@
 		.banner {
 			width: 100%;
 			height: auto;
-			padding-top: 20px;
+			padding-top: 80px;
 			padding-bottom: 50px;
 		}
 		.logo {
@@ -118,36 +122,49 @@
 			background-size: contain;
 			background-position: center;
 		}
-		.icon-bar {
-			display: grid;
-			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
-			gap: 1px;
-			padding-left: 5%;
-			padding-right: 5%;
-			padding-top: 2%;
-			padding-bottom: 1%;
-			justify-items: center;
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 10%;
+			width: fit-content;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: flex;
+			flex-direction: column;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
 			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
 		}
-		.icon-bar .icon img {
-			width: 90%;
-			max-width: 80px;
-			height: auto;
-			display: block;
-			padding: 5%;
-			margin: auto;
-			text-align: center;
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
 		}
-		.icon-bar .dot img {
-			width: 50%;
-			max-width: 65px;
-			height: auto;
-			display: block;
-			margin: auto;
-			text-align: center;
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
 		}
 		.preload-hidden {
 			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
 		}
 		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
 		.footer {
@@ -173,168 +190,169 @@
 		</div>
 	</div>
 
-	<div class="icon-bar">
-			<div class="icon"><a href="DM01"><img src="/sets/DM01-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="DM02"><img src="/sets/DM02-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="DM03"><img src="/sets/DM03-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="DUEL"><img src="/sets/DUEL-files/icon.png"></img></a></div>
-
+	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="DM01"><img src="/sets/DM01-files/icon.png">Duel Masters Base Set</a>
+	
+		<a class="set-bar inactive" href="DM02"><img src="/sets/DM02-files/icon.png">Evo-Crushinators of Doom</a>
+	
+		<a class="set-bar inactive" href="DM03"><img src="/sets/DM03-files/icon.png">Rampage of the Super Warriors</a>
+	
+		<a class="set-bar inactive" href="DUEL"><img src="/sets/DUEL-files/icon.png">Duel Masters ALL</a>
+	
 		</div>
 		<div class="banner">
 		<img class="logo" src="/sets/DM01-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-				<div class="container"><img alt="/sets\DM01-files\img\9_MW01 Gran Gure, Space Guardian.png" id="9_MW01 Gran Gure, Space Guardian" data-flag="@X" onclick="openSidebar('9_MW01 Gran Gure, Space Guardian',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\31_MU01 King Ripped-Hide.png" id="31_MU01 King Ripped-Hide" data-flag="@X" onclick="openSidebar('31_MU01 King Ripped-Hide',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\53_MB01 Gigargon.png" id="53_MB01 Gigargon" data-flag="@X" onclick="openSidebar('53_MB01 Gigargon',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\75_MR01 Bolshack Dragon.png" id="75_MR01 Bolshack Dragon" data-flag="@X" onclick="openSidebar('75_MR01 Bolshack Dragon',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\97_MG01 Thorny Mandra.png" id="97_MG01 Thorny Mandra" data-flag="@X" onclick="openSidebar('97_MG01 Thorny Mandra',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\10_MW02 Rayla, Truth Enforcer.png" id="10_MW02 Rayla, Truth Enforcer" data-flag="@X" onclick="openSidebar('10_MW02 Rayla, Truth Enforcer',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\32_MU02 Seamine.png" id="32_MU02 Seamine" data-flag="@X" onclick="openSidebar('32_MU02 Seamine',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\54_MB02 Vampire Silphy.png" id="54_MB02 Vampire Silphy" data-flag="@X" onclick="openSidebar('54_MB02 Vampire Silphy',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\76_MR02 Gatling Skyterror.png" id="76_MR02 Gatling Skyterror" data-flag="@X" onclick="openSidebar('76_MR02 Gatling Skyterror',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\98_MG02 Tower Shell.png" id="98_MG02 Tower Shell" data-flag="@X" onclick="openSidebar('98_MG02 Tower Shell',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\11_RW01 Chilias, the Oracle.png" id="11_RW01 Chilias, the Oracle" data-flag="@X" onclick="openSidebar('11_RW01 Chilias, the Oracle',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\33_RU01 Aqua Knight.png" id="33_RU01 Aqua Knight" data-flag="@X" onclick="openSidebar('33_RU01 Aqua Knight',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\55_RB01 Creeping Plague.png" id="55_RB01 Creeping Plague" data-flag="@X" onclick="openSidebar('55_RB01 Creeping Plague',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\77_RR01 Chaos Strike.png" id="77_RR01 Chaos Strike" data-flag="@X" onclick="openSidebar('77_RR01 Chaos Strike',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\99_RG01 Aura Blast.png" id="99_RG01 Aura Blast" data-flag="@X" onclick="openSidebar('99_RG01 Aura Blast',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\12_RW02 Dia Nork, Moonlight Guardian.png" id="12_RW02 Dia Nork, Moonlight Guardian" data-flag="@X" onclick="openSidebar('12_RW02 Dia Nork, Moonlight Guardian',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\34_RU02 Crystal Memory.png" id="34_RU02 Crystal Memory" data-flag="@X" onclick="openSidebar('34_RU02 Crystal Memory',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\56_RB02 Dark Clown.png" id="56_RB02 Dark Clown" data-flag="@X" onclick="openSidebar('56_RB02 Dark Clown',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\78_RR02 Draglide.png" id="78_RR02 Draglide" data-flag="@X" onclick="openSidebar('78_RR02 Draglide',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\100_RG02 Natural Snare.png" id="100_RG02 Natural Snare" data-flag="@X" onclick="openSidebar('100_RG02 Natural Snare',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\13_RW03 Holy Awe.png" id="13_RW03 Holy Awe" data-flag="@X" onclick="openSidebar('13_RW03 Holy Awe',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\35_RU03 Saucer-Head Shark.png" id="35_RU03 Saucer-Head Shark" data-flag="@X" onclick="openSidebar('35_RU03 Saucer-Head Shark',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\57_RB03 Gigaberos.png" id="57_RB03 Gigaberos" data-flag="@X" onclick="openSidebar('57_RB03 Gigaberos',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\79_RR03 Explosive Fighter Ucarn.png" id="79_RR03 Explosive Fighter Ucarn" data-flag="@X" onclick="openSidebar('79_RR03 Explosive Fighter Ucarn',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\101_RG03 Red-Eye Scorpion.png" id="101_RG03 Red-Eye Scorpion" data-flag="@X" onclick="openSidebar('101_RG03 Red-Eye Scorpion',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\14_RW04 Lah, Purification Enforcer.png" id="14_RW04 Lah, Purification Enforcer" data-flag="@X" onclick="openSidebar('14_RW04 Lah, Purification Enforcer',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\36_RU04 Teleportation.png" id="36_RU04 Teleportation" data-flag="@X" onclick="openSidebar('36_RU04 Teleportation',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\58_RB04 Gigagiele.png" id="58_RB04 Gigagiele" data-flag="@X" onclick="openSidebar('58_RB04 Gigagiele',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\80_RR04 Magma Gazer.png" id="80_RR04 Magma Gazer" data-flag="@X" onclick="openSidebar('80_RR04 Magma Gazer',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\102_RG04 Stampeding Longhorn.png" id="102_RG04 Stampeding Longhorn" data-flag="@X" onclick="openSidebar('102_RG04 Stampeding Longhorn',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\15_RW05 Laser Wing.png" id="15_RW05 Laser Wing" data-flag="@X" onclick="openSidebar('15_RW05 Laser Wing',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\37_RU05 Tropico.png" id="37_RU05 Tropico" data-flag="@X" onclick="openSidebar('37_RU05 Tropico',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\59_RB05 Night Master, Shadow of Decay.png" id="59_RB05 Night Master, Shadow of Decay" data-flag="@X" onclick="openSidebar('59_RB05 Night Master, Shadow of Decay',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\81_RR05 Nomad Hero Gigio.png" id="81_RR05 Nomad Hero Gigio" data-flag="@X" onclick="openSidebar('81_RR05 Nomad Hero Gigio',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\103_RG05 Storm Shell.png" id="103_RG05 Storm Shell" data-flag="@X" onclick="openSidebar('103_RG05 Storm Shell',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\16_RW06 Szubs Kin, Twilight Guardian.png" id="16_RW06 Szubs Kin, Twilight Guardian" data-flag="@X" onclick="openSidebar('16_RW06 Szubs Kin, Twilight Guardian',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\38_RU06 Unicorn Fish.png" id="38_RU06 Unicorn Fish" data-flag="@X" onclick="openSidebar('38_RU06 Unicorn Fish',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\60_RB06 Terror Pit.png" id="60_RB06 Terror Pit" data-flag="@X" onclick="openSidebar('60_RB06 Terror Pit',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\82_RR06 Rothus, the Traveler.png" id="82_RR06 Rothus, the Traveler" data-flag="@X" onclick="openSidebar('82_RR06 Rothus, the Traveler',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\104_RG06 Tri-horn Shepherd.png" id="104_RG06 Tri-horn Shepherd" data-flag="@X" onclick="openSidebar('104_RG06 Tri-horn Shepherd',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\17_UW01 Frei, Vizier of Air.png" id="17_UW01 Frei, Vizier of Air" data-flag="@X" onclick="openSidebar('17_UW01 Frei, Vizier of Air',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\39_UU01 Aqua Soldier.png" id="39_UU01 Aqua Soldier" data-flag="@X" onclick="openSidebar('39_UU01 Aqua Soldier',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\61_UB01 Bone Spider.png" id="61_UB01 Bone Spider" data-flag="@X" onclick="openSidebar('61_UB01 Bone Spider',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\83_UR01 Armored Walker Urherion.png" id="83_UR01 Armored Walker Urherion" data-flag="@X" onclick="openSidebar('83_UR01 Armored Walker Urherion',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\105_UG01 Coiling Vines.png" id="105_UG01 Coiling Vines" data-flag="@X" onclick="openSidebar('105_UG01 Coiling Vines',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\18_UW02 Iocant, the Oracle.png" id="18_UW02 Iocant, the Oracle" data-flag="@X" onclick="openSidebar('18_UW02 Iocant, the Oracle',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\40_UU02 Brain Serum.png" id="40_UU02 Brain Serum" data-flag="@X" onclick="openSidebar('40_UU02 Brain Serum',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\62_UB02 Dark Raven, Shadow of Grief.png" id="62_UB02 Dark Raven, Shadow of Grief" data-flag="@X" onclick="openSidebar('62_UB02 Dark Raven, Shadow of Grief',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\84_UR02 Meteosaur.png" id="84_UR02 Meteosaur" data-flag="@X" onclick="openSidebar('84_UR02 Meteosaur',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\106_UG02 Dome Shell.png" id="106_UG02 Dome Shell" data-flag="@X" onclick="openSidebar('106_UG02 Dome Shell',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\19_UW03 Lok, Vizier of Hunting.png" id="19_UW03 Lok, Vizier of Hunting" data-flag="@X" onclick="openSidebar('19_UW03 Lok, Vizier of Hunting',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\41_UU03 Faerie Child.png" id="41_UU03 Faerie Child" data-flag="@X" onclick="openSidebar('41_UU03 Faerie Child',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\63_UB03 Dark Reversal.png" id="63_UB03 Dark Reversal" data-flag="@X" onclick="openSidebar('63_UB03 Dark Reversal',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\85_UR03 Onslaughter Triceps.png" id="85_UR03 Onslaughter Triceps" data-flag="@X" onclick="openSidebar('85_UR03 Onslaughter Triceps',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\107_UG03 Forest Hornet.png" id="107_UG03 Forest Hornet" data-flag="@X" onclick="openSidebar('107_UG03 Forest Hornet',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\20_UW04 Moonlight Flash.png" id="20_UW04 Moonlight Flash" data-flag="@X" onclick="openSidebar('20_UW04 Moonlight Flash',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\42_UU04 Illusionary Merfolk.png" id="42_UU04 Illusionary Merfolk" data-flag="@X" onclick="openSidebar('42_UU04 Illusionary Merfolk',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\64_UB04 Masked Horror, Shadow of Scorn.png" id="64_UB04 Masked Horror, Shadow of Scorn" data-flag="@X" onclick="openSidebar('64_UB04 Masked Horror, Shadow of Scorn',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\86_UR04 Stonesaur.png" id="86_UR04 Stonesaur" data-flag="@X" onclick="openSidebar('86_UR04 Stonesaur',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\108_UG04 Pangaea's Song.png" id="108_UG04 Pangaeas Song" data-flag="@X" onclick="openSidebar('108_UG04 Pangaeas Song',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\21_UW05 Ruby Grass.png" id="21_UW05 Ruby Grass" data-flag="@X" onclick="openSidebar('21_UW05 Ruby Grass',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\43_UU05 King Coral.png" id="43_UU05 King Coral" data-flag="@X" onclick="openSidebar('43_UU05 King Coral',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\65_UB05 Stinger Worm.png" id="65_UB05 Stinger Worm" data-flag="@X" onclick="openSidebar('65_UB05 Stinger Worm',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\87_UR05 Super Explosive Volcanodon.png" id="87_UR05 Super Explosive Volcanodon" data-flag="@X" onclick="openSidebar('87_UR05 Super Explosive Volcanodon',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\109_UG05 Poisonous Dahlia.png" id="109_UG05 Poisonous Dahlia" data-flag="@X" onclick="openSidebar('109_UG05 Poisonous Dahlia',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\22_UW06 Toel, Vizier of Hope.png" id="22_UW06 Toel, Vizier of Hope" data-flag="@X" onclick="openSidebar('22_UW06 Toel, Vizier of Hope',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\44_UU06 Revolver Fish.png" id="44_UU06 Revolver Fish" data-flag="@X" onclick="openSidebar('44_UU06 Revolver Fish',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\66_UB06 Swamp Worm.png" id="66_UB06 Swamp Worm" data-flag="@X" onclick="openSidebar('66_UB06 Swamp Worm',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\88_UR06 Tornado Flame.png" id="88_UR06 Tornado Flame" data-flag="@X" onclick="openSidebar('88_UR06 Tornado Flame',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\110_UG06 Poisonous Mushroom.png" id="110_UG06 Poisonous Mushroom" data-flag="@X" onclick="openSidebar('110_UG06 Poisonous Mushroom',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\1_CW01 Emerald Grass.png" id="1_CW01 Emerald Grass" data-flag="@X" onclick="openSidebar('1_CW01 Emerald Grass',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\23_CU01 Aqua Hulcus.png" id="23_CU01 Aqua Hulcus" data-flag="@X" onclick="openSidebar('23_CU01 Aqua Hulcus',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\45_CB01 Black Feather, Shadow of Rage.png" id="45_CB01 Black Feather, Shadow of Rage" data-flag="@X" onclick="openSidebar('45_CB01 Black Feather, Shadow of Rage',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\67_CR01 Artisan Picora.png" id="67_CR01 Artisan Picora" data-flag="@X" onclick="openSidebar('67_CR01 Artisan Picora',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\89_CG01 Bronze-Arm Tribe.png" id="89_CG01 Bronze-Arm Tribe" data-flag="@X" onclick="openSidebar('89_CG01 Bronze-Arm Tribe',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\2_CW02 Iere, Vizier of Bullets.png" id="2_CW02 Iere, Vizier of Bullets" data-flag="@X" onclick="openSidebar('2_CW02 Iere, Vizier of Bullets',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\24_CU02 Aqua Vehicle.png" id="24_CU02 Aqua Vehicle" data-flag="@X" onclick="openSidebar('24_CU02 Aqua Vehicle',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\46_CB02 Bloody Squito.png" id="46_CB02 Bloody Squito" data-flag="@X" onclick="openSidebar('46_CB02 Bloody Squito',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\68_CR02 Brawler Zyler.png" id="68_CR02 Brawler Zyler" data-flag="@X" onclick="openSidebar('68_CR02 Brawler Zyler',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\90_CG02 Burning Mane.png" id="90_CG02 Burning Mane" data-flag="@X" onclick="openSidebar('90_CG02 Burning Mane',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\3_CW03 La Ura Giga, Sky Guardian.png" id="3_CW03 La Ura Giga, Sky Guardian" data-flag="@X" onclick="openSidebar('3_CW03 La Ura Giga, Sky Guardian',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\25_CU03 Candy Drop.png" id="25_CU03 Candy Drop" data-flag="@X" onclick="openSidebar('25_CU03 Candy Drop',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\47_CB03 Bone Assassin, the Ripper.png" id="47_CB03 Bone Assassin, the Ripper" data-flag="@X" onclick="openSidebar('47_CB03 Bone Assassin, the Ripper',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\69_CR03 Burning Power.png" id="69_CR03 Burning Power" data-flag="@X" onclick="openSidebar('69_CR03 Burning Power',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\91_CG03 Dimension Gate.png" id="91_CG03 Dimension Gate" data-flag="@X" onclick="openSidebar('91_CG03 Dimension Gate',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\4_CW04 Miele, Vizier of Lightning.png" id="4_CW04 Miele, Vizier of Lightning" data-flag="@X" onclick="openSidebar('4_CW04 Miele, Vizier of Lightning',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\26_CU04 Hunter Fish.png" id="26_CU04 Hunter Fish" data-flag="@X" onclick="openSidebar('26_CU04 Hunter Fish',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\48_CB04 Death Smoke.png" id="48_CB04 Death Smoke" data-flag="@X" onclick="openSidebar('48_CB04 Death Smoke',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\70_CR04 Crimson Hammer.png" id="70_CR04 Crimson Hammer" data-flag="@X" onclick="openSidebar('70_CR04 Crimson Hammer',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\92_CG04 Fear Fang.png" id="92_CG04 Fear Fang" data-flag="@X" onclick="openSidebar('92_CG04 Fear Fang',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\5_CW05 Reusol, the Oracle.png" id="5_CW05 Reusol, the Oracle" data-flag="@X" onclick="openSidebar('5_CW05 Reusol, the Oracle',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\27_CU05 Marine Flower.png" id="27_CU05 Marine Flower" data-flag="@X" onclick="openSidebar('27_CU05 Marine Flower',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\49_CB05 Ghost Touch.png" id="49_CB05 Ghost Touch" data-flag="@X" onclick="openSidebar('49_CB05 Ghost Touch',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\71_CR05 Deadly Fighter Braid Claw.png" id="71_CR05 Deadly Fighter Braid Claw" data-flag="@X" onclick="openSidebar('71_CR05 Deadly Fighter Braid Claw',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\93_CG05 Golden Wing Striker.png" id="93_CG05 Golden Wing Striker" data-flag="@X" onclick="openSidebar('93_CG05 Golden Wing Striker',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\6_CW06 Senatine Jade Tree.png" id="6_CW06 Senatine Jade Tree" data-flag="@X" onclick="openSidebar('6_CW06 Senatine Jade Tree',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\28_CU06 Phantom Fish.png" id="28_CU06 Phantom Fish" data-flag="@X" onclick="openSidebar('28_CU06 Phantom Fish',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\50_CB06 Skeleton Soldier, the Defiled.png" id="50_CB06 Skeleton Soldier, the Defiled" data-flag="@X" onclick="openSidebar('50_CB06 Skeleton Soldier, the Defiled',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\72_CR06 Fatal Attacker Horvath.png" id="72_CR06 Fatal Attacker Horvath" data-flag="@X" onclick="openSidebar('72_CR06 Fatal Attacker Horvath',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\94_CG06 Mighty Shouter.png" id="94_CG06 Mighty Shouter" data-flag="@X" onclick="openSidebar('94_CG06 Mighty Shouter',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\7_CW07 Solar Ray.png" id="7_CW07 Solar Ray" data-flag="@X" onclick="openSidebar('7_CW07 Solar Ray',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\29_CU07 Spiral Gate.png" id="29_CU07 Spiral Gate" data-flag="@X" onclick="openSidebar('29_CU07 Spiral Gate',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\51_CB07 Wandering Braineater.png" id="51_CB07 Wandering Braineater" data-flag="@X" onclick="openSidebar('51_CB07 Wandering Braineater',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\73_CR07 Fire Sweeper Burning Hellion.png" id="73_CR07 Fire Sweeper Burning Hellion" data-flag="@X" onclick="openSidebar('73_CR07 Fire Sweeper Burning Hellion',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\95_CG07 Steel Smasher.png" id="95_CG07 Steel Smasher" data-flag="@X" onclick="openSidebar('95_CG07 Steel Smasher',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\8_CW08 Sonic Wing.png" id="8_CW08 Sonic Wing" data-flag="@X" onclick="openSidebar('8_CW08 Sonic Wing',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\30_CU08 Virtual Tripwire.png" id="30_CU08 Virtual Tripwire" data-flag="@X" onclick="openSidebar('30_CU08 Virtual Tripwire',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\52_CB08 Writhing Bone Ghoul.png" id="52_CB08 Writhing Bone Ghoul" data-flag="@X" onclick="openSidebar('52_CB08 Writhing Bone Ghoul',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\74_CR08 Immortal Baron, Vorg.png" id="74_CR08 Immortal Baron, Vorg" data-flag="@X" onclick="openSidebar('74_CR08 Immortal Baron, Vorg',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\96_CG08 Ultimate Force.png" id="96_CG08 Ultimate Force" data-flag="@X" onclick="openSidebar('96_CG08 Ultimate Force',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\111_SW01 Hanusa, Radiance Elemental.png" id="111_SW01 Hanusa, Radiance Elemental" data-flag="@X" onclick="openSidebar('111_SW01 Hanusa, Radiance Elemental',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\113_SU01 Aqua Sniper.png" id="113_SU01 Aqua Sniper" data-flag="@X" onclick="openSidebar('113_SU01 Aqua Sniper',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\115_SB01 Deathliger, Lion of Chaos.png" id="115_SB01 Deathliger, Lion of Chaos" data-flag="@X" onclick="openSidebar('115_SB01 Deathliger, Lion of Chaos',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\117_SR01 Astrocomet Dragon.png" id="117_SR01 Astrocomet Dragon" data-flag="@X" onclick="openSidebar('117_SR01 Astrocomet Dragon',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\119_SG01 Deathblade Beetle.png" id="119_SG01 Deathblade Beetle" data-flag="@X" onclick="openSidebar('119_SG01 Deathblade Beetle',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\112_SW02 Urth, Purifying Elemental.png" id="112_SW02 Urth, Purifying Elemental" data-flag="@X" onclick="openSidebar('112_SW02 Urth, Purifying Elemental',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\114_SU02 King Depthcon.png" id="114_SU02 King Depthcon" data-flag="@X" onclick="openSidebar('114_SU02 King Depthcon',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\116_SB02 Zagaan, Knight of Darkness.png" id="116_SB02 Zagaan, Knight of Darkness" data-flag="@X" onclick="openSidebar('116_SB02 Zagaan, Knight of Darkness',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\118_SR02 Scarlet Skyterror.png" id="118_SR02 Scarlet Skyterror" data-flag="@X" onclick="openSidebar('118_SR02 Scarlet Skyterror',false)"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\120_SG02 Roaring Great-Horn.png" id="120_SG02 Roaring Great-Horn" data-flag="@X" onclick="openSidebar('120_SG02 Roaring Great-Horn',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-<div id="colorless" class="anchor"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\0_SHIELD MECHANICS.png" id="0_SHIELD MECHANICS" data-flag="@X" onclick="openSidebar('0_SHIELD MECHANICS',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-<div id="token" class="anchor"></div>
-			<div class="container"><img alt="/sets\DM01-files\img\1t_SHIELD.png" id="1t_SHIELD" data-flag="@X" onclick="openSidebar('1t_SHIELD',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img alt="/sets\DM01-files\img\9_MW01 Gran Gure, Space Guardian.png" id="9_MW01 Gran Gure, Space Guardian" data-flag="@X" onclick="openSidebar('9_MW01 Gran Gure, Space Guardian',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\31_MU01 King Ripped-Hide.png" id="31_MU01 King Ripped-Hide" data-flag="@X" onclick="openSidebar('31_MU01 King Ripped-Hide',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\53_MB01 Gigargon.png" id="53_MB01 Gigargon" data-flag="@X" onclick="openSidebar('53_MB01 Gigargon',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\75_MR01 Bolshack Dragon.png" id="75_MR01 Bolshack Dragon" data-flag="@X" onclick="openSidebar('75_MR01 Bolshack Dragon',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\97_MG01 Thorny Mandra.png" id="97_MG01 Thorny Mandra" data-flag="@X" onclick="openSidebar('97_MG01 Thorny Mandra',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\10_MW02 Rayla, Truth Enforcer.png" id="10_MW02 Rayla, Truth Enforcer" data-flag="@X" onclick="openSidebar('10_MW02 Rayla, Truth Enforcer',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\32_MU02 Seamine.png" id="32_MU02 Seamine" data-flag="@X" onclick="openSidebar('32_MU02 Seamine',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\54_MB02 Vampire Silphy.png" id="54_MB02 Vampire Silphy" data-flag="@X" onclick="openSidebar('54_MB02 Vampire Silphy',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\76_MR02 Gatling Skyterror.png" id="76_MR02 Gatling Skyterror" data-flag="@X" onclick="openSidebar('76_MR02 Gatling Skyterror',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\98_MG02 Tower Shell.png" id="98_MG02 Tower Shell" data-flag="@X" onclick="openSidebar('98_MG02 Tower Shell',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\11_RW01 Chilias, the Oracle.png" id="11_RW01 Chilias, the Oracle" data-flag="@X" onclick="openSidebar('11_RW01 Chilias, the Oracle',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\33_RU01 Aqua Knight.png" id="33_RU01 Aqua Knight" data-flag="@X" onclick="openSidebar('33_RU01 Aqua Knight',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\55_RB01 Creeping Plague.png" id="55_RB01 Creeping Plague" data-flag="@X" onclick="openSidebar('55_RB01 Creeping Plague',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\77_RR01 Chaos Strike.png" id="77_RR01 Chaos Strike" data-flag="@X" onclick="openSidebar('77_RR01 Chaos Strike',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\99_RG01 Aura Blast.png" id="99_RG01 Aura Blast" data-flag="@X" onclick="openSidebar('99_RG01 Aura Blast',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\12_RW02 Dia Nork, Moonlight Guardian.png" id="12_RW02 Dia Nork, Moonlight Guardian" data-flag="@X" onclick="openSidebar('12_RW02 Dia Nork, Moonlight Guardian',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\34_RU02 Crystal Memory.png" id="34_RU02 Crystal Memory" data-flag="@X" onclick="openSidebar('34_RU02 Crystal Memory',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\56_RB02 Dark Clown.png" id="56_RB02 Dark Clown" data-flag="@X" onclick="openSidebar('56_RB02 Dark Clown',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\78_RR02 Draglide.png" id="78_RR02 Draglide" data-flag="@X" onclick="openSidebar('78_RR02 Draglide',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\100_RG02 Natural Snare.png" id="100_RG02 Natural Snare" data-flag="@X" onclick="openSidebar('100_RG02 Natural Snare',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\13_RW03 Holy Awe.png" id="13_RW03 Holy Awe" data-flag="@X" onclick="openSidebar('13_RW03 Holy Awe',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\35_RU03 Saucer-Head Shark.png" id="35_RU03 Saucer-Head Shark" data-flag="@X" onclick="openSidebar('35_RU03 Saucer-Head Shark',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\57_RB03 Gigaberos.png" id="57_RB03 Gigaberos" data-flag="@X" onclick="openSidebar('57_RB03 Gigaberos',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\79_RR03 Explosive Fighter Ucarn.png" id="79_RR03 Explosive Fighter Ucarn" data-flag="@X" onclick="openSidebar('79_RR03 Explosive Fighter Ucarn',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\101_RG03 Red-Eye Scorpion.png" id="101_RG03 Red-Eye Scorpion" data-flag="@X" onclick="openSidebar('101_RG03 Red-Eye Scorpion',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\14_RW04 Lah, Purification Enforcer.png" id="14_RW04 Lah, Purification Enforcer" data-flag="@X" onclick="openSidebar('14_RW04 Lah, Purification Enforcer',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\36_RU04 Teleportation.png" id="36_RU04 Teleportation" data-flag="@X" onclick="openSidebar('36_RU04 Teleportation',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\58_RB04 Gigagiele.png" id="58_RB04 Gigagiele" data-flag="@X" onclick="openSidebar('58_RB04 Gigagiele',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\80_RR04 Magma Gazer.png" id="80_RR04 Magma Gazer" data-flag="@X" onclick="openSidebar('80_RR04 Magma Gazer',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\102_RG04 Stampeding Longhorn.png" id="102_RG04 Stampeding Longhorn" data-flag="@X" onclick="openSidebar('102_RG04 Stampeding Longhorn',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\15_RW05 Laser Wing.png" id="15_RW05 Laser Wing" data-flag="@X" onclick="openSidebar('15_RW05 Laser Wing',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\37_RU05 Tropico.png" id="37_RU05 Tropico" data-flag="@X" onclick="openSidebar('37_RU05 Tropico',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\59_RB05 Night Master, Shadow of Decay.png" id="59_RB05 Night Master, Shadow of Decay" data-flag="@X" onclick="openSidebar('59_RB05 Night Master, Shadow of Decay',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\81_RR05 Nomad Hero Gigio.png" id="81_RR05 Nomad Hero Gigio" data-flag="@X" onclick="openSidebar('81_RR05 Nomad Hero Gigio',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\103_RG05 Storm Shell.png" id="103_RG05 Storm Shell" data-flag="@X" onclick="openSidebar('103_RG05 Storm Shell',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\16_RW06 Szubs Kin, Twilight Guardian.png" id="16_RW06 Szubs Kin, Twilight Guardian" data-flag="@X" onclick="openSidebar('16_RW06 Szubs Kin, Twilight Guardian',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\38_RU06 Unicorn Fish.png" id="38_RU06 Unicorn Fish" data-flag="@X" onclick="openSidebar('38_RU06 Unicorn Fish',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\60_RB06 Terror Pit.png" id="60_RB06 Terror Pit" data-flag="@X" onclick="openSidebar('60_RB06 Terror Pit',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\82_RR06 Rothus, the Traveler.png" id="82_RR06 Rothus, the Traveler" data-flag="@X" onclick="openSidebar('82_RR06 Rothus, the Traveler',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\104_RG06 Tri-horn Shepherd.png" id="104_RG06 Tri-horn Shepherd" data-flag="@X" onclick="openSidebar('104_RG06 Tri-horn Shepherd',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\17_UW01 Frei, Vizier of Air.png" id="17_UW01 Frei, Vizier of Air" data-flag="@X" onclick="openSidebar('17_UW01 Frei, Vizier of Air',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\39_UU01 Aqua Soldier.png" id="39_UU01 Aqua Soldier" data-flag="@X" onclick="openSidebar('39_UU01 Aqua Soldier',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\61_UB01 Bone Spider.png" id="61_UB01 Bone Spider" data-flag="@X" onclick="openSidebar('61_UB01 Bone Spider',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\83_UR01 Armored Walker Urherion.png" id="83_UR01 Armored Walker Urherion" data-flag="@X" onclick="openSidebar('83_UR01 Armored Walker Urherion',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\105_UG01 Coiling Vines.png" id="105_UG01 Coiling Vines" data-flag="@X" onclick="openSidebar('105_UG01 Coiling Vines',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\18_UW02 Iocant, the Oracle.png" id="18_UW02 Iocant, the Oracle" data-flag="@X" onclick="openSidebar('18_UW02 Iocant, the Oracle',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\40_UU02 Brain Serum.png" id="40_UU02 Brain Serum" data-flag="@X" onclick="openSidebar('40_UU02 Brain Serum',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\62_UB02 Dark Raven, Shadow of Grief.png" id="62_UB02 Dark Raven, Shadow of Grief" data-flag="@X" onclick="openSidebar('62_UB02 Dark Raven, Shadow of Grief',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\84_UR02 Meteosaur.png" id="84_UR02 Meteosaur" data-flag="@X" onclick="openSidebar('84_UR02 Meteosaur',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\106_UG02 Dome Shell.png" id="106_UG02 Dome Shell" data-flag="@X" onclick="openSidebar('106_UG02 Dome Shell',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\19_UW03 Lok, Vizier of Hunting.png" id="19_UW03 Lok, Vizier of Hunting" data-flag="@X" onclick="openSidebar('19_UW03 Lok, Vizier of Hunting',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\41_UU03 Faerie Child.png" id="41_UU03 Faerie Child" data-flag="@X" onclick="openSidebar('41_UU03 Faerie Child',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\63_UB03 Dark Reversal.png" id="63_UB03 Dark Reversal" data-flag="@X" onclick="openSidebar('63_UB03 Dark Reversal',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\85_UR03 Onslaughter Triceps.png" id="85_UR03 Onslaughter Triceps" data-flag="@X" onclick="openSidebar('85_UR03 Onslaughter Triceps',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\107_UG03 Forest Hornet.png" id="107_UG03 Forest Hornet" data-flag="@X" onclick="openSidebar('107_UG03 Forest Hornet',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\20_UW04 Moonlight Flash.png" id="20_UW04 Moonlight Flash" data-flag="@X" onclick="openSidebar('20_UW04 Moonlight Flash',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\42_UU04 Illusionary Merfolk.png" id="42_UU04 Illusionary Merfolk" data-flag="@X" onclick="openSidebar('42_UU04 Illusionary Merfolk',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\64_UB04 Masked Horror, Shadow of Scorn.png" id="64_UB04 Masked Horror, Shadow of Scorn" data-flag="@X" onclick="openSidebar('64_UB04 Masked Horror, Shadow of Scorn',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\86_UR04 Stonesaur.png" id="86_UR04 Stonesaur" data-flag="@X" onclick="openSidebar('86_UR04 Stonesaur',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\108_UG04 Pangaea's Song.png" id="108_UG04 Pangaeas Song" data-flag="@X" onclick="openSidebar('108_UG04 Pangaeas Song',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\21_UW05 Ruby Grass.png" id="21_UW05 Ruby Grass" data-flag="@X" onclick="openSidebar('21_UW05 Ruby Grass',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\43_UU05 King Coral.png" id="43_UU05 King Coral" data-flag="@X" onclick="openSidebar('43_UU05 King Coral',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\65_UB05 Stinger Worm.png" id="65_UB05 Stinger Worm" data-flag="@X" onclick="openSidebar('65_UB05 Stinger Worm',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\87_UR05 Super Explosive Volcanodon.png" id="87_UR05 Super Explosive Volcanodon" data-flag="@X" onclick="openSidebar('87_UR05 Super Explosive Volcanodon',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\109_UG05 Poisonous Dahlia.png" id="109_UG05 Poisonous Dahlia" data-flag="@X" onclick="openSidebar('109_UG05 Poisonous Dahlia',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\22_UW06 Toel, Vizier of Hope.png" id="22_UW06 Toel, Vizier of Hope" data-flag="@X" onclick="openSidebar('22_UW06 Toel, Vizier of Hope',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\44_UU06 Revolver Fish.png" id="44_UU06 Revolver Fish" data-flag="@X" onclick="openSidebar('44_UU06 Revolver Fish',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\66_UB06 Swamp Worm.png" id="66_UB06 Swamp Worm" data-flag="@X" onclick="openSidebar('66_UB06 Swamp Worm',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\88_UR06 Tornado Flame.png" id="88_UR06 Tornado Flame" data-flag="@X" onclick="openSidebar('88_UR06 Tornado Flame',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\110_UG06 Poisonous Mushroom.png" id="110_UG06 Poisonous Mushroom" data-flag="@X" onclick="openSidebar('110_UG06 Poisonous Mushroom',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\1_CW01 Emerald Grass.png" id="1_CW01 Emerald Grass" data-flag="@X" onclick="openSidebar('1_CW01 Emerald Grass',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\23_CU01 Aqua Hulcus.png" id="23_CU01 Aqua Hulcus" data-flag="@X" onclick="openSidebar('23_CU01 Aqua Hulcus',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\45_CB01 Black Feather, Shadow of Rage.png" id="45_CB01 Black Feather, Shadow of Rage" data-flag="@X" onclick="openSidebar('45_CB01 Black Feather, Shadow of Rage',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\67_CR01 Artisan Picora.png" id="67_CR01 Artisan Picora" data-flag="@X" onclick="openSidebar('67_CR01 Artisan Picora',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\89_CG01 Bronze-Arm Tribe.png" id="89_CG01 Bronze-Arm Tribe" data-flag="@X" onclick="openSidebar('89_CG01 Bronze-Arm Tribe',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\2_CW02 Iere, Vizier of Bullets.png" id="2_CW02 Iere, Vizier of Bullets" data-flag="@X" onclick="openSidebar('2_CW02 Iere, Vizier of Bullets',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\24_CU02 Aqua Vehicle.png" id="24_CU02 Aqua Vehicle" data-flag="@X" onclick="openSidebar('24_CU02 Aqua Vehicle',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\46_CB02 Bloody Squito.png" id="46_CB02 Bloody Squito" data-flag="@X" onclick="openSidebar('46_CB02 Bloody Squito',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\68_CR02 Brawler Zyler.png" id="68_CR02 Brawler Zyler" data-flag="@X" onclick="openSidebar('68_CR02 Brawler Zyler',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\90_CG02 Burning Mane.png" id="90_CG02 Burning Mane" data-flag="@X" onclick="openSidebar('90_CG02 Burning Mane',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\3_CW03 La Ura Giga, Sky Guardian.png" id="3_CW03 La Ura Giga, Sky Guardian" data-flag="@X" onclick="openSidebar('3_CW03 La Ura Giga, Sky Guardian',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\25_CU03 Candy Drop.png" id="25_CU03 Candy Drop" data-flag="@X" onclick="openSidebar('25_CU03 Candy Drop',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\47_CB03 Bone Assassin, the Ripper.png" id="47_CB03 Bone Assassin, the Ripper" data-flag="@X" onclick="openSidebar('47_CB03 Bone Assassin, the Ripper',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\69_CR03 Burning Power.png" id="69_CR03 Burning Power" data-flag="@X" onclick="openSidebar('69_CR03 Burning Power',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\91_CG03 Dimension Gate.png" id="91_CG03 Dimension Gate" data-flag="@X" onclick="openSidebar('91_CG03 Dimension Gate',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\4_CW04 Miele, Vizier of Lightning.png" id="4_CW04 Miele, Vizier of Lightning" data-flag="@X" onclick="openSidebar('4_CW04 Miele, Vizier of Lightning',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\26_CU04 Hunter Fish.png" id="26_CU04 Hunter Fish" data-flag="@X" onclick="openSidebar('26_CU04 Hunter Fish',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\48_CB04 Death Smoke.png" id="48_CB04 Death Smoke" data-flag="@X" onclick="openSidebar('48_CB04 Death Smoke',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\70_CR04 Crimson Hammer.png" id="70_CR04 Crimson Hammer" data-flag="@X" onclick="openSidebar('70_CR04 Crimson Hammer',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\92_CG04 Fear Fang.png" id="92_CG04 Fear Fang" data-flag="@X" onclick="openSidebar('92_CG04 Fear Fang',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\5_CW05 Reusol, the Oracle.png" id="5_CW05 Reusol, the Oracle" data-flag="@X" onclick="openSidebar('5_CW05 Reusol, the Oracle',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\27_CU05 Marine Flower.png" id="27_CU05 Marine Flower" data-flag="@X" onclick="openSidebar('27_CU05 Marine Flower',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\49_CB05 Ghost Touch.png" id="49_CB05 Ghost Touch" data-flag="@X" onclick="openSidebar('49_CB05 Ghost Touch',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\71_CR05 Deadly Fighter Braid Claw.png" id="71_CR05 Deadly Fighter Braid Claw" data-flag="@X" onclick="openSidebar('71_CR05 Deadly Fighter Braid Claw',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\93_CG05 Golden Wing Striker.png" id="93_CG05 Golden Wing Striker" data-flag="@X" onclick="openSidebar('93_CG05 Golden Wing Striker',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\6_CW06 Senatine Jade Tree.png" id="6_CW06 Senatine Jade Tree" data-flag="@X" onclick="openSidebar('6_CW06 Senatine Jade Tree',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\28_CU06 Phantom Fish.png" id="28_CU06 Phantom Fish" data-flag="@X" onclick="openSidebar('28_CU06 Phantom Fish',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\50_CB06 Skeleton Soldier, the Defiled.png" id="50_CB06 Skeleton Soldier, the Defiled" data-flag="@X" onclick="openSidebar('50_CB06 Skeleton Soldier, the Defiled',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\72_CR06 Fatal Attacker Horvath.png" id="72_CR06 Fatal Attacker Horvath" data-flag="@X" onclick="openSidebar('72_CR06 Fatal Attacker Horvath',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\94_CG06 Mighty Shouter.png" id="94_CG06 Mighty Shouter" data-flag="@X" onclick="openSidebar('94_CG06 Mighty Shouter',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\7_CW07 Solar Ray.png" id="7_CW07 Solar Ray" data-flag="@X" onclick="openSidebar('7_CW07 Solar Ray',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\29_CU07 Spiral Gate.png" id="29_CU07 Spiral Gate" data-flag="@X" onclick="openSidebar('29_CU07 Spiral Gate',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\51_CB07 Wandering Braineater.png" id="51_CB07 Wandering Braineater" data-flag="@X" onclick="openSidebar('51_CB07 Wandering Braineater',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\73_CR07 Fire Sweeper Burning Hellion.png" id="73_CR07 Fire Sweeper Burning Hellion" data-flag="@X" onclick="openSidebar('73_CR07 Fire Sweeper Burning Hellion',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\95_CG07 Steel Smasher.png" id="95_CG07 Steel Smasher" data-flag="@X" onclick="openSidebar('95_CG07 Steel Smasher',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\8_CW08 Sonic Wing.png" id="8_CW08 Sonic Wing" data-flag="@X" onclick="openSidebar('8_CW08 Sonic Wing',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\30_CU08 Virtual Tripwire.png" id="30_CU08 Virtual Tripwire" data-flag="@X" onclick="openSidebar('30_CU08 Virtual Tripwire',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\52_CB08 Writhing Bone Ghoul.png" id="52_CB08 Writhing Bone Ghoul" data-flag="@X" onclick="openSidebar('52_CB08 Writhing Bone Ghoul',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\74_CR08 Immortal Baron, Vorg.png" id="74_CR08 Immortal Baron, Vorg" data-flag="@X" onclick="openSidebar('74_CR08 Immortal Baron, Vorg',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\96_CG08 Ultimate Force.png" id="96_CG08 Ultimate Force" data-flag="@X" onclick="openSidebar('96_CG08 Ultimate Force',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\111_SW01 Hanusa, Radiance Elemental.png" id="111_SW01 Hanusa, Radiance Elemental" data-flag="@X" onclick="openSidebar('111_SW01 Hanusa, Radiance Elemental',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\113_SU01 Aqua Sniper.png" id="113_SU01 Aqua Sniper" data-flag="@X" onclick="openSidebar('113_SU01 Aqua Sniper',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\115_SB01 Deathliger, Lion of Chaos.png" id="115_SB01 Deathliger, Lion of Chaos" data-flag="@X" onclick="openSidebar('115_SB01 Deathliger, Lion of Chaos',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\117_SR01 Astrocomet Dragon.png" id="117_SR01 Astrocomet Dragon" data-flag="@X" onclick="openSidebar('117_SR01 Astrocomet Dragon',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\119_SG01 Deathblade Beetle.png" id="119_SG01 Deathblade Beetle" data-flag="@X" onclick="openSidebar('119_SG01 Deathblade Beetle',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\112_SW02 Urth, Purifying Elemental.png" id="112_SW02 Urth, Purifying Elemental" data-flag="@X" onclick="openSidebar('112_SW02 Urth, Purifying Elemental',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\114_SU02 King Depthcon.png" id="114_SU02 King Depthcon" data-flag="@X" onclick="openSidebar('114_SU02 King Depthcon',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\116_SB02 Zagaan, Knight of Darkness.png" id="116_SB02 Zagaan, Knight of Darkness" data-flag="@X" onclick="openSidebar('116_SB02 Zagaan, Knight of Darkness',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\118_SR02 Scarlet Skyterror.png" id="118_SR02 Scarlet Skyterror" data-flag="@X" onclick="openSidebar('118_SR02 Scarlet Skyterror',false)"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\120_SG02 Roaring Great-Horn.png" id="120_SG02 Roaring Great-Horn" data-flag="@X" onclick="openSidebar('120_SG02 Roaring Great-Horn',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\0_SHIELD MECHANICS.png" id="0_SHIELD MECHANICS" data-flag="@X" onclick="openSidebar('0_SHIELD MECHANICS',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img alt="/sets\DM01-files\img\1t_SHIELD.png" id="1t_SHIELD" data-flag="@X" onclick="openSidebar('1t_SHIELD',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 	</div>
-</div>
+	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
 			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
@@ -365,7 +383,7 @@
 				card_list_arrayified = card_list.cards;
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
-		
+
 		let images_loaded = [];
 
 		do {
@@ -455,7 +473,7 @@
 	function openSidebar(id, h = false) {
 		horizontal = h;
 		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
-		
+
 		document.getElementById('sidebar').style.display = 'grid';
 
 		const rotated_img = document.getElementById('sidebar_h_img');
@@ -486,7 +504,7 @@
 			document.getElementById('sidebar-flip-btn').style.display = 'none';
 		}
 		document.getElementById('main-content').style.width = '60%';
-		
+
 		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
 		window.scrollTo(window.scrollX, scroll_pos);
 		setSidebarTop();
@@ -497,10 +515,28 @@
 
 		document.getElementById('sidebar').style.display = 'none';
 		document.getElementById('main-content').style.width = '100%';
-		
+
 
 		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
 		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
 	}
 
 	document.getElementById("search").addEventListener("keypress", function(event) {
