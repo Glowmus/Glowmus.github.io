@@ -11,6 +11,7 @@ def generateHTML(codes):
 	<link rel="icon" type="image/x-icon" href="/img/deck.png">
 	<link rel="stylesheet" href="resources/mana.css">
 	<link rel="stylesheet" href="/resources/header.css">
+	<link rel="stylesheet" href="/resources/card-text.css">
 </head>
 <style>
 	@font-face {
@@ -163,26 +164,16 @@ def generateHTML(codes):
 		overflow-y: scroll;
 		scrollbar-width: none;
 		height: 50%;
+		padding: 10px 0;
 	}
 	.card-text div {
-		white-space: normal;
 		font-size: 13px;
-		padding-bottom: 10px;
-		padding-left: 12px;
-		padding-right: 12px;
-		line-height: 155%;
 	}
 	.card-text .name-cost {
-		font-weight: bold;
 		font-size: 16px;
-		white-space: pre-wrap;
-		padding-top: 10px;
 	}
 	.card-text .type {
 		font-size: 14px;
-	}
-	.card-text .pt {
-		font-weight: bold;
 	}
 	.card-text br {
 		content: "";
@@ -338,7 +329,7 @@ def generateHTML(codes):
 	.deck-line {
 		border-top: 1px solid #d5d9d9;
 		display: grid;
-		grid-template-columns: 1fr 13fr;
+		grid-template-columns: 1fr 1fr 13fr;
 		gap: 5px;
 		align-items: center;
 	}
@@ -350,7 +341,7 @@ def generateHTML(codes):
 		height: 2.1vw;
 		max-height: 45px;
 		display: grid;
-		grid-template-columns: 1fr 2fr 12fr;
+		grid-template-columns: 1fr 1fr 2fr 12fr;
 		gap: 2px;
 		font-weight: bold;
 		line-height: 1;
@@ -465,6 +456,7 @@ def generateHTML(codes):
 					<option value="import">Import deck</option>
 					<option value="export-dek">Export .dek</option>
 					<option value="export-txt">Export .txt</option>
+					<option value="export-cod">Export .cod</option>
 				</select>
 				<input type="file" class="hidden" id="import-file" onclick="this.value=null;">
 			</div>
@@ -997,11 +989,22 @@ def generateHTML(codes):
 							del_btn = document.createElement("img");
 							del_btn.className = "icon";
 							del_btn.style.cursor = "pointer";
+
+							add_btn = document.createElement("img");
+							add_btn.className = "icon";
+							add_btn.style.cursor = "pointer";
+
 							if (key == "sideboard")
 							{
 								del_btn.src = "/img/sb-delete.png";
 								del_btn.onclick = function() {
 									sideboard.splice(sideboard.indexOf(card), 1);
+									processDeck();
+								}
+
+								add_btn.src = "/img/sb-add.png";
+								add_btn.onclick = function() {
+									sideboard.push(card);
 									processDeck();
 								}
 
@@ -1018,6 +1021,12 @@ def generateHTML(codes):
 									processDeck();
 								}
 
+								add_btn.src = "/img/add.png";
+								add_btn.onclick = function() {
+									deck.push(card);
+									processDeck();
+								}
+
 								card_in_deck.onclick = function() {
 									deck.splice(deck.indexOf(card), 1);
 									addCardToSideboard(card);
@@ -1028,7 +1037,12 @@ def generateHTML(codes):
 							db_container.className = "card-fx";
 							db_container.appendChild(del_btn);
 
+							ab_container = document.createElement("div");
+							ab_container.className = "card-fx";
+							ab_container.appendChild(add_btn);
+
 							card_row.appendChild(db_container);
+							card_row.appendChild(ab_container);
 							card_row.appendChild(card_in_deck);
 							cards_ele.appendChild(card_row);
 						}
@@ -1066,11 +1080,22 @@ def generateHTML(codes):
 							del_btn = document.createElement("img");
 							del_btn.className = "icon";
 							del_btn.style.cursor = "pointer";
+
+							add_btn = document.createElement("img");
+							add_btn.className = "icon";
+							add_btn.style.cursor = "pointer";
+
 							if (key == "sideboard")
 							{
 								del_btn.src = "/img/sb-delete.png";
 								del_btn.onclick = function() {
 									sideboard.splice(sideboard.indexOf(card), 1);
+									processDeck();
+								}
+
+								add_btn.src = "/img/sb-add.png";
+								add_btn.onclick = function() {
+									sideboard.push(card);
 									processDeck();
 								}
 
@@ -1087,6 +1112,12 @@ def generateHTML(codes):
 									processDeck();
 								}
 
+								add_btn.src = "/img/add.png";
+								add_btn.onclick = function() {
+									deck.push(card);
+									processDeck();
+								}
+
 								card_img.onclick = function() {
 									deck.splice(deck.indexOf(card), 1);
 									addCardToSideboard(card);
@@ -1096,9 +1127,14 @@ def generateHTML(codes):
 							db_container = document.createElement("div");
 							db_container.className = "card-fx";
 							db_container.appendChild(del_btn);
+
+							ab_container = document.createElement("div");
+							ab_container.className = "card-fx";
+							ab_container.appendChild(add_btn);
 							card_count.className = "card-fx";
 
 							card_img_container.appendChild(db_container);
+							card_img_container.appendChild(ab_container);
 							card_img_container.appendChild(card_count);
 							card_img_container.appendChild(card_img);
 							cards_ele.appendChild(card_img_container);
@@ -1110,6 +1146,12 @@ def generateHTML(codes):
 
 		async function exportFile(export_as) {
 			let deck_text = "";
+			let deck_name = document.getElementById("deck-name").value;
+			let export_cod = (export_as == "export-cod");
+
+			if (export_cod) {
+				deck_text += `<?xml version="1.0" encoding="UTF-8"?>\\n<cockatrice_deck version="1">\\n\\t<deckname>${deck_name}</deckname>\\n\\t<zone name="main">\\n`;
+			}
 
 			let map = new Map([]);
 			for (const card of deck)
@@ -1125,11 +1167,16 @@ def generateHTML(codes):
 			}
 			for (const card_map of Array.from(map.keys()))
 			{
-				deck_text += map.get(card_map) + " " + (export_as == "export-dek" ? card_map : JSON.parse(card_map).card_name) + "\\n";
+				let card_number = map.get(card_map);
+				if (export_cod) {
+					deck_text += `\\t\\t<card number="${card_number}" name="${JSON.parse(card_map).card_name}"/>\\n`;
+					continue; // continue instead of writing else
+				}
+				deck_text += card_number + " " + (export_as == "export-dek" ? card_map : JSON.parse(card_map).card_name + "\\n");
 			}
 			if (sideboard.length != 0)
 			{
-				deck_text += "sideboard\\n";
+				deck_text += export_cod ? '\\t</zone>\\n\\t<zone name="side">\\n' : "sideboard\\n";
 				map = new Map([]);
 				for (const card of sideboard)
 				{
@@ -1144,13 +1191,22 @@ def generateHTML(codes):
 				}
 				for (const card_map of Array.from(map.keys()))
 				{
-					deck_text += map.get(card_map) + " " + (export_as == "export-dek" ? card_map : JSON.parse(card_map).card_name) + "\\n";
+					let card_number = map.get(card_map);
+					if (export_cod) {
+						deck_text += `\\t\\t<card number="${card_number}" name="${JSON.parse(card_map).card_name}"/>\\n`;
+						continue; // continue instead of writing else
+					}
+					deck_text += card_number + " " + (export_as == "export-dek" ? card_map : JSON.parse(card_map).card_name + "\\n");
 				}
+			}
+
+			if (export_cod) {
+				deck_text += "\\t</zone>\\n</cockatrice_deck>";
 			}
 
 			let downloadableLink = document.createElement('a');
 			downloadableLink.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(deck_text));
-			downloadableLink.download = document.getElementById("deck-name").value + (export_as == "export-dek" ? ".dek" : ".txt");
+			downloadableLink.download = deck_name + ("." + export_as.split("-")[1]);
 			document.body.appendChild(downloadableLink);
 			downloadableLink.click();
 			document.body.removeChild(downloadableLink);
