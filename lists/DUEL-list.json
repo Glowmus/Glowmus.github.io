@@ -1,0 +1,2118 @@
+﻿[
+    {
+        "card_name": "MW01 Alcadeias, Lord of Spirits",
+        "number": 17,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "MU01 Astral Warper",
+        "number": 63,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "MB01 Gigargon",
+        "number": 109,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "MR01 Bolshack Dragon",
+        "number": 155,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "MG01 Gigamantis",
+        "number": 201,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "MW02 Gran Gure, Space Guardian",
+        "number": 18,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "MU02 Legendary Bynor",
+        "number": 64,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "MB02 Jack Viper, Shadow of Doom",
+        "number": 110,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "MR02 Doboulgyser, Giant Rock Beast",
+        "number": 156,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "MG02 Tower Shell",
+        "number": 202,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "MW03 Holy Awe",
+        "number": 19,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "MU03 Plasma Chaser",
+        "number": 65,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "MB03 Trox, General of Destruction",
+        "number": 111,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "MR03 \u00dcberdragon Jabaha",
+        "number": 157,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "MG03 Xeno Mantis",
+        "number": 203,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RW01 Chilias, the Oracle",
+        "number": 20,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RU01 Aqua Bouncer",
+        "number": 66,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RB01 Amber Piercer",
+        "number": 112,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RR01 Blaze Cannon",
+        "number": 158,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RG01 Ancient Giant",
+        "number": 204,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RW02 Dia Nork, Moonlight Guardian",
+        "number": 21,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RU02 Aqua Knight",
+        "number": 67,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RB02 Chains of Sacrifice",
+        "number": 113,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RR02 Boltail Dragon",
+        "number": 159,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RG02 Aura Blast",
+        "number": 205,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RW03 Ethel, Star Sea Elemental",
+        "number": 22,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RU03 Crystal Memory",
+        "number": 68,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RB03 Creeping Plague",
+        "number": 114,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RR03 Bolzard Dragon",
+        "number": 160,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RG03 Aurora of Reversal",
+        "number": 206,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RW04 Full Defensor",
+        "number": 23,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RU05 King Nautilus",
+        "number": 69,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RB04 Dark Clown",
+        "number": 115,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RR04 Bombersaur",
+        "number": 161,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RG04 Elf-X",
+        "number": 207,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RW05 Laguna, Lightning Enforcer",
+        "number": 24,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RU06 King Ripped-Hide",
+        "number": 70,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RB05 Dark Titan Maginn",
+        "number": 116,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RR05 Chaotic Skyterror",
+        "number": 162,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RG05 Fortress Shell",
+        "number": 208,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RW06 Laser Wing",
+        "number": 25,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RU07 Marinomancer",
+        "number": 71,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RB06 Gigaberos",
+        "number": 117,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RR06 Dogarn, the Marauder",
+        "number": 163,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RG06 Mystic Inscription",
+        "number": 209,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RW07 Logic Sphere",
+        "number": 26,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RU07 Psychic Shaper",
+        "number": 72,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RB07 Gigagiele",
+        "number": 118,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RR07 Explosive Fighter Ucarn",
+        "number": 164,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RG07 Psyshroom",
+        "number": 210,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RW08 Phal Eega, Dawn Guardian",
+        "number": 27,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RU08 Saucer-Head Shark",
+        "number": 73,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RB08 Night Master, Shadow of Decay",
+        "number": 119,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RR08 Magma Gazer",
+        "number": 165,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RG08 Rumbling Terahorn",
+        "number": 211,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RW09 Rayla, Truth Enforcer",
+        "number": 28,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RU09 Seamine",
+        "number": 74,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RB09 Photocide, Lord of the Wastes",
+        "number": 120,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RR09 Gatling Skyterror",
+        "number": 166,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RG09 Stampeding Longhorn",
+        "number": 212,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RW10 Raza Vega, Thunder Guardian",
+        "number": 29,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RU10 Teleportation",
+        "number": 75,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RB10 Poison Worm",
+        "number": 121,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RR10 Magmarex",
+        "number": 167,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RG10 Sword of Benevolent Life",
+        "number": 213,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RW11 Sieg Balicula, the Intense",
+        "number": 30,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RU11 Tropico",
+        "number": 76,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RB11 Scratchclaw",
+        "number": 122,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RR11 Metalwing Skyterror",
+        "number": 168,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RG11 Thorny Mandra",
+        "number": 214,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RW12 Spiral Grass",
+        "number": 31,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RU12 Unicorn Fish",
+        "number": 77,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RB12 Terror Pit",
+        "number": 123,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RR12 Rothus, the Traveler",
+        "number": 169,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RG12 Tri-horn Shepherd",
+        "number": 215,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UW0X Miele, Vizier of Lightning",
+        "number": 32,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UU01 Aqua Soldier",
+        "number": 78,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UB0X Black Feather, Shadow of Rage",
+        "number": 124,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UR0X Artisan Picora",
+        "number": 170,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UG01 Barkwhip, the Smasher",
+        "number": 216,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UW01 Boomerang Comet",
+        "number": 33,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UU01 Crystal Lancer",
+        "number": 79,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UB0X Bone Piercer",
+        "number": 125,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UR0X Snip Striker Bullraizer",
+        "number": 171,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UG01 Coiling Vines",
+        "number": 217,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UW01 Diamond Cutter",
+        "number": 34,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UU01 Flood Valve",
+        "number": 80,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UB0X Skeleton Thief, the Revealer",
+        "number": 126,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UR01 Armored Cannon Balbaro",
+        "number": 172,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UG01 Dew Mushroom",
+        "number": 218,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UW01 Frei, Vizier of Air",
+        "number": 35,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UU01 Hunter Cluster",
+        "number": 81,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UB0X Wandering Braineater",
+        "number": 127,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UR01 Armored Walker Urherion",
+        "number": 173,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UG01 Mana Nexus",
+        "number": 219,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UW01 Fu Reil, Seeker of Storms",
+        "number": 36,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UU02 Brain Serum",
+        "number": 82,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UB01 Chaos Worm",
+        "number": 128,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UR01 Armored Warrior Quelos",
+        "number": 174,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UG02 Dome Shell",
+        "number": 220,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UW02 Iocant, the Oracle",
+        "number": 37,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UU02 Corile",
+        "number": 83,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UB01 Gigabolver",
+        "number": 129,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UR01 Missile Boy",
+        "number": 175,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UG02 Exploding Cactus",
+        "number": 221,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UW02 Larba Geer, the Immaculate",
+        "number": 38,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UU02 King Neptas",
+        "number": 84,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UB02 Dark Raven, Shadow of Grief",
+        "number": 130,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UR02 Burst Shot",
+        "number": 176,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UG02 Mana Crisis",
+        "number": 222,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UW02 Milieus, the Daystretcher",
+        "number": 39,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UU02 Stained Glass",
+        "number": 85,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UB02 Eldritch Poison",
+        "number": 131,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UR02 Meteosaur",
+        "number": 177,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UG02 Three-Eyed Dragonfly",
+        "number": 223,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UW03 Lah, Purification Enforcer",
+        "number": 40,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UU03 Faerie Child",
+        "number": 86,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UB02 Gray Balloon, Shadow of Greed",
+        "number": 132,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UR02 Sword of Malevolent Death",
+        "number": 178,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UG03 Leaping Tornado Horn",
+        "number": 224,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UW03 Mist Rias, Sonic Guardian",
+        "number": 41,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UU03 Stinger Ball",
+        "number": 87,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UB02 Locomotiver",
+        "number": 133,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UR03 Cavalry General Curatops",
+        "number": 179,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UG03 Silver Fist",
+        "number": 225,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UW03 Wyn, the Oracle",
+        "number": 42,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UU04 Illusionary Merfolk",
+        "number": 88,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UB03 Dark Reversal",
+        "number": 134,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UR03 Onslaughter Triceps",
+        "number": 180,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UG03 Sniper Mosquito",
+        "number": 226,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UW04 Moonlight Flash",
+        "number": 43,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UU05 King Coral",
+        "number": 89,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UB03 Hang Worm, Fetid Larva",
+        "number": 135,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UR03 Searing Wave",
+        "number": 181,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UG04 Pangaea's Song",
+        "number": 227,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UW04 Re Bil, Seeker of Archery",
+        "number": 44,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UU06 Revolver Fish",
+        "number": 90,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UB03 Lost Soul",
+        "number": 136,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UR04 Stonesaur",
+        "number": 182,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UG05 Mighty Shouter",
+        "number": 228,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UW05 Ruby Grass",
+        "number": 45,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UU07 Keeper of the Sunlit Abyss",
+        "number": 91,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UB04 Soul Gulp",
+        "number": 137,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UR05 Super Explosive Volcanodon",
+        "number": 183,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UG05 Poisonous Dahlia",
+        "number": 229,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UW05 Screaming Sunburst",
+        "number": 46,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UU14 Clone Factory",
+        "number": 92,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UB06 Swamp Worm",
+        "number": 138,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UR06 Tornado Flame",
+        "number": 184,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UG05 Steel Smasher",
+        "number": 230,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CW01 La Ura Giga, Sky Guardian",
+        "number": 1,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CU01 Aqua Guard",
+        "number": 47,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CB01 Marrow Ooze, the Twister",
+        "number": 93,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CR01 Deadly Fighter Braid Claw",
+        "number": 139,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CG01 Essence Elf",
+        "number": 185,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CW02 Emerald Grass",
+        "number": 2,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CU02 Marine Flower",
+        "number": 48,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CB02 Bloody Squito",
+        "number": 94,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CR02 Brawler Zyler",
+        "number": 140,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CG02 Burning Mane",
+        "number": 186,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CW03 Reusol, the Oracle",
+        "number": 3,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CU03 Aqua Vehicle",
+        "number": 49,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CB03 Writhing Bone Ghoul",
+        "number": 95,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CR03 Kamikaze, Chainsaw Warrior",
+        "number": 141,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CG03 Torcon",
+        "number": 187,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CW04 Sarius, Vizier of Suppression",
+        "number": 4,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CU04 Emeral",
+        "number": 50,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CB04 Horrid Worm",
+        "number": 96,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CR04 Baby Zoppe",
+        "number": 142,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CG04 Bronze-Arm Tribe",
+        "number": 188,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CW05 Gulan Rias, Speed Guardian",
+        "number": 5,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CU05 Hunter Fish",
+        "number": 51,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CB05 Wailing Shadow Belbetphlo",
+        "number": 97,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CR05 Explosive Dude Joe",
+        "number": 143,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CG05 Fear Fang",
+        "number": 189,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CW06 Iere, Vizier of Bullets",
+        "number": 6,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CU06 Angler Cluster",
+        "number": 52,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CB06 Bone Assassin, the Ripper",
+        "number": 98,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CR06 Fatal Attacker Horvath",
+        "number": 144,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CG06 Sword Butterfly",
+        "number": 190,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CW07 Senatine Jade Tree",
+        "number": 7,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CU07 Aqua Hulcus",
+        "number": 53,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CB07 Gregorian Worm",
+        "number": 99,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CR07 Fire Sweeper Burning Hellion",
+        "number": 145,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CG07 Cannon Shell",
+        "number": 191,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CW08 Kolon, the Oracle",
+        "number": 8,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CU08 Aqua Jolter",
+        "number": 54,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CB08 Mudman",
+        "number": 100,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CR08 Galsaur",
+        "number": 146,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CG08 Raging Dash-Horn",
+        "number": 192,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CW09 Fonch, the Oracle",
+        "number": 9,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CU09 Phantom Fish",
+        "number": 55,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CB09 Gigastand",
+        "number": 101,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CR09 Immortal Baron, Vorg",
+        "number": 147,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CG09 Masked Pomegranate",
+        "number": 193,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CW10 Ur Pale, Seeker of Sunlight",
+        "number": 10,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CU10 Shtra",
+        "number": 56,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CB10 Critical Blade",
+        "number": 102,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CR10 Crimson Hammer",
+        "number": 148,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CG10 Forest Hornet",
+        "number": 194,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CW11 Aless, the Oracle",
+        "number": 11,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CU11 Recon Operation",
+        "number": 57,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CB11 Snake Attack",
+        "number": 103,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CR11 Burning Power",
+        "number": 149,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CG11 Roar of the Earth",
+        "number": 195,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CW12 Logic Cube",
+        "number": 12,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CU12 Spiral Gate",
+        "number": 58,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CB12 Dark Pact",
+        "number": 104,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CR12 Engineer Kipo",
+        "number": 150,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CG12 Dimension Gate",
+        "number": 196,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CW13 Solar Ray",
+        "number": 13,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CU13 Candy Drop",
+        "number": 59,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CB13 Ghost Touch",
+        "number": 105,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CR13 Rumble Gate",
+        "number": 151,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CG13 Poisonous Mushroom",
+        "number": 197,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CW14 Sundrop Armor",
+        "number": 14,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CU14 Thought Probe",
+        "number": 60,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CB14 Death Smoke",
+        "number": 106,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CR14 Volcanic Arrows",
+        "number": 152,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CG14 Silver Axe",
+        "number": 198,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CW15 Whisking Whirlwind",
+        "number": 15,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CU15 Liquid Scope",
+        "number": 61,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CB15 Shadow Moon, Cursed Shade",
+        "number": 107,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CR15 Pippie Kuppie",
+        "number": 153,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CG15 Ultimate Force",
+        "number": 199,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CW16 Lena, Vizier of Brilliance",
+        "number": 16,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CU16 Aqua Shooter",
+        "number": 62,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CB16 Skeleton Soldier, the Defiled",
+        "number": 108,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CR16 Mini Titan Gett",
+        "number": 154,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CG16 Golden Wing Striker",
+        "number": 200,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "RM01 Aeris, Flight Elemental",
+        "number": 234,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "MH01 Ghastly Drain",
+        "number": 254,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "MM02 Mega Detonator",
+        "number": 232,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RM03 Flametropus",
+        "number": 236,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "MM03 Supporting Tulip",
+        "number": 233,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UM06 Toel, Vizier of Hope",
+        "number": 249,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RM04 Gregoria, Princess of War",
+        "number": 237,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RM10 Vampire Silphy",
+        "number": 243,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UM04 Red-Eye Scorpion",
+        "number": 247,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RM08 Storm Shell",
+        "number": 241,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UH06 Magris, Vizier of Magnetism",
+        "number": 260,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UM02 General Dark Fiend",
+        "number": 245,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UM10 Volcano Smog, Deceptive Shade",
+        "number": 253,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UH08 Pouch Shell",
+        "number": 262,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UM01 Dawn Giant",
+        "number": 244,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "UH07 Masked Horror, Shadow of Scorn",
+        "number": 261,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UH03 Blasto, Explosive Soldier",
+        "number": 257,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "UH10 Sparkle Flower",
+        "number": 264,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "RM09 Szubs Kin, Twilight Guardian",
+        "number": 242,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RM05 Hypersquid Walter",
+        "number": 238,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RM06 Mongrel Man",
+        "number": 239,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RM02 Draglide",
+        "number": 235,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "RM06 Natural Snare",
+        "number": 240,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UM05 Ra Vu, Seeker of Lightning",
+        "number": 248,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UM07 Scissor Eye",
+        "number": 250,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UM03 Gamil, Knight of Hatred",
+        "number": 246,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UM08 Muramasa, Duke of Blades",
+        "number": 251,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UM09 King Ponitas",
+        "number": 252,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UH02 Baraga, Blade of Gloom",
+        "number": 256,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UH09 Smile Angler",
+        "number": 263,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UH04 Bone Spider",
+        "number": 258,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UH05 Lok, Vizier of Hunting",
+        "number": 259,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UH01 Aqua Deformer",
+        "number": 255,
+        "shape": "modal double faced",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "MM01 Hydro Hurricane",
+        "number": 231,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "MA01 Alek, Solidity Enforcer",
+        "number": 270,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UA01 Chaos Strike",
+        "number": 271,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UA02 Nomad Hero Gigio",
+        "number": 272,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UA03 Ouks, Vizier of Restoration",
+        "number": 273,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UA04 Reso Pacos, Clear Sky Guardian",
+        "number": 274,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "UA05 Stinger Worm",
+        "number": 275,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "SHIELD MECHANICS",
+        "number": 0,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CA01 Amber Grass",
+        "number": 265,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CA02 Purple Piercer",
+        "number": 266,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CA03 Rainbow Stone",
+        "number": 267,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CA04 Sonic Wing",
+        "number": 268,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CA05 Virtual Tripwire",
+        "number": 269,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "CL04 Idyllic Beachfront",
+        "number": 279,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CL01 Contaminated Aquifer",
+        "number": 276,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CL02 Geothermal Bog",
+        "number": 277,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CL10 Wooded Ridgeline",
+        "number": 285,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CL06 Radiant Grove",
+        "number": 281,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "CL08 Sunlit Marsh",
+        "number": 283,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CL05 Molten Tributary",
+        "number": 280,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CL03 Haunted Mire",
+        "number": 278,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CL07 Sacred Peaks",
+        "number": 282,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "CL09 Tangled Islet",
+        "number": 284,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "CL11 Evolving Wilds",
+        "number": 286,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Plains",
+        "number": 287,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Island",
+        "number": 288,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Swamp",
+        "number": 289,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Mountain",
+        "number": 290,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Forest",
+        "number": 291,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->token",
+    {
+        "card_name": "SHIELD",
+        "number": 1,
+        "shape": "token",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->masterpiece",
+    {
+        "card_name": "Hanusa, Radiance Elemental",
+        "number": 1,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Ladia Bale, the Inspirational",
+        "number": 2,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Miar, Comet Elemental",
+        "number": 3,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Rimuel, Cloudbreak Elemental",
+        "number": 4,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Urth, Purifying Elemental",
+        "number": 5,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Aqua Sniper",
+        "number": 6,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Chaos Fish",
+        "number": 7,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Crystal Paladin",
+        "number": 8,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "King Aquakamui",
+        "number": 9,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "King Depthcon",
+        "number": 10,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Ballom, Master of Death",
+        "number": 11,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Deathliger, Lion of Chaos",
+        "number": 12,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Giriel, Ghastly Warrior",
+        "number": 13,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Ultracide Worm",
+        "number": 14,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Zagaan, Knight of Darkness",
+        "number": 15,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Armored Blaster Valdios",
+        "number": 16,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Astrocomet Dragon",
+        "number": 17,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Galklife Dragon",
+        "number": 18,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Garkago Dragon",
+        "number": 19,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Scarlet Skyterror",
+        "number": 20,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Deathblade Beetle",
+        "number": 21,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Earthstomp Giant",
+        "number": 22,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Fighter Dual Fang",
+        "number": 23,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Niofa, Horned Protector",
+        "number": 24,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "Roaring Great-Horn",
+        "number": 25,
+        "shape": "normal",
+        "set": "DUEL"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]
