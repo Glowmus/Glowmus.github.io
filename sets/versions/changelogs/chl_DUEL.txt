@@ -1,4 +1,1040 @@
-﻿VERSION 4 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+CG02 Burning Mane added.
+CG10 Forest Hornet added.
+CG01 Essence Elf added.
+UG03 Leaping Tornado Horn added.
+CG09 Masked Pomegranate added.
+CB12 Dark Pact added.
+UG02 Exploding Cactus added.
+
+CG01 Burning Mane removed.
+UG03 Forest Hornet removed.
+CG02 Essence Elf removed.
+CG09 Leaping Tornado Horn removed.
+UG02 Masked Pomegranate removed.
+CB12 Darkpact removed.
+CG10 Exploding Cactus removed.
+
+UW01 Frei, Vizier of Air
+cost: {4} => {3}{W}
+
+UU01 Aqua Soldier
+cost: {3} => {2}{U}
+
+UH04 Bone Spider
+
+UR01 Armored Walker Urherion
+cost: {4} => {3}{R}
+
+UR02 Meteosaur
+cost: {5} => {4}{R}
+
+UR03 Onslaughter Triceps
+cost: {3} => {2}{R}
+
+UR04 Stonesaur
+cost: {5} => {4}{R}
+
+UR05 Super Explosive Volcanodon
+cost: {4} => {3}{R}
+
+UG01 Coiling Vines
+cost: {4} => {3}{G}
+
+CW02 Emerald Grass
+
+CU07 Aqua Hulcus
+
+UB0X Black Feather, Shadow of Rage
+cost: {1} => {B}
+
+UR0X Artisan Picora
+cost: {1} => {R}
+
+CR02 Brawler Zyler
+cost: {2} => {1}{R}
+rules_text:  => [i]Landfall[/i] — Whenever a land enters under your control, this creature gets +1/+1 until end of turn.
+
+CR11 Burning Power
+type: Enchantment — Aura => Instant
+cost: {1} => {1}{R}
+rules_text:  => Target creature gets +2/+0 and gains first strike and trample until end of turn.
+
+CR10 Crimson Hammer
+cost: {2} => {1}{R}
+rules_text:  => Choose up to two —
+• Deal 2 damage to target creature.
+• Deal 2 damage to target player.
+• Break target shield.
+
+CR01 Deadly Fighter Braid Claw
+cost: {1} => {R}
+rules_text:  => As long as you control a shield, this creature gets +1/+0 and has haste.
+This creature attacks each combat if able.
+
+CR06 Fatal Attacker Horvath
+cost: {3} => {2}{R}
+rules_text:  => While you control an artifact, this creature gets +2/+0.
+
+CR07 Fire Sweeper Burning Hellion
+cost: {4} => {3}{R}
+
+CR09 Immortal Baron, Vorg
+cost: {2} => {1}{R}
+
+CG04 Bronze-Arm Tribe
+cost: {3} => {2}{G}
+rules_text:  => When this creature enters, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+
+RW01 Chilias, the Oracle
+cost: {4} => {3}{W}
+
+RW02 Dia Nork, Moonlight Guardian
+cost: {4} => {3}{W}
+
+MW03 Holy Awe
+rules_text: Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+Destroy all creatures. If this spell's shield trigger cost was paid, instead destroy target tapped creature. => Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+Destroy all creatures. If this spell's shield trigger cost was paid, instead destroy target tapped creature.
+special_text: Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+Destroy all creatures. If this spell's shield trigger cost was paid, instead destroy target tapped creature. => Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+Destroy all creatures. If this spell's shield trigger cost was paid, instead destroy target tapped creature.
+
+UH05 Lok, Vizier of Hunting
+
+RW06 Laser Wing
+cost: {5} => {4}{W}
+
+RM09 Szubs Kin, Twilight Guardian
+cost: {5} => {3}{W}{B}
+
+RU02 Aqua Knight
+cost: {5} => {4}{U}
+
+RB03 Creeping Plague
+cost: {1} => {B}
+
+UA01 Chaos Strike
+
+RM02 Draglide
+cost: {5} => {3}{R}{W}
+
+RR07 Explosive Fighter Ucarn
+cost: {5} => {4}{R}
+
+RR08 Magma Gazer
+cost: {3} => {2}{R}
+
+UA02 Nomad Hero Gigio
+
+RR12 Rothus, the Traveler
+cost: {4} => {3}{R}
+
+RG02 Aura Blast
+cost: {4} => {3}{G}
+
+RR09 Gatling Skyterror
+cost: {7} => {6}{R}
+
+MR01 Bolshack Dragon
+cost: {6} => {5}{R}
+
+MB01 Gigargon
+cost: {8} => {7}{B}
+
+RM10 Vampire Silphy
+cost: {8} => {6}{B}{R}
+
+RG11 Thorny Mandra
+cost: {5} => {4}{G}
+
+MG02 Tower Shell
+cost: {6} => {5}{G}
+
+RU06 King Ripped-Hide
+cost: {7} => {6}{U}
+
+RU09 Seamine
+cost: {6} => {5}{U}
+
+MW02 Gran Gure, Space Guardian
+cost: {6} => {5}{W}
+
+RW09 Rayla, Truth Enforcer
+cost: {6} => {5}{W}
+
+UR06 Tornado Flame
+cost: {5} => {4}{R}
+rules_text: Shield trigger —{R} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{R} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+special_text: Shield trigger —{R} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{R} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+CB02 Bloody Squito
+type: Creature — Spider Horror => Creature — Horror
+cost: {2} => {1}{B}
+rules_text:  => Flying
+When this creature enters, you mill two cards. Then, shield up to one target creature card in your graveyard [i](Put the card onto the battlefield face-down under its owner's control. Their opponents can attack it. If they do, and a creature attacking it isn't blocked, the shielded card is broken and put into its owner's hand.)[/i]
+pt: 1/4 => 1/3
+
+CB06 Bone Assassin, the Ripper
+type: Creature — Skeleton => Creature — Skeleton Assassin
+cost: {4} => {3}{B}
+rules_text:  => When this creature enters, destroy target creature an opponent controls that was dealt damage this turn.
+
+CB14 Death Smoke
+type: Sorcery => Instant
+cost: {4} => {2}{B}{B}
+rules_text:  => Destroy target creature or planeswalker. If it was untapped, you gain 2 life.
+
+CB13 Ghost Touch
+cost: {2} => {1}{B}
+rules_text: Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. If this spell was cast from your hand, that opponent loses 1 life.
+special_text: Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. If this spell was cast from your hand, that opponent loses 1 life.
+
+CB16 Skeleton Soldier, the Defiled
+
+UB0X Wandering Braineater
+cost: {2} => {1}{B}
+
+CB03 Writhing Bone Ghoul
+cost: {2} => {1}{B}
+
+CG12 Dimension Gate
+cost: {3} => {2}{G}
+rules_text: Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+Search your library for a basic land card, reveal it, put it into your hand, then shuffle. If this spell was cast from your hand, instead search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+special_text: Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+Search your library for a basic land card, reveal it, put it into your hand, then shuffle. If this spell was cast from your hand, instead search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+
+CG05 Fear Fang
+cost: {3} => {2}{G}
+rules_text:  => This creature has indestructible as long as it attacked a shield this turn.
+pt: 3/1 => 3/3
+
+CG16 Golden Wing Striker
+
+UG05 Mighty Shouter
+cost: {3} => {2}{G}
+
+UG05 Steel Smasher
+cost: {3} => {2}{G}
+
+CG15 Ultimate Force
+cost: {5} => {X}{X}{G}
+rules_text:  => Up to X target creatures you control each get +1/+0 until end of turn for each shield you control. They each deal damage equal to their power to another target creature or planeswalker.
+
+CU03 Aqua Vehicle
+
+CU02 Marine Flower
+
+CU09 Phantom Fish
+
+CU12 Spiral Gate
+rules_text: Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+Return target creature to its owner's hand. If this spell was cast from your hand, scry 1.
+special_text: Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+Return target creature to its owner's hand. If this spell was cast from your hand, scry 1.
+
+CU05 Hunter Fish
+
+CA05 Virtual Tripwire
+
+CW06 Iere, Vizier of Bullets
+
+CW01 La Ura Giga, Sky Guardian
+
+UW0X Miele, Vizier of Lightning
+cost: {3} => {2}{W}
+
+CW03 Reusol, the Oracle
+
+CW07 Senatine Jade Tree
+
+CW13 Solar Ray
+rules_text: Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+Enchant creature or shield
+Enchanted permanent can't attack or block.
+When enchanted shield is broken, that shield's owner can't activate its shield trigger abilities. => Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+Enchant creature or shield
+Enchanted permanent can't attack or block.
+When enchanted shield is broken, that shield's owner can't activate its shield trigger abilities.
+special_text: Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+Enchant creature or shield
+Enchanted permanent can't attack or block.
+When enchanted shield is broken, that shield's owner can't activate its shield trigger abilities. => Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+Enchant creature or shield
+Enchanted permanent can't attack or block.
+When enchanted shield is broken, that shield's owner can't activate its shield trigger abilities.
+
+CA04 Sonic Wing
+
+UB02 Dark Raven, Shadow of Grief
+cost: {4} => {3}{B}
+
+UB03 Dark Reversal
+cost: {2} => {1}{B}
+rules_text: Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+special_text: Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+UH07 Masked Horror, Shadow of Scorn
+
+UA05 Stinger Worm
+
+UB06 Swamp Worm
+cost: {7} => {6}{B}
+
+UG02 Dome Shell
+cost: {4} => {3}{G}
+
+UG04 Pangaea's Song
+cost: {1} => {G}
+
+UG05 Poisonous Dahlia
+cost: {4} => {3}{G}
+
+CG13 Poisonous Mushroom
+type: Instant => Enchantment — Aura
+cost: {2} => {1}{G}
+rules_text:  => Enchant land
+Whenever enchanted land is tapped for mana, its controller adds an additional {G}.
+When this enchantment enters, target creature you control gains deathtouch until end of turn.
+
+UU02 Brain Serum
+cost: {4} => {3}{U}
+rules_text: Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+If you cast this from your hand, scry X, where X is the number of shields you control. 
+Draw two cards.
+special_text: Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+If you cast this from your hand, scry X, where X is the number of shields you control. 
+Draw two cards.
+
+UU03 Faerie Child
+cost: {4} => {3}{U}
+
+UU04 Illusionary Merfolk
+cost: {5} => {4}{U}
+
+UU05 King Coral
+cost: {3} => {2}{U}
+
+UU06 Revolver Fish
+cost: {4} => {3}{U}
+
+UW02 Iocant, the Oracle
+cost: {2} => {1}{W}
+
+UW04 Moonlight Flash
+cost: {4} => {3}{W}
+
+UW05 Ruby Grass
+cost: {3} => {2}{W}
+
+UM06 Toel, Vizier of Hope
+
+RB06 Gigaberos
+cost: {5} => {4}{B}
+
+RB07 Gigagiele
+cost: {5} => {4}{B}
+
+RB08 Night Master, Shadow of Decay
+cost: {6} => {5}{B}
+
+RB12 Terror Pit
+type: Instant => Sorcery
+cost: {6} => {4}{B}{B}
+rules_text: Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+If this spell was cast from your hand, if a creature you control would die this turn, you may pay 2 life. If you do, shield it instead.
+Destroy all creatures.
+special_text: Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+If this spell was cast from your hand, if a creature you control would die this turn, you may pay 2 life. If you do, shield it instead.
+Destroy all creatures.
+
+RB04 Dark Clown
+cost: {4} => {3}{B}
+
+RM06 Natural Snare
+cost: {6} => {4}{G}{U}
+rules_text: Shield trigger —{GU} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{GU} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+special_text: Shield trigger —{GU} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{GU} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+UM04 Red-Eye Scorpion
+
+RG09 Stampeding Longhorn
+cost: {5} => {4}{G}
+
+RM08 Storm Shell
+cost: {6} => {4}{G}{W}
+
+RG12 Tri-horn Shepherd
+cost: {5} => {4}{G}
+
+RU03 Crystal Memory
+cost: {4} => {3}{U}
+rules_text: Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+special_text: Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+RU12 Unicorn Fish
+cost: {4} => {3}{U}
+
+RU08 Saucer-Head Shark
+cost: {5} => {4}{U}
+
+RU10 Teleportation
+cost: {5} => {4}{U}
+
+RU11 Tropico
+cost: {5} => {4}{U}
+
+CU13 Candy Drop
+rules_text:  => Enchant creature or artifact
+When this Aura enters, tap enchanted permanent.
+Enchanted permanent loses all abilities and doesn't untap during its controller's untap step.
+
+CW09 Fonch, the Oracle
+
+CW12 Logic Cube
+rules_text: Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+This spell deals X damage to target creature, where X is the number of permanents you control that are creatures and/or shields. => Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+This spell deals X damage to target creature, where X is the number of permanents you control that are creatures and/or shields.
+special_text: Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+This spell deals X damage to target creature, where X is the number of permanents you control that are creatures and/or shields. => Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+This spell deals X damage to target creature, where X is the number of permanents you control that are creatures and/or shields.
+
+UH06 Magris, Vizier of Magnetism
+
+UA04 Reso Pacos, Clear Sky Guardian
+
+RW03 Ethel, Star Sea Elemental
+cost: {6} => {5}{W}
+
+RW05 Laguna, Lightning Enforcer
+cost: {5} => {4}{W}
+
+RW08 Phal Eega, Dawn Guardian
+cost: {5} => {4}{W}
+
+RW12 Spiral Grass
+cost: {4} => {3}{W}
+
+UW01 Diamond Cutter
+cost: {5} => {4}{W}
+
+UW02 Larba Geer, the Immaculate
+cost: {5} => {4}{W}
+
+UW03 Wyn, the Oracle
+cost: {2} => {1}{W}
+
+CU16 Aqua Shooter
+
+UU02 Corile
+cost: {5} => {4}{U}
+
+CU11 Recon Operation
+
+UM07 Scissor Eye
+
+MU03 Plasma Chaser
+cost: {6} => {5}{U}
+
+RU01 Aqua Bouncer
+cost: {6} => {5}{U}
+
+RM05 Hypersquid Walter
+cost: {3} => {1}{U}{R}
+
+RU05 King Nautilus
+cost: {8} => {7}{U}
+
+UU01 Crystal Lancer
+cost: {8} => {7}{U}
+
+UU02 Stained Glass
+cost: {3} => {2}{U}
+
+CU14 Thought Probe
+type: Sorcery => Instant
+cost: {3} => {1}{U}{U}
+rules_text: Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+Choose one —
+• Counter target spell.
+• Target creature gets +1/+1 and gains hexproof until end of turn. If this spell was cast from your hand, draw a card, then discard a card.
+special_text: Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+Choose one —
+• Counter target spell.
+• Target creature gets +1/+1 and gains hexproof until end of turn. If this spell was cast from your hand, draw a card, then discard a card.
+
+CB10 Critical Blade
+type: Sorcery => Instant
+cost: {2} => {1}{B}
+rules_text: Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+Destroy target creature with mana value 2 or less. If you didn't cast this spell from your hand, you lose life equal to that creature's mana value.
+special_text: Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+Destroy target creature with mana value 2 or less. If you didn't cast this spell from your hand, you lose life equal to that creature's mana value.
+
+CB09 Gigastand
+cost: {4} => {4}{B}{B}
+rules_text:  => Menace
+When this creature enters, target creature an opponent controls gets -X/-X until end of turn, where X is the number of shields you control.
+
+CB04 Horrid Worm
+cost: {3} => {2}{B}
+rules_text:  => When this creature enters, each opponent discards a card.
+
+CB01 Marrow Ooze, the Twister
+cost: {1} => {B}
+rules_text:  => Deathtouch
+{5}{B}: Shield this card from your graveyard. [i](Put the card onto the battlefield face-down under its owner's control. Their opponents can attack it. If they do, and a creature attacking it isn't blocked, the shielded card is broken and put into its owner's hand.)[/i]
+
+RB05 Dark Titan Maginn
+cost: {6} => {5}{B}
+
+RB01 Amber Piercer
+cost: {4} => {3}{B}
+
+UM02 General Dark Fiend
+
+RB10 Poison Worm
+cost: {7} => {6}{B}
+
+UB01 Chaos Worm
+cost: {7} => {6}{B}
+
+UB02 Gray Balloon, Shadow of Greed
+cost: {3} => {2}{B}
+
+UB03 Lost Soul
+cost: {7} => {6}{B}
+
+CR12 Engineer Kipo
+type: Creature — Gremlin => Sorcery
+cost: {2} => {1}{R}
+rules_text:  => You may cast this spell as though it had flash if your opponent controls more shields than you. 
+Molten Exhale deals 4 damage to target creature or planeswalker.
+pt: 2/2 => 
+
+CR08 Galsaur
+cost: {5} => {4}{R}
+
+CR16 Mini Titan Gett
+
+CR13 Rumble Gate
+cost: {4} => {2}{R}
+rules_text:  => When this enchantment enters, you may discard a card or sacrifice a shield. If you do, draw two cards.
+Sacrifice this enchantment: Destroy target artifact or break target shield.
+
+RR03 Bolzard Dragon
+cost: {6} => {5}{R}
+
+RR04 Bombersaur
+cost: {5} => {4}{R}
+
+RR06 Dogarn, the Marauder
+cost: {3} => {2}{R}
+
+RR11 Metalwing Skyterror
+type: Creature — Wyvern => Artifact Creature — Wyvern
+cost: {7} => {6}{R}
+
+UR01 Armored Cannon Balbaro
+cost: {5} => {4}{R}
+
+UR02 Burst Shot
+cost: {6} => {5}{R}
+rules_text: Shield trigger —{R} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{R} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+special_text: Shield trigger —{R} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{R} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+UR03 Cavalry General Curatops
+cost: {3} => {2}{R}
+
+CA03 Rainbow Stone
+
+CG14 Silver Axe
+cost: {3} => {2}{G}
+
+MG03 Xeno Mantis
+cost: {7} => {6}{G}
+
+RG04 Elf-X
+cost: {4} => {3}{G}
+
+RG05 Fortress Shell
+cost: {9} => {8}{G}
+
+RG08 Rumbling Terahorn
+cost: {5} => {4}{G}
+
+UG01 Barkwhip, the Smasher
+cost: {5} => {4}{G}
+
+UG02 Mana Crisis
+cost: {4} => {3}{G}
+rules_text: Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+special_text: Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+UG03 Silver Fist
+cost: {4} => {3}{G}
+
+CW11 Aless, the Oracle
+
+CW16 Lena, Vizier of Brilliance
+
+CW14 Sundrop Armor
+
+CW10 Ur Pale, Seeker of Sunlight
+
+RW11 Sieg Balicula, the Intense
+cost: {6} => {5}{W}
+
+MA01 Alek, Solidity Enforcer
+
+RW07 Logic Sphere
+cost: {3} => {2}{W}
+rules_text: Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+special_text: Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+RW10 Raza Vega, Thunder Guardian
+cost: {10} => {9}{W}
+
+UW01 Boomerang Comet
+cost: {3} => {2}{W}
+rules_text: Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+special_text: Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+UM05 Ra Vu, Seeker of Lightning
+
+UH10 Sparkle Flower
+
+CU06 Angler Cluster
+
+CU04 Emeral
+
+CU15 Liquid Scope
+type: Instant => Sorcery
+rules_text: Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+Target creature's owner puts it on their choice of the top or bottom of their library. If you cast this from your hand, you may shield target creature instead.
+special_text: Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+Target creature's owner puts it on their choice of the top or bottom of their library. If you cast this from your hand, you may shield target creature instead.
+
+CU10 Shtra
+
+MU02 Legendary Bynor
+cost: {9} => {8}{U}
+
+UH01 Aqua Deformer
+
+UU02 King Neptas
+cost: {6} => {5}{U}
+
+RU07 Psychic Shaper
+cost: {6} => {5}{U}
+
+UU01 Flood Valve
+cost: {2} => {1}{U}
+rules_text: Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+special_text: Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+UM09 King Ponitas
+
+UU03 Stinger Ball
+cost: {3} => {2}{U}
+
+UB0X Bone Piercer
+cost: {2} => {1}{B}
+
+CB08 Mudman
+
+CB11 Snake Attack
+type: Sorcery => Instant
+cost: {4} => {2}{B}
+rules_text:  => Target creature you control gains deathtouch and indestructible until end of turn. If that creature would break a shield this turn, destroy it instead. [i](Your opponent can't use the shield trigger ability of that shield)[/i].
+
+CB05 Wailing Shadow Belbetphlo
+cost: {3} => {2}{B}
+rules_text:  => Flying, deathtouch
+
+MB02 Jack Viper, Shadow of Doom
+cost: {7} => {6}{B}
+
+UM03 Gamil, Knight of Hatred
+
+MH01 Ghastly Drain
+
+RB11 Scratchclaw
+cost: {4} => {3}{B}
+
+UH02 Baraga, Blade of Gloom
+
+UB02 Eldritch Poison
+cost: {1} => {B}
+rules_text: Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+special_text: Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+UB03 Hang Worm, Fetid Larva
+cost: {5} => {4}{B}
+
+CR04 Baby Zoppe
+
+CR05 Explosive Dude Joe
+cost: {3} => {2}{R}
+
+UR0X Snip Striker Bullraizer
+cost: {2} => {1}{R}
+
+CR14 Volcanic Arrows
+cost: {2} => {3}{R}
+rules_text: Shield trigger —{R} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{R} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+This spell deals 6 damage to target creature or shield. If you didn't cast it from your hand, it then deals 2 damage to you.
+special_text: Shield trigger —{R} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{R} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+This spell deals 6 damage to target creature or shield. If you didn't cast it from your hand, it then deals 2 damage to you.
+
+MR03 Überdragon Jabaha
+cost: {10} => {9}{R}
+
+RR01 Blaze Cannon
+cost: {7} => {6}{R}
+
+RR02 Boltail Dragon
+cost: {7} => {6}{R}
+
+RM03 Flametropus
+cost: {4} => {2}{R}{G}
+
+UR01 Armored Warrior Quelos
+cost: {5} => {4}{R}
+
+UM08 Muramasa, Duke of Blades
+
+UR03 Searing Wave
+cost: {5} => {4}{R}
+
+CG08 Raging Dash-Horn
+
+CG11 Roar of the Earth
+cost: {2} => {1}{G}
+rules_text: Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+Choose target creature you control and target creature you don't control. The creature you control gets +1/+1 if you cast this from your hand. Then those creatures fight each other.
+special_text: Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+Choose target creature you control and target creature you don't control. The creature you control gets +1/+1 if you cast this from your hand. Then those creatures fight each other.
+
+UG03 Sniper Mosquito
+cost: {1} => {G}
+
+CG06 Sword Butterfly
+cost: {3} => {3}{G}
+rules_text:  => Deathtouch
+Whenever another creature that was dealt damage by this creature on your turn would die, you may shield it. This ability triggers only once each turn.
+pt: 2/2 => 1/5
+
+MG01 Gigamantis
+cost: {7} => {6}{G}
+
+RG03 Aurora of Reversal
+cost: {5} => {4}{G}
+
+UM01 Dawn Giant
+
+RG07 Psyshroom
+cost: {4} => {3}{G}
+
+UG01 Mana Nexus
+cost: {4} => {3}{G}
+rules_text: Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+special_text: Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+UH08 Pouch Shell
+
+CB07 Gregorian Worm
+cost: {4} => {3}{B}
+rules_text: Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+ => Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+special_text: Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+ => Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+
+CA02 Purple Piercer
+
+CB15 Shadow Moon, Cursed Shade
+cost: {4} => {3}{B}
+
+UB0X Skeleton Thief, the Revealer
+cost: {4} => {3}{B}
+
+MB03 Trox, General of Destruction
+cost: {7} => {6}{B}
+
+RB02 Chains of Sacrifice
+cost: {8} => {7}{B}
+
+RM04 Gregoria, Princess of War
+cost: {6} => {4}{U}{B}
+
+RB09 Photocide, Lord of the Wastes
+type: Creature — Demon => Legendary Creature — Demon
+cost: {5} => {4}{B}
+
+UB01 Gigabolver
+cost: {4} => {3}{B}
+
+UB02 Locomotiver
+cost: {4} => {3}{B}
+rules_text: Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+ => Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+special_text: Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+ => Shield trigger —{B} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+
+RM06 Mongrel Man
+cost: {5} => {3}{B}{G}
+
+UB04 Soul Gulp
+cost: {4} => {3}{B}
+
+UM10 Volcano Smog, Deceptive Shade
+
+CU01 Aqua Guard
+
+CU08 Aqua Jolter
+rules_text: Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+ => Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+special_text: Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+ => Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+
+UU14 Clone Factory
+
+UU07 Keeper of the Sunlit Abyss
+cost: {4} => {3}{U}
+
+MU01 Astral Warper
+cost: {6} => {5}{U}
+
+MM01 Hydro Hurricane
+cost: {6} => {3}{W}{U}{B}
+
+RU07 Marinomancer
+cost: {5} => {4}{U}
+
+UH09 Smile Angler
+
+UU01 Hunter Cluster
+cost: {4} => {3}{U}
+rules_text: Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+ => Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+special_text: Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+ => Shield trigger —{U} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+
+CG07 Cannon Shell
+cost: {4} => {3}{G}
+rules_text: Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+ => Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+Trample
+This creature gets +1/+1 for each shield you control.
+special_text: Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+ => Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+Trample
+This creature gets +1/+1 for each shield you control.
+
+CG03 Torcon
+cost: {2} => {1}{G}
+rules_text: Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+ => Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+special_text: Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+ => Shield trigger —{G} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+
+MM03 Supporting Tulip
+cost: {5} => {3}{G}{W}
+
+RG01 Ancient Giant
+cost: {8} => {7}{G}
+
+RG06 Mystic Inscription
+cost: {6} => {5}{G}
+
+RG10 Sword of Benevolent Life
+cost: {2} => {1}{G}
+
+UG01 Dew Mushroom
+cost: {3} => {2}{G}
+
+UG02 Three-Eyed Dragonfly
+cost: {5} => {4}{G}
+
+UH03 Blasto, Explosive Soldier
+
+CR03 Kamikaze, Chainsaw Warrior
+cost: {2} => {1}{R}
+rules_text: Shield trigger —{R} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+ => Shield trigger —{R} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+special_text: Shield trigger —{R} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+ => Shield trigger —{R} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+
+CR15 Pippie Kuppie
+cost: {2} => {1}{R}
+
+MR02 Doboulgyser, Giant Rock Beast
+cost: {6} => {5}{R}
+
+RR05 Chaotic Skyterror
+cost: {5} => {4}{R}
+
+RR10 Magmarex
+cost: {5} => {4}{R}
+rules_text: Shield trigger —{R} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+ => Shield trigger —{R} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+special_text: Shield trigger —{R} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+ => Shield trigger —{R} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+
+MM02 Mega Detonator
+cost: {2} => {B}{R}
+
+UR01 Missile Boy
+cost: {3} => {2}{R}
+
+UR02 Sword of Malevolent Death
+cost: {4} => {3}{R}
+
+CA01 Amber Grass
+rules_text: Shield trigger —{1} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+ => Shield trigger —{1} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+special_text: Shield trigger —{1} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+ => Shield trigger —{1} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+
+CW05 Gulan Rias, Speed Guardian
+
+CW08 Kolon, the Oracle
+rules_text: Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+ => Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+special_text: Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+ => Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. It enters with a finality counter on it.)[/i]
+
+
+CW04 Sarius, Vizier of Suppression
+
+CW15 Whisking Whirlwind
+rules_text: This spell costs {3} less to cast if it targets a tapped creature or you control three or more shields.
+Destroy target creature. => This spell costs {3} less to cast if it targets a tapped creature or if you control three or more shields.
+Destroy target creature.
+
+MW01 Alcadeias, Lord of Spirits
+cost: {6} => {5}{W}
+
+RM01 Aeris, Flight Elemental
+cost: {5} => {3}{W}{U}
+
+RW04 Full Defensor
+cost: {2} => {1}{W}
+rules_text: Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+special_text: Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead reveal it and cast it for its shield trigger cost. Then exile it.)[/i]
+ => Shield trigger —{W} [i](If this card is a shield on your battlefield is broken and would be put into your hand, you may instead cast it for its shield trigger cost. Then exile it.)[/i]
+
+
+UA03 Ouks, Vizier of Restoration
+
+UW01 Fu Reil, Seeker of Storms
+cost: {6} => {5}{W}
+
+UW02 Milieus, the Daystretcher
+cost: {5} => {4}{W}
+
+UW03 Mist Rias, Sonic Guardian
+cost: {5} => {4}{W}
+
+UW04 Re Bil, Seeker of Archery
+cost: {7} => {6}{W}
+
+UW05 Screaming Sunburst
+cost: {3} => {2}{W}
+
+UW03 Lah, Purification Enforcer
+cost: {5} => {4}{W}
+
+
+VERSION 4 CHANGELOG
 ====================
 
 CU07 Aqua Hulcus added.
